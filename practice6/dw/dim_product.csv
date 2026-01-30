@@ -1,0 +1,165 @@
+product_key,product_id,pcode,description,type,supplier,price,cost
+1,126,CC1100,Farmer,Heads,Figurines,56.0,34.0
+2,127,CC1200,Soldier,Heads,Figurines,56.0,34.0
+3,128,CC1300,Pilot,Heads,Figurines,56.0,34.0
+4,129,CC1400,Nurse,Heads,Figurines,56.0,34.0
+5,130,CC1500,Doctor,Heads,Figurines,56.0,34.0
+6,131,CC2100,Fireman,Figures,Figurines,87.0,43.0
+7,132,CC2200,Santa,Figures,Seasons,87.0,43.0
+8,133,CC2300,Policeman,Figures,Figurines,87.0,43.0
+9,134,CC2400,Ice Skater,Figures,Seasons,87.0,43.0
+10,135,CC2500,Football Player,Figures,Figurines,87.0,43.0
+11,136,CC2600,Baseball Player,Figures,Figurines,87.0,43.0
+12,137,CC3100,Sound of Music,Plates,Trinkets and Things,35.0,17.0
+13,138,CC3200,Wizard of Oz,Plates,Trinkets and Things,35.0,17.0
+14,139,CC3300,Norman Rockwell,Plates,Trinkets and Things,35.0,17.0
+15,140,CC3400,Beatles,Plates,Trinkets and Things,35.0,17.0
+16,141,CC3500,Christmas,Plates,Seasons,35.0,17.0
+17,142,CC3600,Elvis,Plates,Trinkets and Things,35.0,17.0
+18,143,CC3700,James Dean,Plates,Trinkets and Things,35.0,17.0
+19,144,CC4100,Dog,Animals,Special Pets,45.0,22.0
+20,145,CC4200,Cat,Animals,Special Pets,45.0,22.0
+21,146,CC4300,Horse,Animals,Special Pets,45.0,22.0
+22,147,CC4400,Bear,Animals,Wilderness Life,45.0,22.0
+23,148,CC4500,Camel,Animals,Wilderness Life,45.0,22.0
+24,149,CC4600,Deer,Animals,Wilderness Life,45.0,22.0
+25,150,CC4700,Turkey,Animals,Farm Life,45.0,22.0
+26,151,CC4800,Goat,Animals,Farm Life,45.0,22.0
+27,152,CC4900,Cow,Animals,Farm Life,45.0,22.0
+28,66,GD1400,Edger,Hand Tools,Yard Machines,32.0,20.0
+29,70,GD3000,Lawn Mover,Power Tools,Snipper Incorporated,350.0,150.0
+30,71,GD3100,Weed Eater,Power Tools,Snipper Incorporated,78.0,45.0
+31,72,GD3200,Leaf Blower,Power Tools,Snipper Incorporated,84.0,36.0
+32,73,GD3300,Chain Saw,Power Tools,Snipper Incorporated,160.0,100.0
+33,74,GD3400,Tiller,Power Tools,Yard Machines,450.0,200.0
+34,104,PT1000,Bowl,Dog,Luv-Yur-Pet,7.0,2.0
+35,105,PT1100,Blanket,Dog,Luv-Yur-Pet,14.0,4.0
+36,106,PT1200,Food,Dog,Gates Supply Company,16.0,4.0
+37,107,PT1300,Toy,Dog,Luv-Yur-Pet,8.0,3.0
+38,108,PT1400,Collar,Dog,Luv-Yur-Pet,12.0,5.0
+39,109,PT2000,Collar,Cat,Luv-Yur-Pet,12.0,5.0
+40,110,PT2100,Bowl,Cat,Luv-Yur-Pet,7.0,2.0
+41,111,PT2200,Toy,Cat,Luv-Yur-Pet,8.0,3.0
+42,112,PT2300,Bed,Cat,Pet Furnishings,32.0,14.0
+43,113,PT2400,Litter Box,Cat,Luv-Yur-Pet,14.0,6.0
+44,114,PT3100,Cage,Bird,Pet Furnishings,54.0,34.0
+45,115,PT3200,Food,Bird,Gates Supply Company,12.0,3.0
+46,116,PT3300,Water Dish,Bird,Luv-Yur-Pet,4.0,1.0
+47,117,PT3400,Toy,Bird,Luv-Yur-Pet,6.0,2.5
+48,118,PT3500,Cage Cover,Bird,Pet Furnishings,12.0,8.0
+49,119,PT4100,Aquarium,Fish,Aquariums Alive,52.0,20.0
+50,120,PT4200,Food,Fish,Gates Supply Company,6.0,2.5
+51,121,PT4300,Ornament,Fish,Aquariums Alive,12.0,5.0
+52,122,PT4400,Heater,Fish,Aquariums Alive,12.0,4.0
+53,123,PT4500,Pump,Fish,Aquariums Alive,34.0,14.0
+54,124,PT4600,Filter,Fish,Aquariums Alive,18.0,8.0
+55,125,PT4700,Net,Fish,Aquariums Alive,4.0,1.0
+56,84,SP1000,Foot Ball,Team,Champion Sporting Goods,26.0,13.0
+57,85,SP1100,Base Ball,Team,Champion Sporting Goods,8.0,3.0
+58,86,SP1200,Base Ball Glove,Team,Champion Sporting Goods,48.0,23.0
+59,87,SP1300,Hockey Stick,Team,Champion Sporting Goods,23.0,12.0
+60,88,SP1400,Basket Ball,Team,Champion Sporting Goods,34.0,16.0
+61,89,SP1500,Field Hockey Stick,Team,Champion Sporting Goods,23.0,12.0
+62,90,SP1600,Lacrosse Stick,Team,Champion Sporting Goods,28.0,12.0
+63,93,SP2200,Roller Blades,Recreational,Champion Sporting Goods,120.0,70.0
+64,94,SP2300,Bicycle,Recreational,All-American Bicycles,480.0,200.0
+65,95,SP2400,Water Skis,Recreational,Aqua Sports Company,130.0,56.0
+66,96,SP2500,Golf Clubs,Recreational,Champion Sporting Goods,600.0,250.0
+67,97,SP2600,Tennis Racket,Recreational,Champion Sporting Goods,83.0,35.0
+68,98,SP2700,Squash Racket,Recreational,Champion Sporting Goods,43.0,18.0
+69,92,SP3000,Tent,Camping,RCI,140.0,60.0
+70,99,SP3100,Back Pack,Camping,Champion Sporting Goods,180.0,98.0
+71,100,SP3200,Hiking Boots,Camping,RCI,120.0,80.0
+72,101,SP3300,Compass,Camping,RCI,21.0,6.0
+73,102,SP3400,Knife,Camping,RCI,32.0,15.0
+74,103,SP3500,Lantern,Camping,RCI,43.0,21.0
+75,1,SW1005,Track-It-All,Database,Software America,560.0,425.0
+76,2,SW1207,Omnibus,Database,Software America,499.95,450.0
+77,20,SW1526,Easy Draw,Graphics,Office Solutions,120.5,98.0
+78,52,SW1612,Disk Magic,Utility,JJ Higgins & Company,65.95,50.0
+79,53,SW1807,Backtrack,Utility,Software America,49.95,39.0
+80,54,SW1828,Make-a-Copy,Utility,Software America,95.25,54.8
+81,7,SW1991,Quest for the King's Ear,Games,Software America,29.5,22.75
+82,8,SW2123,Dazed Knights Tournament,Games,Software America,29.0,22.3
+83,42,SW2782,Workmate IV,Spreadsheet,JJ Higgins & Company,189.95,149.0
+84,4,SW2842,Stock Market Analyst,Financial,Software America,69.95,45.0
+85,43,SW2927,Superquik,Spreadsheet,JJ Higgins & Company,99.95,85.5
+86,3,SW3049,Balboa,Database,Software America,499.0,300.0
+87,21,SW3545,Pixel Perfect,General,Office Solutions,329.95,244.5
+88,22,SW3617,Radcliffe Graphics,Graphics,Office Solutions,585.95,396.3
+89,9,SW3625,Chessmate,Games,Software America,35.5,29.0
+90,10,SW3802,Beat the Casino,Games,Software America,49.95,34.0
+91,11,SW3895,F-123 Fright Stimulator,Games,Software America,85.5,56.0
+92,23,SW3909,Topspot 4.0,Graphics,Office Solutions,99.95,89.95
+93,12,SW4155,War of the Words,Games,Software America,25.0,22.0
+94,5,SW4187,Tax Relief (Version 10.40),Financial,Software America,77.95,54.5
+95,44,SW4323,Top-To-Bottom,Spreadsheet,JJ Higgins & Company,95.95,79.95
+96,24,SW4550,Paintit Deluxe,Graphics,Office Solutions,150.5,128.45
+97,29,SW4575,PASCAL,Language,Programmer's Choice,199.95,169.0
+98,25,SW4773,DaVinci Draws,Graphics,Software America,299.95,250.0
+99,26,SW4792,Painter's Choice,Graphics,Software America,89.95,59.75
+100,49,SW4831,Learn LISP,Training,JJ Higgins & Company,49.95,45.0
+101,13,SW5338,Zoot Suit Zeke,Games,Software America,36.5,29.4
+102,30,SW5493,COBOL,Language,Programmer's Choice,139.99,101.0
+103,45,SW5655,Snappy Summary,Spreadsheet,JJ Higgins & Company,225.75,178.0
+104,6,SW5901,Family Budget Minder,Financial,Software America,39.99,29.0
+105,31,SW6132,LISP,Language,Programmer's Choice,325.5,250.0
+106,46,SW6180,Bottom Line,Spreadsheet,JJ Higgins & Company,112.5,89.9
+107,14,SW6269,Surgical Shortcuts,Games,Software America,23.95,19.0
+108,32,SW6352,DOS 8.9,Language,Programmer's Choice,499.95,399.0
+109,15,SW6531,Deviant Sumo Lizards,Games,Software America,49.0,39.0
+110,27,SW7013,Professional Draw,Graphics,Software America,105.0,89.95
+111,28,SW7221,Colorama,Graphics,Software America,49.95,39.95
+112,33,SW7383,FORTRAN,Language,Programmer's Choice,155.95,129.0
+113,38,SW7384,The Word's Out,Publishing,Software America,150.5,125.0
+114,47,SW7385,Fudge-It,Spreadsheet,JJ Higgins & Company,155.75,102.0
+115,34,SW7573,BASIC,Language,Programmer's Choice,125.38,100.0
+116,39,SW7585,Spel-It-Rite,Publishing,Software America,149.95,99.99
+117,35,SW7823,Connect-It Plus,Network,Software America,325.87,229.99
+118,16,SW7935,Foxtrot and Tango II,Games,Software America,49.95,34.0
+119,48,SW8001,Totals-R-Us,Spreadsheet,JJ Higgins & Company,172.5,115.9
+120,36,SW8241,Tete-a-Tete,Network,Software America,353.95,232.0
+121,40,SW8376,Desktop Commando,Publishing,Software America,350.0,245.0
+122,41,SW8511,Forms for Bureaucrats,Publishing,Software America,129.0,89.0
+123,37,SW9023,Lantastic 5.5,Network,Software America,135.5,125.0
+124,17,SW9521,Vanna Visits Vancouver,Games,Software America,115.0,84.0
+125,18,SW9604,Battle for the Seas,Games,Software America,189.99,142.5
+126,153,TY1100,Watermark,Sporting Goods,Toyz,15.99,11.49
+127,154,TY1200,BB Shooter,Sporting Goods,Toyz,27.59,18.34
+128,155,TY1300,Fake Jake,Sporting Goods,Toyz,5.99,3.59
+129,156,TY1400,War Fighter,Sporting Goods,Toyz,13.49,9.84
+130,157,TY1500,Football Pro,Sporting Goods,Toyz,19.99,13.21
+131,158,TY1600,Baseball Jr.,Sporting Goods,Toyz,13.49,8.07
+132,164,TY1650,Skateboard,Sporting Goods,Champion Sporting Goods,18.99,13.51
+133,159,TY1700,T-Ball Set,Sporting Goods,Toyz,27.98,21.44
+134,163,TY1750,Rollerskates,Sporting Goods,Champion Sporting Goods,37.69,31.29
+135,160,TY1800,Basketball,Sporting Goods,Toyz,38.99,30.02
+136,162,TY1850,Rollerblades,Sporting Goods,Champion Sporting Goods,56.97,44.97
+137,161,TY1950,Tricycle,Sporting Goods,All-American Bicycles,128.97,113.37
+138,165,TY2100,Crawly Molly,Play Mates,Toyz,32.29,23.39
+139,166,TY2200,Dress-Up Girl,Play Mates,Toyz,18.99,15.41
+140,167,TY2300,Cradle Kid,Play Mates,Toyz,23.99,19.43
+141,168,TY2400,Teddy Bear,Play Mates,Schwartz & Company,19.99,13.09
+142,169,TY2500,Monkey,Play Mates,Schwartz & Company,14.89,11.49
+143,170,TY2600,Puppy Dog,Play Mates,Schwartz & Company,16.49,10.49
+144,171,TY2700,Kitty Cat,Play Mates,Schwartz & Company,13.59,9.03
+145,172,TY3100,My Own Kitchen,Child's World,Schwartz & Company,48.99,36.23
+146,173,TY3200,Iron It,Child's World,Toyz,7.98,5.55
+147,174,TY3300,My House,Child's World,Toyz,129.99,98.49
+148,175,TY3400,Accessory Kit,Child's World,Toyz,23.97,18.29
+149,176,TY3500,Gas Station,Child's World,Toyz,33.59,24.8
+150,177,TY3600,Barn Yard,Child's World,Toyz,19.99,16.4
+151,178,TY3700,Shopping Mall,Child's World,Toyz,38.99,26.4
+152,180,TY4100,Silver Rattle,Baby Toys,Lil' Folks,26.99,21.69
+153,181,TY4200,Cloth Rattle,Baby Toys,Lil' Folks,7.98,6.78
+154,182,TY4300,Clown Rattle,Baby Toys,Lil' Folks,12.99,8.49
+155,183,TY4400,ABC-123,Baby Toys,Lil' Folks,13.99,9.19
+156,184,TY4500,Big Blocks,Baby Toys,Lil' Folks,15.89,12.49
+157,185,TY4600,Block Bucket,Baby Toys,Lil' Folks,8.96,7.36
+158,186,TY4700,Snap Ems,Baby Toys,Lil' Folks,14.98,11.52
+159,187,TY4800,Stackables,Baby Toys,Lil' Folks,4.99,3.96
+160,188,TY5100,Wading Pool,Outdoor,Yard Fun,39.99,25.19
+161,189,TY5200,Animal Float,Outdoor,Yard Fun,6.99,3.53
+162,190,TY5300,Jungle Gym,Outdoor,Yard Fun,69.89,54.94
+163,191,TY5400,Rope Swing,Outdoor,Yard Fun,13.59,9.24
+164,192,TY5500,Baby Swing,Outdoor,Yard Fun,24.69,18.99

@@ -1,0 +1,1759 @@
+id,inv,pcode,date,catalog,qty,custnum,source
+1,2513000,GD3200,2000-12-17,Gardening,3.0,"Rifkin, Mr. Bob",web
+2,2513000,PT1400,2001-01-06,Pets,1.0,"Rifkin, Mr. Bob",web
+3,2513000,PT2000,2001-01-06,Pet,1.0,"Rifkin, Mr. Bob",web
+4,2513000,PT2100,2001-01-06,Pets,1.0,"Rifkin, Mr. Bob",web
+5,2513000,PT2OOO,2000-07-27,Pets,4.0,"Rifkin, Mr. Bob",web
+6,2513000,TY4300,2000-09-01,Tosy,1.0,"Rifkin, Mr. B",web
+7,2638000,PT1200,2000-11-16,Pets,3.0,"Karl, Mr. Adrian",web
+8,2638000,PT1400,2001-01-25,Pets,1.0,"Karl, Mr. Adrian",web
+9,2638000,PT1400,2001-05-29,Pets,2.0,"Karl, Mr. Adrian",web
+10,2638000,SP2300,2001-07-02,Sports,1.0,"Karl, Mr. Adrian",web
+11,2638000,SP2600,2001-07-08,Sports,1.0,"Karl, Mr. Adrian",web
+12,2638000,SP3000,2000-08-27,Sports,1.0,"Karl, Mr. Adrian",web
+13,2638000,TY3500,2001-06-16,Toys,4.0,"Karl, Mr. Adrian",web
+14,2763000,GD2100,2000-08-02,Gardening,1.0,"Artis, Ms. Carol",web
+15,2763000,GD2400,2000-11-11,Gardening,4.0,"Artis, Ms. Carol",web
+16,2763000,SP2300,2001-02-07,Sports,2.0,"Artis, Ms. Carol",web
+17,2763000,SP2700,2001-02-07,Sports,3.0,"Artis, Ms. Carol",web
+18,2763000,SP3100,2001-01-12,Sports,1.0,"Artis, Ms. Carol",web
+19,2763000,TY1650,2001-02-03,Toys,1.0,"Artis, Ms. Carol",web
+20,2763000,TY4200,2001-01-03,Toys,2.0,"Artis, Ms. C.",web
+21,2888000,GD1001,2000-08-14,Gardening,1.0,"Montrose, Ms. Irene",web
+22,2888000,PT1200,2001-01-01,Pets,1.0,"Montrose, Ms. Irene",web
+23,2888000,PT1300,2000-10-11,Pets,1.0,"Montrose, Ms. Irene",web
+24,2888000,SP1400,2000-09-07,Sports,1.0,"Montrose, Ms. Irene",web
+25,2888000,SP2500,2001-04-07,Sports,1.0,"Montrose, Ms. Irene",web
+26,2888000,SP3000,2001-03-26,Sports,2.0,"Montrose, Ms. Irene",web
+27,2888000,TY1400,2001-01-30,Toys,1.0,"Montrose, Ms. Irene",web
+28,2888000,TY4600,2001-01-30,Toys,4.0,"Montrose, Ms. Irene",web
+29,2888000,TY5100,2001-01-30,Toys,1.0,"Montrose, Ms. Irene",web
+30,3013000,GD1500,2001-07-06,Gardening,1.0,"Hawks, Ms. Sue",web
+31,3013000,GD2300,2001-07-06,Gardening,4.0,"Hawks, Ms. Sue",web
+32,3013000,TY1700,2001-01-07,Toys,1.0,"Hawks, Ms. Sue",web
+33,3013000,TY1800,2000-09-21,Toys,1.0,"Hawks, Ms. Sue",web
+34,3013000,TY4100,2000-09-21,Toys,1.0,"Hawks, Ms. Sue",web
+35,3138000,GD1001,2000-11-13,Gardening,2.0,"Brahm, Mr. T. L.",web
+36,3184000,GD16OO,2000-11-14,Gardening,1.0,"Jones, Mr. T. J.",web
+37,3184000,GD2200,2000-11-14,Gardenings,3.0,"Jones, Mr. T. J.",web
+38,3184000,GD3200,2000-11-14,Gardening,1.0,"Jones, Mr. T. J.",web
+39,3184000,PT1300,2001-04-13,Pets,3.0,"Jones, Mr. T. J.",web
+40,3184000,PT1400,2001-02-26,Pets,3.0,"Jones, Mr. T. J.",web
+41,3184000,SP3000,2001-01-11,Sports,1.0,"Jones, Mr. T. J.",web
+42,3184000,SP3000,2001-02-06,Sports,1.0,"Jones, Mr. T. J.",web
+43,3184000,TY1500,2000-11-02,Toys,4.0,"Jones, Mr. T. J.",web
+44,3184000,TY2600,2000-11-02,Toys,2.0,"Jones, Mr. T. J.",web
+45,3184000,TY4500,2001-05-07,Toys,1.0,"Jones, Mr. T. J.",web
+46,3184000,TY5200,2000-11-02,Toys,1.0,"Jones, Mr. T. J.",web
+47,3184000,TY5300,2000-11-02,Toys,2.0,"Jones, Mr. T. J.",web
+48,3263000,PT2300,2001-04-11,Pets,1.0,"Marks, Mr. B. D.",web
+49,3263000,SP3300,2001-04-07,Sports,3.0,"Marks, Mr. B. D.",web
+50,3263000,TY1950,2000-07-05,Toys,4.0,"Marks, Mr. B. D.",web
+51,3273000,GD2000,2000-08-30,Gardening,1.0,"Jones, Ms. Jeannette",web
+52,3273000,PT1200,2000-07-23,Pets,1.0,"Jones, Ms. Jeannette",web
+53,3273000,PT2100,2000-07-23,Pets,2.0,"Jones, Ms. Jeannette",web
+54,3273000,SP3300,2001-05-20,Sports,1.0,"Jones, Ms. Jeannette",web
+55,3273000,TY1300,2000-12-29,Toys,3.0,"Jones, Ms. Jeannette",web
+56,3273000,TY4200,2000-12-29,Toys,1.0,"Jones, Ms. Jeannette",web
+57,3273000,TY5300,2000-12-29,Toys,1.0,"Jones, Ms. Jeannette",web
+58,3388000,GD2000,2000-12-23,Gardening,1.0,"Klingfelt, Ms. Liza",web
+59,3388000,GD2300,2001-04-09,Gardening,1.0,"Klingfelt, Ms. Liza",web
+60,3388000,PT1000,2000-12-23,Pets,1.0,"Klingfelt, Ms. Liza",web
+61,3388000,PT2000,2000-12-28,Pets,1.0,"Klingfelt, Ms. Liza",web
+62,3388000,PT2400,2000-12-23,Pets,4.0,"Klingfelt, Ms. Liza",web
+63,3388000,SP2200,2001-06-28,Sports,1.0,"Klingfelt, Ms. Liza",web
+64,3388000,TY21OO,2001-04-20,Toys,3.0,"Klingfelt, Ms. Liza",web
+65,3388000,TY4100,2001-05-06,Toys,1.0,"Klingfelt, Ms. Liza",web
+66,3513000,SP2200,2001-02-16,Sports,1.0,"Manness, Mr. Mel",web
+67,3513000,SP3300,2001-07-07,Sports,1.0,"Manness, Mr. Mel",web
+68,3513000,TY2500,2000-10-16,Toys,1.0,"Manness, Mr. Mel",web
+69,3638000,SP2400,2001-08-01,Sports,1.0,"Cockrell, Mr. M. C.",web
+70,3638000,TY4500,2000-12-25,Toys,1.0,"Cockrell, Mr. M. C.",web
+71,3763000,GD1300,2001-07-03,Gardening,1.0,"Stewart, Mr. S. R.",web
+72,3763000,GD2400,2001-07-03,Gardening,3.0,"Stewart, Mr. S. R.",web
+73,3763000,GD3100,2001-07-03,Gardening,1.0,"Stewart, Mr. S. R.",web
+74,3763000,GD4200,2001-07-03,Gardening,1.0,"Stewart, Mr. S. R.",web
+75,3763000,SP2000,2000-08-06,Sports,1.0,"Stewart, Mr. S. R.",web
+76,3763000,SP3300,2001-05-13,Sports,1.0,"Stewart, Mr. S. R.",web
+77,3888000,SP1000,2000-11-03,Sports,1.0,"Watson, Mr. Ed",web
+78,3906000,SP1000,2000-09-11,Sports,3.0,"Jones, Ms. Annie",web
+79,3906000,SP14OO,2000-09-11,Sports,4.0,"Jones, Ms. Annie",web
+80,3906000,SP2200,2000-12-03,Sports,3.0,"Jones, Ms. Annie",web
+81,3906000,SP2400,2000-09-11,Sports,1.0,"Jones, Ms. Annie",web
+82,4013000,TY2400,2001-03-12,Toys,1.0,"Monroe, Ms. Julie",web
+83,4138000,GD2200,2000-11-12,Gardening,4.0,"Frederik, Mr. Frank",web
+84,4138000,GD4000,2000-08-03,Gardening,2.0,"Frederik, Mr. Frank",web
+85,4138000,SP1300,2000-08-20,Sports,1.0,"Frederik, Mr. Frank",web
+86,4138000,SP3300,2001-07-24,Sports,1.0,"Frederik, Mr. Frank",web
+87,4138000,TY1650,2001-05-30,Toys,1.0,"Frederik, Mr. Frank",web
+88,4138000,TY1900,2001-05-30,Toys,1.0,"Frederik, Mr. Frank",web
+89,4138000,TY2500,2001-05-30,Toys,4.0,"Frederik, Mr. Frank",web
+90,4138000,TY3800,2001-05-30,Toys,2.0,"Frederik, Mr. Frank",web
+91,4263000,GD110O,2001-06-19,Gardening,1.0,"Maadje, Mr. Leo",web
+92,4263000,GD3100,2000-09-23,Gardening,1.0,"Maadje, Mr. Leo",web
+93,4263000,SP1000,2000-11-24,Sport,1.0,"Maadje, Mr. Leo",web
+94,4263000,SP1200,2001-02-01,Sports,1.0,"Maadje, Mr. Leo",web
+95,4263000,SP2400,2001-06-09,Sports,2.0,"Maadje, Mr. Leo",web
+96,4263000,SP2600,2000-08-17,Sports,3.0,"Maadje, Mr. Leo",web
+97,4263000,TY5200,2001-04-14,Toys,1.0,"Maadje, Mr. Leo",web
+98,4388000,GD3400,2000-11-04,Gardening,1.0,"Verrella, Ms. Nancy",web
+99,4388000,TY5400,2000-08-06,Toys,1.0,"Verrella, Ms. Nancy",web
+100,4401000,GD2400,2000-09-13,Gardening,1.0,"Hopkins, Ms. Stella",web
+101,4401000,PT2300,2001-02-27,Pets,2.0,"Hopkins, Ms. Stella",web
+102,4401000,SP1100,2001-01-24,Sports,1.0,"Hopkins, Ms. Stella",web
+103,4401000,TY1400,2001-03-17,Toys,1.0,"Hopkins, Ms. Stella",web
+104,4401000,TY2500,2001-03-01,Toys,1.0,"Hopkins, Ms. Stella",web
+105,4401000,TY3100,2001-03-20,Toys,1.0,"Hopkins, Ms. Stella",web
+106,4513000,PT1100,2001-06-30,Pets,1.0,"Mooreson, Ms. Michelle",web
+107,4513000,PT2100,2001-06-30,Pets,2.0,"Mooreson, Ms. Michelle",web
+108,4513000,SP2300,2000-10-20,Sports,1.0,"Mooreson, Ms. Michelle",web
+109,4513000,TY4600,2001-05-12,Toys,1.0,"Mooreson, Ms. Michelle",web
+110,4617000,GD3400,2000-07-16,Gardening,1.0,"Jones, Mr. Ricardo",web
+111,4617000,PT2000,2000-07-20,Pets,1.0,"Jones, Mr. Ricardo",web
+112,4617000,SP1600,2000-09-21,Sports,4.0,"Jones, Mr. Ricardo",web
+113,4638000,GD1001,2000-09-22,Gardening,1.0,"Wise, Mr. C. J.",web
+114,4638000,PT1100,2000-11-07,Pets,1.0,"Wise, Mr. C. J.",web
+115,4638000,PT1400,2000-11-07,Pets,3.0,"Wise, Mr. C. J.",web
+116,4638000,PT2200,2000-11-07,Pets,1.0,"Wise, Mr. C. J.",web
+117,4638000,SP2000,2000-10-16,Sports,1.0,"Wise, Mr. C. J.",web
+118,4638000,SP2500,2001-03-09,Sports,1.0,"Wise, Mr. C. J.",web
+119,4638000,TY4300,2000-11-28,Toys,4.0,"Wise, Mr. C. J.",web
+120,4763000,GD1300,2001-07-05,Gardening,2.0,"Black, Ms. Heather",web
+121,4763000,PT2000,2001-05-20,Pets,1.0,"Black, Ms. Heather",web
+122,4763000,PT2100,2001-05-20,Pets,2.0,"Black, Ms. Heather",web
+123,4763000,PT3100,2001-05-20,Pets,3.0,"Black, Ms. Heather",web
+124,4763000,SP1400,2000-10-02,Sports,1.0,"Black, Ms. Heather",web
+125,4763000,SP3400,2001-07-25,Sports,1.0,"Black, Ms. Heather",web
+126,4763000,TY1700,2000-12-20,Toys,1.0,"Black, Ms. Heather",web
+127,4763000,gd3100,2000-11-07,Gardening,1.0,"Black, Ms. Heather",web
+128,4891000,PT1400,2001-03-03,Pets,1.0,"Ashford, Mr. John",web
+129,4891000,SP3200,2000-08-02,Sports,1.0,"Ashford, Mr. John",web
+130,4891000,TY1650,2001-01-26,Toys,1.0,"Ashford, Mr. John",web
+131,4891000,TY1750,2001-01-26,Toys,1.0,"Ashford, Mr. John",web
+132,4891000,TY3700,2001-01-26,Toys,1.0,"Ashford, Mr. John",web
+133,4941000,GD1500,2000-08-11,Gardening,1.0,"Janus, Mr. David",web
+134,4941000,GD1500,2000-12-03,Gardening,1.0,"Janus, Mr. David",web
+135,4941000,GD2000,2000-12-03,Gardening,3.0,"Janus, Mr. David",web
+136,4941000,PT1300,2001-01-04,Pets,4.0,"Janus, Mr. David",web
+137,4941000,PT2100,2001-01-04,Pets,1.0,"Janus, Mr. David",web
+138,4941000,PT2300,2001-01-04,Pets,1.0,"Janus, Mr. David",web
+139,4941000,TY1200,2000-09-23,Toys,1.0,"Janus, Mr. David",web
+140,4941000,TY2200,2000-09-23,Toys,2.0,"Janus, Mr. David",web
+141,4941000,TY2500,2000-09-23,Toys,1.0,"Janus, Mr. David",web
+142,4941000,TY3200,2001-03-27,Toys,1.0,"Janus, Mr. David",web
+143,4941000,TY5100,2000-09-23,Toys,1.0,"Janus, Mr. David",web
+144,5016000,PT2300,2000-07-07,Pets,1.0,"Conway, Mr. Merlin",web
+145,5016000,SP1000,2001-01-04,Sports,4.0,"Conway, Mr. Merlin",web
+146,5016000,SP1300,2001-01-04,Sports,2.0,"Conway, Mr. Merlin",web
+147,5016000,SP1500,2001-01-04,Sports,1.0,"Conway, Mr. Merlin",web
+148,5016000,SP2500,2001-01-04,Sports,4.0,"Conway, Mr. Merlin",web
+149,5016000,SP3100,2000-12-16,Sports,1.0,"Conway, Mr. Merlin",web
+150,5141000,GD3000,2000-10-25,Gardening,1.0,"Wang, Ms. M. S.",web
+151,5141000,PT3300,2001-03-13,Pets,1.0,"Wang, Ms. M. S.",web
+152,5141000,SP1600,2000-08-19,Sports,1.0,"Wang, Ms. M. S.",web
+153,5141000,SP2000,2000-10-11,Sports,1.0,"Wang, Ms. M. S.",web
+154,5141000,TY2500,2001-03-22,Toys,2.0,"Wang, Ms. M. S.",web
+155,5150000,PT2200,2001-01-07,Pets,4.0,"Jones, Ms. G. L.",web
+156,5150000,TY4700,2000-10-20,Toys,1.0,"Jones, Ms. G. L.",web
+157,5266000,GD1100,2001-07-31,Gardening,3.0,"Finster, Mr. Howard",web
+158,5266000,SP3200,2000-11-08,Sports,3.0,"Finster, Mr. Howard",web
+159,5266000,SP3300,2000-09-28,Sports,4.0,"Finster, Mr. Howard",web
+160,5266000,TY1100,2000-11-18,Toys,1.0,"Finster, Mr. Howard",web
+161,5266000,TY3800,2001-05-10,Toys,1.0,"Finster, Mr. Howard",web
+162,5391000,PT1100,2001-02-20,Pets,1.0,"Buscemi, Mr. Steve",web
+163,5391000,PT1300,2001-08-09,Pets,4.0,"Buscemi, Mr. Steve",web
+164,5391000,PT2300,2001-02-20,Pets,3.0,"Buscemi, Mr. Steve",web
+165,5391000,SP1000,2001-05-06,Sports,1.0,"Buscemi, Mr. Steve",web
+166,5391000,SP2200,2001-05-06,Sports,1.0,"Buscemi, Mr. Steve",web
+167,5391000,SP2400,2001-05-06,Sports,1.0,"Buscemi, Mr. Steve",web
+168,137000,GD2200,2000-09-10,Gardening,1.0,"Kraft, Ms. Rose",web
+169,137000,GD3100,2001-07-20,Gardening,3.0,"Kraft, Ms. Rose",web
+170,137000,GD3300,2001-07-20,Gardening,1.0,"Kraft, Ms. Rose",web
+171,137000,GD3400,2001-07-20,Gardening,1.0,"Kraft, Ms. Rose",web
+172,137000,GD4300,2001-07-20,Gardening,3.0,"Kraft, Ms. Rose",web
+173,137000,PT1300,2000-09-13,Pets,3.0,"Kraft, Ms. Rose",web
+174,137000,SP1000,2000-08-23,Sports,1.0,"Kraft, Ms. Rose",web
+175,137000,SP1500,2001-02-22,Sports,1.0,"Kraft, Ms. Rose",web
+176,137000,TY1200,2001-01-24,Toys,4.0,"Kraft, Ms. Rose",web
+177,137000,TY2100,2001-01-24,Toys,1.0,"Kraft, Ms. Rose",web
+178,137000,TY2300,2001-01-24,Toys,1.0,"Kraft, Ms. Rose",web
+179,137000,TY4100,2000-12-08,Toys,1.0,"Kraft, Ms. Rose",web
+180,137000,TY4100,2001-01-24,Toys,1.0,"Kraft, Ms. Rose",web
+181,262000,SP2400,2001-03-03,Sports,4.0,"Yang, Ms. Joan",web
+182,262000,SP2700,2001-05-19,Sports,4.0,"Yang, Ms. Joan",web
+183,262000,TY1800,2000-11-08,Toys,2.0,"Yang, Ms. Joan",web
+184,387000,GD2000,2000-10-05,Gardening,1.0,"Hinfelt, Mr. B. K.",web
+185,387000,PT2100,2000-07-03,Pets,1.0,"Hinfelt, Mr. B. K.",web
+186,387000,SP1200,2001-05-17,Sports,1.0,"Hinfelt, Mr. B. K.",web
+187,387000,SP2200,2001-07-14,Sports,1.0,"Hinfelt, Mr. B. K.",web
+188,387000,SP2300,2001-07-14,Sports,1.0,"Hinfelt, Mr. B. K.",web
+189,387000,SP2400,2001-07-14,Sports,1.0,"Hinfelt, Mr. B. K.",web
+190,387000,SP3300,2000-08-20,Sports,1.0,"Hinfelt, Mr. B. K.",web
+191,387000,TY1100,2001-02-27,Toy,2.0,"Hinfelt, Mr. B. K.",web
+192,387000,TY3200,2001-02-27,Toys,2.0,"Hinfelt, Mr. B. K.",web
+193,387000,TY4200,2001-02-27,Toys,1.0,"Hinfelt, Mr. B. K.",web
+194,387000,TY5300,2001-02-27,Toys,1.0,"Hinfelt, Mr. B. K.",web
+195,456000,GD3400,2000-06-27,Gardening,3.0,"Jones, Mr. B. T.",web
+196,456000,PT2200,2001-05-07,Pets,3.0,"Jones, Mr. B. T.",web
+197,456000,PT3200,2001-06-17,Pets,2.0,"Jones, Mr. B. T.",web
+198,456000,SP3400,2001-02-03,Sports,1.0,"Jones, Mr. B. T.",web
+199,456000,TY3800,2001-05-30,Toys,1.0,"Jones, Mr. B. T.",web
+200,512000,SP1500,2001-07-05,Sports,1.0,"Gibson, Mr. R. K.",web
+201,637000,PT1400,2000-11-23,Pets,1.0,"Rose, Mr. J. L.",web
+202,637000,PT2200,2000-11-23,Pets,1.0,"Rose, Mr. J. L.",web
+203,637000,TY4400,2001-02-14,Toys,1.0,"Rose, Mr. J. L.",web
+204,733000,TY17OO,2001-02-13,Toys,4.0,"Jones, Ms. Sallie",web
+205,762000,SP2400,2000-11-07,Sports,1.0,"Montrose, Mr. B. T.",web
+206,887000,PT2100,2001-03-15,Pets,1.0,"Monsano, Ms. A. M.",web
+207,887000,SP2600,2001-05-25,Sports,1.0,"Monsano, Ms. A. M.",web
+208,887000,TY2400,2001-01-28,Toys,1.0,"Monsano, Ms. A. M.",web
+209,887000,TY3700,2001-01-28,Toys,1.0,"Monsano, Ms. A. M.",web
+210,887000,TY4600,2001-01-28,Toys,1.0,"Monsano, Ms. A. M.",web
+211,887000,TY5100,2001-01-28,Toys,4.0,"Monsano, Ms. A. M.",web
+212,914000,PT1100,2000-06-28,Pets,3.0,"Monsano, Ms. A. Margaret",web
+213,914000,PT3100,2000-06-28,Pets,1.0,"Monsano, Ms. A. Margaret",web
+214,914000,SP1000,2001-02-24,Sports,1.0,"Monsano, Ms. A. Margaret",web
+215,914000,SP1300,2001-02-24,Sports,1.0,"Monsano, Ms. A. Margaret",web
+216,914000,SP2200,2001-05-15,Sports,1.0,"Monsano, Ms. A. Margaret",web
+217,914000,SP2300,2001-02-24,Sports,4.0,"Monsano, Ms. A. Margaret",web
+218,914000,TY3700,2001-04-21,Toys,1.0,"Monsano, Ms. A. Margaret",web
+219,914000,TY3800,2001-04-05,Toys,1.0,"Monsano, Ms. A. Margaret",web
+220,914000,gd3100,2001-01-19,Gardening,3.0,"Monsano, Ms. A. Margaret",web
+221,1012000,GD2200,2001-03-01,Gardening,1.0,"Albertson, Mr. Erin",web
+222,1012000,GD2400,2001-03-01,Gardening,1.0,"Albertson, Mr. Erin",web
+223,1012000,GD3200,2001-03-01,Gardening,1.0,"Albertson, Mr. Erin",web
+224,1012000,GD4100,2001-03-01,Gardening,1.0,"Albertson, Mr. Erin",web
+225,1012000,PT4600,2001-03-28,Pets,1.0,"Albertson, Mr. Erin",web
+226,1012000,TY1950,2000-12-03,Toys,1.0,"Albertson, Mr. Erin",web
+227,1012000,TY4600,2000-12-03,Toys,3.0,"Albertson, Mr. Erin",web
+228,1012000,TY5300,2000-12-03,Toys,1.0,"Albertson, Mr. Erin",web
+229,1137000,GD3200,2000-10-13,Gardening,1.0,"Eberhart, Ms. Tonya",web
+230,1137000,TY3400,2001-04-21,Toys,4.0,"Eberhart, Ms. Tonya",web
+231,1222000,PT1400,2001-03-26,Pets,4.0,"Jones, Mr. Samuel",web
+232,1222000,TY4200,2001-04-30,Toys,1.0,"Jones, Mr. Samuel",web
+233,1222000,TY4600,2001-02-03,Toys,1.0,"Jones, Mr. Samuel",web
+234,1250000,GD1100,2001-07-22,Gardening,1.0,"Jones, Ms. Kat",web
+235,1250000,GD15OO,2001-04-12,Gardening,1.0,"Jones, Ms. Kat",web
+236,1250000,GD3000,2001-04-12,Gardening,3.0,"Jones, Ms. Kat",web
+237,1250000,GD3200,2001-04-12,Gardening,2.0,"Jones, Ms. Kat",web
+238,1250000,PT1300,2000-08-09,Pets,4.0,"Jones, Ms. Kat",web
+239,1250000,PT2100,2001-03-31,Pets,1.0,"Jones, Ms. Kat",web
+240,1250000,SP1400,2001-03-03,Sports,1.0,"Jones, Ms. Kat",web
+241,1250000,SP2500,2001-03-03,Sports,2.0,"Jones, Ms. Kat",web
+242,1262000,SP1000,2001-06-20,Sports,1.0,"Jillian, Ms. Rue",web
+243,1262000,SP1200,2000-09-12,Sports,1.0,"Jillian, Ms. Rue",web
+244,1262000,TY4200,2000-12-25,Toys,1.0,"Jillian, Ms. Rue",web
+245,1355000,SP1300,2000-11-16,Sports,1.0,"Jones, Ms. Terri",web
+246,1387000,GD2000,2001-01-04,Gardening,1.0,"Horner, Mr. J. M.",web
+247,1387000,GD3100,2001-01-04,Gardening,1.0,"Horner, Mr. J. M.",web
+248,1387000,GD3400,2001-01-04,Gardening,2.0,"Horner, Mr. J. M.",web
+249,1387000,PT4100,2001-01-03,Pets,1.0,"Horner, Mr. J. M.",web
+250,1387000,SP1500,2001-01-02,Sports,1.0,"Horner, Mr. J. M.",web
+251,1387000,SP2000,2001-01-02,Sports,2.0,"Horner, Mr. J. M.",web
+252,1387000,SP2500,2000-09-28,Sports,3.0,"Horner, Mr. J. M.",web
+253,1387000,SP2500,2001-01-02,Sports,1.0,"Horner, Mr. J. M.",web
+254,1387000,SP2700,2001-01-02,Sports,1.0,"Horner, Mr. J. M.",web
+255,1512000,PT1300,2000-12-23,Pets,1.0,"Jackson, Mr. Ellis",web
+256,1512000,PT1400,2000-12-23,Pets,4.0,"Jackson, Mr. Ellis",web
+257,1512000,PT2200,2000-12-23,Pets,3.0,"Jackson, Mr. Ellis",web
+258,1512000,SP2600,2001-04-03,Sports,2.0,"Jackson, Mr. Ellis",web
+259,1512000,TY2600,2000-06-30,Toys,1.0,"Jackson, Mr. Ellis",web
+260,1637000,SP1200,2000-10-08,Sports,1.0,"Gilley, Ms. Sue",web
+261,1637000,SP2300,2001-05-29,Sports,1.0,"Gilley, Ms. Sue",web
+262,1642000,SP1000,2000-12-22,Sports,4.0,"Jones, Ms. Marie",web
+263,1642000,SP1300,2000-12-22,Sports,1.0,"Jones, Ms. Marie",web
+264,1642000,SP2000,2000-12-22,Sports,4.0,"Jones, Ms. Marie",web
+265,1642000,SP3300,2000-12-03,Sports,1.0,"Jones, Ms. Marie",web
+266,1642000,SP3400,2000-12-22,Sports,3.0,"Jones, Ms. Marie",web
+267,1762000,GD1500,2001-01-20,Gardening,1.0,"Moffet, Ms. Kat",web
+268,1762000,GD2200,2000-11-27,Gardening,1.0,"Moffet, Ms. Kat",web
+269,1762000,SP2700,2000-07-06,Sports,1.0,"Moffet, Ms. Kat",web
+270,1762000,SP3400,2000-11-26,Sports,1.0,"Moffet, Ms. Kat",web
+271,1762000,TY1950,2000-09-28,Toys,3.0,"Moffet, Ms. Kat",web
+272,1762000,TY5400,2001-06-03,Toys,3.0,"Moffet, Ms. Katarine",web
+273,1887000,GD1100,2001-05-21,Gardening,4.0,"Freeman, Mr. Michael",web
+274,1887000,SP2200,2001-08-05,Sports,1.0,"Freeman, Mr. Michael",web
+275,1887000,SP2400,2001-04-16,Sports,3.0,"Freeman, Mr. Michael",web
+276,1887000,TY1800,2000-12-09,Toys,1.0,"Freeman, Mr. Michael",web
+277,1912000,PT1300,2001-01-02,Pets,1.0,"Jones, Mr. Bob",web
+278,1912000,PT1400,2001-03-27,Pets,1.0,"Jones, Mr. Bob",web
+279,1912000,PT2200,2001-03-27,Pets,1.0,"Jones, Mr. Bob",web
+280,1912000,PT4600,2001-03-27,Pets,1.0,"Jones, Mr. Bob",web
+281,1912000,SP3300,2000-12-14,Sports,1.0,"Jones, Mr. Bob",web
+282,1912000,TY1300,2000-11-17,Toys,2.0,"Jones, Mr. Bob",web
+283,1912000,TY2100,2000-11-17,Toys,1.0,"Jones, Mr. Bob",web
+284,1912000,TY2700,2000-11-17,Toys,1.0,"Jones, Mr. Bob",web
+285,1912000,TY4100,2000-11-17,Toys,1.0,"Jones, Mr. Bob",web
+286,1912000,TY4400,2001-04-03,Toys,1.0,"Jones, Mr. Bob",web
+287,2012000,PT4600,2000-10-22,Pets,1.0,"Romanoff, Mr. Sergei",web
+288,2137000,GD2100,2000-08-09,Gardening,1.0,"Chang, Ms. Kate",web
+289,2137000,GD3300,2001-07-03,Gardening,1.0,"Chang, Ms. Kate",web
+290,2137000,SP1500,2000-10-02,Sports,1.0,"Chang, Ms. Kate",web
+291,2137000,SP1500,2001-01-08,Sports,1.0,"Chang, Ms. Kate",web
+292,2137000,SP2000,2001-01-08,Sports,1.0,"Chang, Ms. Kate",web
+293,2137000,SP2200,2000-10-15,Sports,1.0,"Chang, Ms. Kate",web
+294,2137000,SP2200,2000-10-21,Sports,3.0,"Chang, Ms. Kate",web
+295,2137000,SP2400,2000-10-21,Sports,1.0,"Chang, Ms. Kate",web
+296,2137000,SP2400,2001-01-08,Sports,3.0,"Chang, Ms. Kate",web
+297,2137000,SP2500,2001-07-10,Sports,1.0,"Chang, Ms. Kate",web
+298,2137000,SP3100,2001-01-08,Sports,2.0,"Chang, Ms. Kate",web
+299,2137000,SP3400,2000-10-21,Sports,1.0,"Chang, Ms. Kate",web
+300,2173000,GD1300,2001-07-12,Gardening,1.0,"Jones, Ms. Ellen",web
+301,2173000,GD4100,2001-08-01,Gardening,1.0,"Jones, Ms. Ellen",web
+302,2173000,SP13OO,2001-01-03,Sports,4.0,"Jones, Ms. Ellen",web
+303,2173000,SP2300,2000-08-04,Sports,4.0,"Jones, Ms. Ellen",web
+304,2173000,SP2500,2000-11-28,Sports,1.0,"Jones, Ms. Ellen",web
+305,2173000,TY16OO,2001-05-11,Toys,4.0,"Jones, Ms. Ellen",web
+306,2173000,TY1950,2001-05-05,Toys,1.0,"Jones, Ms. Ellen",web
+307,2263000,GD2400,2001-07-20,Gardening,1.0,"Ross, Ms. C. L.",web
+308,2263000,PT2100,2001-05-26,Pets,1.0,"Ross, Ms. C. L.",web
+309,2263000,TY4400,2001-02-09,Toys,1.0,"Ross, Ms. C. L.",web
+310,2349000,GD1010,2000-06-20,Gardening,1.0,"Jones, Mr. J. T.",web
+311,2349000,GD1200,2000-06-20,Gardening,1.0,"Jones, Mr. J. T.",web
+312,2349000,GD1200,2001-03-28,Gardening,2.0,"Jones, Mr. J. T.",web
+313,2349000,GD2000,2000-06-26,Gardening,3.0,"Jones, Mr. J. T.",web
+314,2349000,GD3000,2000-06-20,Gardening,1.0,"Jones, Mr. J. T.",web
+315,2349000,GD3100,2001-07-12,Gardening,1.0,"Jones, Mr. J. T.",web
+316,2349000,GD3300,2000-06-26,Gardening,1.0,"Jones, Mr. J. T.",web
+317,2349000,GD3400,2000-06-20,Gardening,1.0,"Jones, Mr. J. T.",web
+318,2349000,GD4100,2000-06-26,Gardening,1.0,"Jones, Mr. J. T.",web
+319,2349000,GD4200,2001-07-04,Gardening,1.0,"Jones, Mr. J. T.",web
+320,2349000,SP1000,2000-09-19,Sports,3.0,"Jones, Mr. J. T.",web
+321,2349000,SP2600,2001-02-15,Sports,1.0,"Jones, Mr. J. T.",web
+322,2349000,TY1500,2000-08-12,Toys,1.0,"Jones, Mr. J. T.",web
+323,2349000,TY1600,2001-01-14,Toys,1.0,"Jones, Mr. J. T.",web
+324,2349000,TY1600,2001-04-29,Toys,3.0,"Jones, Mr. J. T.",web
+325,2349000,TY1650,2001-04-29,Toys,1.0,"Jones, Mr. J. T.",web
+326,2349000,TY1950,2001-04-29,Toys,3.0,"Jones, Mr. J. T.",web
+327,2349000,TY2200,2000-08-12,Toys,1.0,"Jones, Mr. J. T.",web
+328,2349000,TY2300,2001-04-29,Toys,1.0,"Jones, Mr. J. T.",web
+329,2349000,TY3600,2000-08-12,Toys,1.0,"Jones, Mr. J. T.",web
+330,2349000,TY4700,2000-08-12,Toys,2.0,"Jones, Mr. J. T.",web
+331,2388000,SP1100,2001-01-28,Sports,1.0,"Jones, Ms. Victoria",web
+332,2388000,TY3500,2001-06-15,Toys,1.0,"Jones, Ms. Victoria",web
+333,2513000,GD1100,2000-12-17,Gardening,1.0,"Rifkin, Mr. Bob",web
+334,2513000,GD1600,2000-12-17,Gardening,1.0,"Rifkin, Mr. Bob",web
+335,2513000,GD2100,2000-12-17,Gardening,1.0,"Rifkin, Mr. Bob",web
+336,5391000,SP2500,2000-07-13,Sports,1.0,"Buscemi, Mr. Steve",web
+337,5391000,TY2200,2001-03-01,Toys,1.0,"Buscemi, Mr. Steve",web
+338,5391000,TY2600,2001-03-12,Toy,1.0,"Buscemi, Mr. Steve",web
+339,5391000,TY3200,2001-03-12,Toys,1.0,"Buscemi, Mr. Steve",web
+340,5391000,TY5200,2001-03-12,Toys,1.0,"Buscemi, Mr. Steve",web
+341,5516000,PT2100,2000-12-15,Pets,1.0,"Keitel, Harvey",web
+342,5516000,TY1300,2001-01-16,Toys,3.0,"Keitel, Harvey",web
+343,5516000,TY2700,2001-03-26,Toys,1.0,"Keitel, Harvey",web
+344,5516000,TY3800,2001-03-31,Toys,1.0,"Keitel, Harvey",web
+345,5634000,GD1010,2000-11-15,Gardening,1.0,"James, Mr. Rick",web
+346,5634000,GD12OO,2000-11-15,Gardening,3.0,"James, Mr. Rick",web
+347,5634000,GD4200,2000-11-15,Gardening,1.0,"James, Mr. Rick",web
+348,5634000,PT2100,2000-10-25,Pets,1.0,"James, Mr. Rick",web
+349,5634000,SP1000,2000-06-23,Sports,2.0,"James, Mr. Rick",web
+350,5634000,SP1000,2000-07-12,Sports,1.0,"James, Mr. Rick",web
+351,5634000,SP1100,2000-09-26,Sports,2.0,"James, Mr. Rick",web
+352,5634000,SP1400,2000-07-12,Sports,2.0,"James, Mr. Rick",web
+353,5634000,SP2200,2001-07-30,Sports,1.0,"James, Mr. Rick",web
+354,5634000,SP2300,2000-07-12,Sports,1.0,"James, Mr. Rick",web
+355,5634000,SP2400,2001-06-12,Sports,1.0,"James, Mr. Rick",web
+356,5641000,GD2200,2000-11-01,Gardening,1.0,"Rain, Mr. Doug",web
+357,5641000,PT1100,2001-05-23,Pets,1.0,"Rain, Mr. Doug",web
+358,5641000,TY3100,2001-01-11,Toys,1.0,"Rain, Mr. Doug",web
+359,5641000,TY3200,2000-09-08,Toys,1.0,"Rain, Mr. Doug",web
+360,5766000,PT1000,2001-06-13,Pets,1.0,"Challey, Ms. Jan",web
+361,5766000,PT1100,2001-06-13,Pets,2.0,"Challey, Ms. Jan",web
+362,5766000,SP1000,2000-12-02,Sports,2.0,"Challey, Ms. Jan",web
+363,5766000,TY1700,2001-04-07,Toys,1.0,"Challey, Ms. Jan",web
+364,5891000,GD3400,2000-11-14,Gardening,2.0,"Bating, Ms. S. T.",web
+365,5891000,PT2000,2001-02-07,Pets,1.0,"Bating, Ms. S. T.",web
+366,5891000,PT4600,2001-08-02,Pets,1.0,"Bating, Ms. S. T.",web
+367,5891000,SP1100,2000-12-07,Sports,1.0,"Bating, Ms. S. T.",web
+368,5891000,SP2600,2000-09-14,Sports,1.0,"Bating, Ms. S. T.",web
+369,5891000,TY1600,2001-05-22,Toys,1.0,"Bating, Ms. S. T.",web
+370,5891000,TY1750,2001-05-22,Toys,4.0,"Bating, Ms. S. T.",web
+371,5891000,TY3100,2001-05-22,Toys,4.0,"Bating, Ms. S. T.",web
+372,5891000,TY3800,2001-05-22,Toys,2.0,"Bating, Ms. S. T.",web
+373,5891000,TY4500,2001-03-31,Toys,2.0,"Bating, Ms. S. T.",web
+374,5891000,TY5200,2001-01-26,Toys,2.0,"Bating, Ms. S. T.",web
+375,6016000,GD101O,2001-07-03,Gardening,1.0,"Perlmann, Mr. T. C.",web
+376,6016000,GD1100,2001-07-03,Gardening,3.0,"Perlmann, Mr. T. C.",web
+377,6016000,GD1200,2000-12-16,Gardening,3.0,"Perlmann, Mr. T. C.",web
+378,6016000,GD2100,2001-07-01,Gardening,1.0,"Perlmann, Mr. T. C.",web
+379,6016000,GD2300,2000-12-16,Gardening,1.0,"Perlmann, Mr. T. C.",web
+380,6016000,GD2400,2000-12-16,Gardening,3.0,"Perlmann, Mr. T. C.",web
+381,6016000,GD3300,2000-12-16,Gardening,1.0,"Perlmann, Mr. T. C.",web
+382,6016000,GD4000,2001-07-03,Gardening,1.0,"Perlmann, Mr. T. C.",web
+383,6016000,PT3200,2000-12-18,Pets,2.0,"Perlmann, Mr. T. C.",web
+384,6016000,SP1500,2000-10-31,Sports,1.0,"Perlmann, Mr. T. C.",web
+385,6016000,TY2600,2001-03-17,Toys,1.0,"Perlmann, Mr. T. C.",web
+386,6016000,TY2700,2001-07-16,Toys,1.0,"Perlmann, Mr. T. C.",web
+387,6141000,PT1300,2001-05-13,Pets,1.0,"Berger, Mr. K. J.",web
+388,6141000,SP1100,2000-12-17,Sports,1.0,"Berger, Mr. K. J.",web
+389,6141000,SP1200,2000-12-17,Sports,4.0,"Berger, Mr. K. J.",web
+390,6141000,SP1500,2000-12-17,Sports,4.0,"Berger, Mr. K. J.",web
+391,6141000,SP2700,2000-12-17,Sports,3.0,"Berger, Mr. K. J.",web
+392,6266000,PT2300,2001-03-21,Pets,4.0,"Reuter, Ms. Gloria",web
+393,6266000,PT4600,2001-03-21,Pets,1.0,"Reuter, Ms. Gloria",web
+394,6266000,SP1100,2001-01-06,Sports,1.0,"Reuter, Ms. Gloria",web
+395,6266000,SP1100,2001-03-31,Sports,1.0,"Reuter, Ms. Gloria",web
+396,6266000,SP1400,2001-03-31,Sports,1.0,"Reuter, Ms. Gloria",web
+397,6266000,SP1600,2001-01-06,Sports,1.0,"Reuter, Ms. Gloria",web
+398,6266000,SP2000,2001-01-06,Sports,1.0,"Reuter, Ms. Gloria",web
+399,6266000,SP2200,2001-03-31,Sports,1.0,"Reuter, Ms. Gloria",web
+400,6266000,SP2600,2001-01-06,Sports,1.0,"Reuter, Ms. Gloria",web
+401,6266000,SP3300,2001-03-31,Sports,1.0,"Reuter, Ms. Gloria",web
+402,6391000,GD3300,2000-09-05,Gardening,1.0,"Dallas, Mr. Lanny",web
+403,6391000,PT2300,2000-08-27,Pets,1.0,"Dallas, Mr. Lanny",web
+404,6516000,GD3000,2000-08-04,Gardening,1.0,"Nauge, Mr. Frank",web
+405,6516000,SP1400,2001-05-20,Sports,1.0,"Nauge, Mr. Frank",web
+406,6516000,SP1600,2001-05-20,Sports,1.0,"Nauge, Mr. Frank",web
+407,6516000,SP2600,2000-09-03,Sports,1.0,"Nauge, Mr. Frank",web
+408,6516000,SP3300,2001-05-20,Sports,1.0,"Nauge, Mr. Frank",web
+409,6516000,TY3200,2000-09-09,Toys,1.0,"Nauge, Mr. Frank",web
+410,6641000,GD2300,2000-08-23,Gardening,1.0,"Lai, Ms. Andrea",web
+411,6641000,PT2200,2001-05-26,Pets,1.0,"Lai, Ms. Andrea",web
+412,6641000,PT2300,2000-09-17,Pets,1.0,"Lai, Ms. Andrea",web
+413,6641000,SP1400,2000-11-26,Sports,1.0,"Lai, Ms. Andrea",web
+414,6641000,SP2300,2000-11-26,Sports,1.0,"Lai, Ms. Andrea",web
+415,6641000,SP2500,2000-07-10,Sports,2.0,"Lai, Ms. Andrea",web
+416,6641000,SP2700,2001-08-03,Sports,1.0,"Lai, Ms. Andrea",web
+417,6641000,SP3000,2000-11-26,Sports,1.0,"Lai, Ms. Andrea",web
+418,6641000,SP3300,2001-03-16,Sports,1.0,"Lai, Ms. Andrea",web
+419,6766000,PT1400,2001-01-25,Pets,1.0,"Lu, Ms. Lisa",web
+420,6766000,PT2000,2000-10-26,Pets,1.0,"Lu, Ms. Lisa",web
+421,6766000,SP1000,2001-03-13,Sports,1.0,"Lu, Ms. Lisa",web
+422,6766000,SP1400,2001-03-13,Sports,1.0,"Lu, Ms. Lisa",web
+423,6766000,SP2400,2001-03-13,Sports,1.0,"Lu, Ms. Lisa",web
+424,6766000,SP3200,2000-08-13,Sports,4.0,"Lu, Ms. Lisa",web
+425,6766000,SP3300,2001-03-13,Sports,1.0,"Lu, Ms. Lisa",web
+426,6766000,TY4200,2001-02-11,Toys,1.0,"Lu, Ms. Lisa",web
+427,6870000,GD1600,2000-07-20,Gardening,1.0,"Jones, Mr. John",web
+428,6870000,PT2300,2000-07-02,Pets,4.0,"Jones, Mr. John",web
+429,6870000,PT2300,2000-11-06,Pets,1.0,"Jones, Mr. John",web
+430,6870000,SP1500,2001-04-16,Sports,1.0,"Jones, Mr. John",web
+431,6870000,SP2200,2001-04-16,Sports,2.0,"Jones, Mr. John",web
+432,6870000,SP3000,2001-04-16,Sports,2.0,"Jones, Mr. John",web
+433,6870000,SP3100,2001-04-16,Sports,1.0,"Jones, Mr. John",web
+434,6870000,TY2400,2000-11-11,Toys,1.0,"Jones, Mr. John",web
+435,6870000,TY4600,2000-12-16,Toys,4.0,"Jones, Mr. John",web
+436,6892000,GD3300,2001-07-26,Garden,1.0,"Courtney, Ms. L.",web
+437,6892000,PT3500,2001-05-19,Pets,1.0,"Courtney, Ms. Leanne",web
+438,6892000,SP2700,2001-06-27,Sports,3.0,"Courtney, Ms. Leanne",web
+439,6892000,TY5100,2001-01-09,Toys,2.0,"Courtney, Ms. Leanne",web
+440,6944000,PT1000,2000-07-15,Pets,1.0,"Jones, Mr. Everett",web
+441,6944000,PT1100,2000-07-15,Pets,1.0,"Jones, Mr. Everett",web
+442,6944000,PT1100,2000-10-20,Pets,1.0,"Jones, Mr. Everett",web
+443,6944000,PT1300,2000-10-20,Pets,1.0,"Jones, Mr. Everett",web
+444,6944000,PT1400,2000-10-20,Pets,1.0,"Jones, Mr. Everett",web
+445,6944000,PT2000,2000-07-15,Pets,1.0,"Jones, Mr. Everett",web
+446,6944000,PT2300,2000-07-15,Pets,2.0,"Jones, Mr. Everett",web
+447,6944000,SP1400,2000-08-23,Sports,1.0,"Jones, Mr. Everett",web
+448,6944000,TY1600,2001-06-01,Toys,1.0,"Jones, Mr. Everett",web
+449,6944000,TY1750,2001-06-07,Toys,1.0,"Jones, Mr. Everett",web
+450,6944000,TY17OO,2001-06-01,Toys,3.0,"Jones, Mr. Everett",web
+451,6944000,TY2200,2001-06-01,Toys,1.0,"Jones, Mr. Everett",web
+452,6944000,TY2400,2001-06-01,Toys,1.0,"Jones, Mr. Everett",web
+453,6944000,TY3200,2001-06-07,Toys,1.0,"Jones, Mr. Everett",web
+454,6944000,TY3600,2001-06-07,Toys,1.0,"Jones, Mr. Everett",web
+455,7017000,PT1000,2001-07-24,Pets,1.0,"Fisher, Ms. Jennifer",web
+456,7017000,PT1300,2001-07-24,Pets,1.0,"Fisher, Ms. Jennifer",web
+457,7017000,SP1600,2000-07-15,Sports,1.0,"Fisher, Ms. Jennifer",web
+458,7142000,GD2400,2000-10-10,Gardening,1.0,"Chan, Mr. Ed",web
+459,7142000,SP1500,2001-05-05,Sports,1.0,"Chan, Mr. Ed",web
+460,7142000,SP3000,2000-12-01,Sports,1.0,"Chan, Mr. Ed",web
+461,7142000,SP3000,2001-05-05,Sports,1.0,"Chan, Mr. Ed",web
+462,7142000,SP3100,2001-05-05,Sports,3.0,"Chan, Mr. Ed",web
+463,7142000,SP3300,2001-05-05,Sports,3.0,"Chan, Mr. Ed",web
+464,7142000,TY2100,2000-07-26,Toys,1.0,"Chan, Mr. Ed",web
+465,7142000,TY3100,2000-07-26,Toys,1.0,"Chan, Mr. Ed",web
+466,7142000,TY3400,2000-07-26,Toys,1.0,"Chan, Mr. Ed",web
+467,7142000,TY4700,2000-08-27,Toys,1.0,"Chan, Mr. Ed",web
+468,7267000,SP1200,2001-05-04,Sports,1.0,"Monet, Mr. Ken",web
+469,7267000,SP1600,2001-05-26,Sports,1.0,"Monet, Mr. Ken",web
+470,7267000,SP2600,2001-05-26,Sports,1.0,"Monet, Mr. Ken",web
+471,7392000,GD3300,2001-07-02,Gardening,1.0,"Tart, Ms. Angela",web
+472,7392000,PT2100,2001-04-21,Pets,1.0,"Tart, Ms. Angela",web
+473,7392000,SP1300,2001-01-06,Sports,1.0,"Tart, Ms. Angela",web
+474,7392000,SP2600,2001-01-06,Sports,1.0,"Tart, Ms. Angela",web
+475,7392000,SP3100,2001-01-06,Sports,1.0,"Tart, Ms. Angela",web
+476,7392000,SP3200,2001-01-06,Sports,1.0,"Tart, Ms. Angela",web
+477,7392000,TY1650,2001-05-31,Toys,3.0,"Tart, Ms. Angela",web
+478,7470000,GD1300,2001-05-23,Gardening,1.0,"Jones, Ms. K. Theresa",web
+479,7470000,GD1600,2000-10-28,Gardening,1.0,"Jones, Ms. K. Theresa",web
+480,7470000,GD4100,2001-08-03,Gardening,1.0,"Jones, Ms. K. Theresa",web
+481,7470000,PT2200,2001-04-18,Pets,4.0,"Jones, Ms. K. Theresa",web
+482,7470000,PT4600,2001-04-18,Pets,1.0,"Jones, Ms. K. Theresa",web
+483,7470000,SP1600,2000-12-04,Sports,1.0,"Jones, Ms. K. Theresa",web
+484,7470000,TY4200,2001-03-17,Toys,1.0,"Jones, Ms. K. Theresa",web
+485,7480000,GD2200,2000-07-04,Gardening,1.0,"Jones, Mr. Bill",web
+486,7480000,PT3300,2000-09-25,Pets,1.0,"Jones, Mr. Bill A.",web
+487,7480000,SP1300,2001-07-04,Sports,1.0,"Jones, Mr. Bill",web
+488,7480000,SP2200,2000-09-16,Sports,1.0,"Jones, Mr. Bill",web
+489,7480000,SP2200,2001-07-04,Sports,1.0,"Jones, Mr. Bill",web
+490,7480000,SP2300,2001-07-04,Sports,3.0,"Jones, Mr. Bill",web
+491,7480000,SP2700,2001-07-04,Sports,1.0,"Jones, Mr. Bill",web
+492,7517000,PT2000,2001-04-01,Pets,1.0,"Bergman, Mr. Conrad",web
+493,7517000,SP1200,2001-03-30,Sports,3.0,"Bergman, Mr. Conrad",web
+494,7517000,SP1300,2001-03-04,Sports,1.0,"Bergman, Mr. Conrad",web
+495,7517000,SP1500,2001-03-04,Sports,1.0,"Bergman, Mr. Conrad",web
+496,7517000,SP2500,2001-03-04,Sports,1.0,"Bergman, Mr. Conrad",web
+497,7517000,SP2600,2000-11-27,Sports,4.0,"Bergman, Mr. Conrad",web
+498,7517000,SP2600,2000-12-04,Sports,1.0,"Bergman, Mr. Conrad",web
+499,7642000,GD1001,2001-02-25,Gardening,1.0,"Kosinski, Mr. Raineir",web
+500,7642000,GD1300,2001-07-12,Gardening,1.0,"Kosinski, Mr. Raineir",web
+501,7642000,GD1400,2000-09-06,Gardening,1.0,"Kosinski, Mr. Raineir",web
+502,7642000,GD2100,2000-08-26,Gardening,1.0,"Kosinski, Mr. Raineir",web
+503,7642000,SP2500,2001-05-06,Sports,1.0,"Kosinski, Mr. Raineir",web
+504,7642000,SP2600,2001-03-02,Sports,1.0,"Kosinski, Mr. Raineir",web
+505,7642000,TY1750,2001-04-13,Toys,3.0,"Kosinski, Mr. Raineir",web
+506,7666000,PT2200,2001-08-07,Pets,1.0,"Jones, Mr. Donald",web
+507,7666000,TY2200,2001-06-13,Toys,3.0,"Jones, Mr. Donald",web
+508,7738000,SP1600,2001-04-16,Sports,1.0,"Whitley-Jones, Ms. Joy",web
+509,7738000,SP2000,2000-08-16,Sports,1.0,"Whitley-Jones, Ms. Joy",web
+510,7738000,SP2600,2001-03-11,Sports,1.0,"Whitley-Jones, Ms. Joy",web
+511,7738000,TY4500,2000-09-30,Toys,1.0,"Whitley-Jones, Ms. Joy",web
+512,7738000,TY5100,2001-03-21,Toys,1.0,"Whitley-Jones, Ms. Joy",web
+513,7767000,GD3100,2000-09-16,Gardening,3.0,"Moss, Ms. Eugenia",web
+514,7767000,PT1100,2001-06-26,Pets,1.0,"Moss, Ms. Eugenia",web
+515,7767000,PT1200,2001-06-26,Pets,1.0,"Moss, Ms. Eugenia",web
+516,7767000,PT2000,2001-05-21,Pets,1.0,"Moss, Ms. Eugenia",web
+517,7767000,PT2000,2001-06-26,Pets,1.0,"Moss, Ms. Eugenia",web
+518,7767000,SP1100,2001-06-11,Sports,1.0,"Moss, Ms. Eugenia",web
+519,7767000,SP1300,2000-06-22,Sports,4.0,"Moss, Ms. Eugenia",web
+520,7767000,SP2200,2001-06-05,Sports,1.0,"Moss, Ms. Eugenia",web
+521,7767000,SP3300,2000-06-22,Sports,3.0,"Moss, Ms. Eugenia",web
+522,7767000,TY3400,2001-05-05,Toys,1.0,"Moss, Ms. Eugenia",web
+523,7892000,PT2100,2000-10-22,Pets,1.0,"Selle, Ms. Maria",web
+524,7892000,SP2500,2000-08-02,Sports,1.0,"Selle, Ms. Maria",web
+525,7892000,TY2100,2000-10-27,Toys,1.0,"Selle, Ms. Maria",web
+526,7892000,TY3500,2000-07-04,Toys,4.0,"Selle, Ms. Maria",web
+527,8020000,GD2100,2000-06-28,Gardening,1.0,"Head, Mr. George",web
+528,8020000,PT1000,2001-07-20,Pets,1.0,"Head, Mr. George",web
+529,8020000,PT3100,2001-07-20,Pets,1.0,"Head, Mr. George",web
+530,8020000,TY1900,2000-11-24,Toys,1.0,"Head, Mr. George",web
+531,8145000,GD3100,2000-08-09,Gardening,1.0,"Teel, Ms. Darla",web
+532,8145000,SP1300,2001-07-09,Sports,1.0,"Teel, Ms. Darla",web
+533,8145000,SP1600,2000-10-21,Sports,1.0,"Teel, Ms. Darla",web
+534,8145000,SP2300,2000-10-21,Sports,1.0,"Teel, Ms. Darla",web
+535,8145000,SP2400,2000-10-21,Sports,1.0,"Teel, Ms. Darla",web
+536,8145000,TY1850,2000-10-10,Toys,1.0,"Teel, Ms. Darla",web
+537,8145000,TY2500,2001-08-02,Toys,1.0,"Teel, Ms. Darla",web
+538,8145000,TY5200,2000-10-24,Toys,1.0,"Teel, Ms. Darla",web
+539,8270000,SP1400,2001-01-12,Sports,1.0,"Cracken, Mr. R. Thomas",web
+540,8270000,SP2300,2000-11-25,Sports,1.0,"Cracken, Mr. R. Thomas",web
+541,8270000,SP2400,2001-01-12,Sports,1.0,"Cracken, Mr. R. T.",web
+542,8270000,SP2500,2001-01-12,Sports,1.0,"Cracken, Mr. R. Thomas",web
+543,8270000,TY1200,2001-06-04,Toys,1.0,"Cracken, Mr. R. Thomas",web
+544,8395000,SP1000,2000-12-22,Sports,1.0,"Sullivan, Ms. Lina",web
+545,8473000,GD1600,2001-05-21,Gardening,1.0,"Jones, Ms. Margaret",web
+546,8473000,TY1950,2001-03-09,Toys,1.0,"Jones, Ms. Margaret",web
+547,8520000,GD1100,2000-07-08,Gardening,1.0,"Murray, Mr. Tom",web
+548,8520000,GD3300,2000-12-02,Gardening,3.0,"Murray, Mr. Tom",web
+549,8520000,PT1100,2000-08-22,Pets,1.0,"Murray, Mr. Tom",web
+550,8520000,SP1400,2001-05-01,Sports,1.0,"Murray, Mr. Tom",web
+551,8520000,SP3100,2001-03-20,Sports,1.0,"Murray, Mr. Tom",web
+552,8645000,GD1600,2000-10-03,Gardening,2.0,"Liston, Ms. Annyce",web
+553,8645000,PT1400,2001-03-19,Pets,4.0,"Liston, Ms. Annyce",web
+554,8645000,SP14OO,2000-07-29,Sports,4.0,"Liston, Ms. Annyce",web
+555,8645000,SP2200,2000-06-19,Sports,1.0,"Liston, Ms. Annyce",web
+556,8645000,SP2600,2000-06-19,Sports,1.0,"Liston, Ms. Annyce",web
+557,8645000,TY4100,2001-01-29,Toys,1.0,"Liston, Ms. A.",web
+558,8645000,TY4200,2001-06-06,Toys,1.0,"Liston, Ms. Annyce",web
+559,8645000,TY4300,2001-06-06,Toys,4.0,"Liston, Ms. Annyce",web
+560,8645000,TY4300,2001-06-15,Toys,1.0,"Liston, Ms. Annyce",web
+561,8645000,TY4600,2001-06-06,Toys,1.0,"Liston, Ms. Annyce",web
+562,8770000,GD10)!,2001-03-27,Gardening,1.0,"Hall, Mr. Brett",web
+563,8770000,GD1400,2001-03-27,Gardening,2.0,"Hall, Mr. Brett",web
+564,8770000,GD2300,2001-03-27,Gardening,1.0,"Hall, Mr. Brett",web
+565,8770000,GD4200,2001-03-27,Gardening,3.0,"Hall, Mr. Brett",web
+566,8770000,SP1000,2000-11-26,Sports,1.0,"Hall, Mr. Brett",web
+567,8770000,SP3200,2000-10-28,Sports,1.0,"Hall, Mr. Brett",web
+568,8770000,TY1850,2001-02-08,Toys,1.0,"Hall, Mr. Brett",web
+569,8770000,TY2400,2001-06-02,Toys,4.0,"Hall, Mr. Brett",web
+570,8895000,GD1300,2001-07-01,Gardening,1.0,"Scott, Mr. Conrad",web
+571,8895000,GD2400,2000-07-03,Gardening,1.0,"Scott, Mr. Conrad",web
+572,8895000,PT1400,2000-11-18,Pets,2.0,"Scott, Mr. Conrad",web
+573,8895000,SP2400,2000-11-15,Sports,1.0,"Scott, Mr. Conrad",web
+574,8895000,SP3100,2001-01-10,Sports,1.0,"Scott, Mr. Conrad",web
+575,8895000,TY4500,2001-04-07,Toys,1.0,"Scott, Mr. Conrad",web
+576,8913000,GD4100,2001-08-04,Gardening,1.0,"Jones, Mr. Jonathan",web
+577,8913000,PT1400,2001-02-21,Pets,1.0,"Jones, Mr. Jonathan",web
+578,8913000,PT4600,2001-02-21,Pets,3.0,"Jones, Mr. Jonathan",web
+579,8913000,SP2700,2000-07-28,Sports,1.0,"Jones, Mr. Jonathan",web
+580,8913000,SP3100,2001-06-16,Sports,1.0,"Jones, Mr. Jonathan",web
+581,8913000,SP3300,2000-10-21,Sports,1.0,"Jones, Mr. Jonathan",web
+582,8913000,TY1300,2001-03-09,Toys,1.0,"Jones, Mr. Jonathan",web
+583,8913000,TY1850,2001-03-09,Toys,1.0,"Jones, Mr. Jonathan",web
+584,8913000,TY3500,2001-03-05,Toys,1.0,"Jones, Mr. Jonathan",web
+585,8913000,TY4300,2001-05-10,Toys,1.0,"Jones, Mr. Jonathan",web
+586,9020000,SP2000,2000-12-20,Sports,1.0,"Blaska, Mr. Herman",web
+587,9020000,SP2400,2001-01-07,Sports,1.0,"Blaska, Mr. Herman",web
+588,9020000,SP3100,2000-12-20,Sports,1.0,"Blaska, Mr. Herman",web
+589,9020000,SP3200,2000-12-20,Sports,1.0,"Blaska, Mr. Herman",web
+590,9145000,GD1500,2000-12-27,Gardening,2.0,"Occianna, Mr. Christian",web
+591,9145000,PT1400,2001-03-14,Pets,1.0,"Occianna, Mr. Christian",web
+592,9145000,TY4600,2001-05-01,Toys,1.0,"Occianna, Mr. Christian",web
+593,9204000,PT1000,2000-08-26,Pets,2.0,"Jones, Mr. Brainard",web
+594,9204000,SP1100,2001-04-06,Sports,1.0,"Jones, Mr. Brainard",web
+595,9204000,SP2000,2001-04-06,Sports,1.0,"Jones, Mr. Brainard",web
+596,9204000,SP3200,2001-04-06,Sports,1.0,"Jones, Mr. Brainard",web
+597,9204000,TY3500,2001-01-03,Toys,1.0,"Jones, Mr. Brainard",web
+598,9270000,PT2000,2001-01-15,Pets,3.0,"Washton, Ms. Monica",web
+599,9270000,SP1000,2000-11-10,Sports,1.0,"Washton, Ms. Monica",web
+600,9270000,TY1950,2001-04-18,Toys,3.0,"Washton, Ms. Monica",web
+601,9372000,PT2300,2000-09-23,Pets,1.0,"Jones, Mr. F. J.",web
+602,9372000,PT3100,2000-09-04,Pets,1.0,"Jones, Mr. F. J.",web
+603,9372000,SP2200,2000-08-12,Sports,1.0,"Jones, Mr. F. J.",web
+604,9372000,SP2500,2000-10-13,Sports,1.0,"Jones, Mr. F. J.",web
+605,9372000,SP3200,2000-08-12,Sports,1.0,"Jones, Mr. F. J.",web
+606,9372000,SP3400,2000-08-12,Sports,1.0,"Jones, Mr. F. J.",web
+607,9395000,GD3100,2000-09-11,Gardening,1.0,"Justice, Mr. Clinton",web
+608,9395000,GD3300,2000-09-11,Gardening,1.0,"Justice, Mr. Clinton",web
+609,9395000,GD4100,2000-09-11,Gardening,1.0,"Justice, Mr. Clinton",web
+610,9395000,PT2100,2001-01-27,Pets,4.0,"Justice, Mr. Clinton",web
+611,9395000,SP2300,2001-01-15,Sports,1.0,"Justice, Mr. Clinton",web
+612,9520000,GD1200,2000-09-27,Gardening,2.0,"Gall, Ms. Ann",web
+613,9520000,PT2100,2001-05-29,Pets,1.0,"Gall, Ms. Ann",web
+614,9520000,SP1200,2000-07-04,Sports,2.0,"Gall, Ms. Ann",web
+615,9520000,SP1200,2000-12-14,Sports,1.0,"Gall, Ms. Ann",web
+616,9520000,SP2200,2000-12-14,Sports,1.0,"Gall, Ms. Ann",web
+617,9520000,TY4500,2001-06-07,Toys,2.0,"Gall, Ms. Ann",web
+618,9548000,PT1000,2000-11-14,Pets,1.0,"Jones, Mr. Tyson",web
+619,9548000,SP1400,2000-12-16,Sports,2.0,"Jones, Mr. Tyson",web
+620,9548000,SP2600,2000-10-21,Sports,1.0,"Jones, Mr. Tyson",web
+621,9548000,TY1900,2001-01-07,Toys,1.0,"Jones, Mr. Tyson",web
+622,9548000,TY3100,2001-06-01,Toys,3.0,"Jones, Mr. Tyson",web
+623,9548000,TY4400,2001-06-01,Toys,1.0,"Jones, Mr. Tyson",web
+624,9548000,TY5400,2001-06-01,Toys,1.0,"Jones, Mr. Tyson",web
+625,9645000,GD2400,2000-09-08,Gardening,1.0,"King, Ms. Kathryn",web
+626,9645000,PT1300,2001-01-12,Pets,1.0,"King, Ms. Kathryn",web
+627,9645000,PT1400,2001-01-10,Pets,2.0,"King, Ms. Kathryn",web
+628,9645000,PT3500,2001-01-10,Pets,,"King, Ms. Kathryn",web
+629,9645000,SP1000,2000-10-17,Sports,1.0,"King, Ms. Kathryn",web
+630,9645000,SP2000,2000-08-02,Sports,1.0,"King, Ms. Kathryn",web
+631,9645000,SP2300,2001-02-08,Sports,1.0,"King, Ms. Kathryn",web
+632,9645000,TY2300,2001-04-29,Toys,1.0,"King, Ms. Kathryn",web
+633,9687000,PT1300,2001-02-21,Pets,2.0,"Jones, Mr. Carl",web
+634,9687000,PT2100,2001-01-15,Pets,1.0,"Jones, Mr. Carl",web
+635,9687000,PT4600,2000-08-03,Pets,1.0,"Jones, Mr. Carl",web
+636,9687000,SP2000,2000-11-20,Sports,1.0,"Jones, Mr. Carl",web
+637,9687000,SP2300,2000-09-15,Sports,1.0,"Jones, Mr. Carl",web
+638,9687000,SP2400,2000-07-08,Sports,1.0,"Jones, Mr. Carl",web
+639,9687000,SP2400,2000-08-28,Sports,3.0,"Jones, Mr. Carl",web
+640,9687000,SP3200,2000-11-20,Sports,3.0,"Jones, Mr. Carl",web
+641,9687000,TY1300,2001-05-12,Toys,1.0,"Jones, Mr. Carl",web
+642,9744000,GD15OO,2000-12-04,Gardening,4.0,"Jones, Mr. Dominick",web
+643,9744000,PT1400,2001-04-04,Pets,1.0,"Jones, Mr. Dominick",web
+644,9744000,SP1600,2000-08-23,Sports,1.0,"Jones, Mr. Dominick",web
+645,9744000,SP1600,2001-04-07,Sports,1.0,"Jones, Mr. Dominick",web
+646,9744000,SP3000,2000-11-09,Sports,1.0,"Jones, Mr. Dominick",web
+647,9745000,GD2000,2000-09-20,Gardening,1.0,"Jones, Ms. Cassandra",web
+648,9745000,GD2400,2000-09-20,Gardening,3.0,"Jones, Ms. Cassandra",web
+649,9745000,GD3300,2000-09-20,Gardening,1.0,"Jones, Ms. Cassandra",web
+650,9745000,PT1300,2001-01-30,Pets,4.0,"Jones, Ms. Cassandra",web
+651,9745000,PT4600,2001-02-04,Pets,2.0,"Jones, Ms. Cassandra",web
+652,9770000,GD1400,2000-10-22,Gardening,3.0,"Best, Mr. George",web
+653,9770000,GD1600,2000-10-22,Gardening,1.0,"Best, Mr. George",web
+654,9770000,GD3000,2000-10-22,Gardening,1.0,"Best, Mr. George",web
+655,9770000,PT1100,2000-10-18,Pets,1.0,"Best, Mr. George",web
+656,9770000,PT1200,2001-04-19,Pets,4.0,"Best, Mr. George",web
+657,9770000,PT1400,2000-10-18,Pets,1.0,"Best, Mr. George",web
+658,9770000,SP2400,2001-08-05,Sports,4.0,"Best, Mr. George",web
+659,9770000,SP3100,2001-03-10,Sports,1.0,"Best, Mr. George",web
+660,9770000,TY5200,2001-04-09,Toys,1.0,"Best, Mr. George",web
+661,9895000,PT1000,2000-09-10,Pets,2.0,"Mueller, Mr. Earl",web
+662,9895000,PT2000,2000-09-27,Pets,1.0,"Mueller, Mr. Earl",web
+663,9895000,PT2200,2001-04-25,Pets,1.0,"Mueller, Mr. Earl",web
+664,9895000,PT3200,2000-09-27,Pets,1.0,"Mueller, Mr. Earl",web
+665,9895000,PT3500,2000-09-27,Pets,1.0,"Mueller, Mr. Earl",web
+666,9895000,SP2300,2001-07-17,Sports,1.0,"Mueller, Mr. Earl",web
+667,9895000,SP3100,2000-08-15,Sports,1.0,"Mueller, Mr. Earl",web
+668,9895000,TY1700,2001-07-01,Toys,1.0,"Mueller, Mr. Earl",web
+669,10020000,GD1600,2001-01-26,Gardening,1.0,"Lee, Mr. Robert",web
+670,10020000,GD3200,2001-01-26,Gardening,1.0,"Lee, Mr. Robert",web
+671,10020000,GD3400,2000-12-09,Gardening,3.0,"Lee, Mr. Robert",web
+672,10020000,GD4200,2001-01-26,Gardening,3.0,"Lee, Mr. Robert",web
+673,10020000,SP1000,2001-08-02,Sports,3.0,"Lee, Mr. Robert",web
+674,10020000,SP2400,2001-04-09,Sports,2.0,"Lee, Mr. Robert",web
+675,10145000,PT1100,2000-11-02,Pets,1.0,"Lisson, Mr. Anthony",web
+676,10145000,SP2000,2000-07-30,Sports,1.0,"Lisson, Mr. Anthony",web
+677,10201000,GD3000,2001-07-21,Gardening,1.0,"Jones, Ms. Ella",web
+678,10201000,GD3100,2001-07-05,Gardening,1.0,"Jones, Ms. Ella",web
+679,10201000,GD3200,2001-07-21,Gardening,1.0,"Jones, Ms. Ella",web
+680,10201000,GD4200,2001-07-21,Gardening,1.0,"Jones, Ms. Ella",web
+681,10201000,PT4500,2001-07-09,Pets,1.0,"Jones, Ms. Ella",web
+682,10201000,SP1000,2000-12-19,Sports,1.0,"Jones, Ms. Ella",web
+683,10201000,SP3200,2000-09-19,Sports,1.0,"Jones, Ms. Ella",web
+684,10201000,SP3200,2001-08-01,Sports,1.0,"Jones, Ms. Ella",web
+685,10201000,TY4600,2000-12-17,Toys,1.0,"Jones, Ms. Ella",web
+686,10270000,GD1500,2000-09-18,Gardening,1.0,"Dexter, Mr. Pete",web
+687,10270000,SP1300,2000-10-02,Sports,1.0,"Dexter, Mr. Pete",web
+688,10270000,TY1650,2001-05-20,Toys,1.0,"Dexter, Mr. Pete",web
+689,10270000,TY4500,2001-01-30,Toys,1.0,"Dexter, Mr. Pete",web
+690,10296000,GD3200,2001-05-29,Gardening,3.0,"Jones, Mr. James",web
+691,10296000,SP3400,2000-06-21,Sports,1.0,"Jones, Mr. James",web
+692,10395000,PT1200,2001-06-24,Pets,1.0,"Claxton, Ms. Ella",web
+693,10395000,PT4400,2001-05-21,Pets,1.0,"Claxton, Ms. Ella",web
+694,10395000,SP1400,2001-03-10,Sports,1.0,"Claxton, Ms. Ella",web
+695,10395000,SP2000,2000-11-12,Sports,1.0,"Claxton, Ms. Ella",web
+696,10395000,SP2600,2001-03-10,Sports,1.0,"Claxton, Ms. Ella",web
+697,10395000,SP2700,2001-03-10,Sports,1.0,"Claxton, Ms. Ella",web
+698,10395000,TY1200,2001-06-10,Toys,1.0,"Claxton, Ms. Ella",web
+699,10520000,PT3300,2001-05-13,Pets,1.0,"Moore, Ms. Karla",web
+700,10520000,SP1300,2000-07-26,Sports,1.0,"Moore, Ms. Karla",web
+701,10520000,SP3100,2001-02-05,Sports,1.0,"Moore, Ms. Karla",web
+702,10520000,SP3200,2001-02-25,Sports,1.0,"Moore, Ms. Karla",web
+703,10520000,TY2200,2001-06-08,Toys,1.0,"Moore, Ms. Karla",web
+704,10645000,SP2600,2001-04-19,Sports,4.0,"Kurtz, Mr. Allen",web
+705,10770000,GD1001,2001-06-29,Gardening,1.0,"McDonald, Mr. Jim",web
+706,10770000,GD1010,2000-10-21,Gardening,1.0,"McDonald, Mr. Jim",web
+707,10770000,GD1100,2001-06-29,Gardening,4.0,"McDonald, Mr. Jim",web
+708,10770000,GD2200,2000-06-21,Gardening,3.0,"McDonald, Mr. Jim",web
+709,10770000,GD2300,2000-09-16,Gardening,1.0,"McDonald, Mr. Jim",web
+710,10770000,GD3000,2001-06-29,Gardening,3.0,"McDonald, Mr. Jim",web
+711,10770000,GD4300,2001-06-29,Gardening,1.0,"McDonald, Mr. Jim",web
+712,10770000,PT1200,2000-11-28,Pets,3.0,"McDonald, Mr. Jim",web
+713,10770000,SP1300,2001-04-21,Sports,1.0,"McDonald, Mr. Jim",web
+714,10770000,TY1900,2001-01-19,Toys,1.0,"McDonald, Mr. Jim",web
+715,10770000,TY2100,2001-04-06,Toys,4.0,"McDonald, Mr. Jim",web
+716,10770000,TY2600,2001-04-06,Toys,1.0,"McDonald, Mr. Jim",web
+717,10770000,TY4300,2001-04-06,Toys,3.0,"McDonald, Mr. Jim",web
+718,10770000,TY4700,2001-04-06,Toys,3.0,"McDonald, Mr. Jim",web
+719,10895000,GD1300,2001-03-08,Gardening,1.0,"Hogue, Mr. Robert",web
+720,10895000,PT2100,2000-06-21,Pets,1.0,"Hogue, Mr. Robert",web
+721,10895000,PT2300,2000-06-21,Pets,1.0,"Hogue, Mr. Robert",web
+722,10895000,SP1000,2000-12-23,Sports,1.0,"Hogue, Mr. Robert",web
+723,10895000,TY1200,2000-07-28,Toys,1.0,"Hogue, Mr. Robert",web
+724,10895000,TY3300,2001-05-11,Toys,4.0,"Hogue, Mr. Robert",web
+725,10895000,TY4100,2000-09-26,Toys,1.0,"Hogue, Mr. Robert",web
+726,11020000,PT1300,2001-02-21,Pets,3.0,"Gillespie, Mr. John",web
+727,11020000,PT2100,2001-08-04,Pets,1.0,"Gillespie, Mr. John",web
+728,11020000,SP1500,2001-03-09,Sports,1.0,"Gillespie, Mr. John",web
+729,11020000,SP1600,2001-03-09,Sport,3.0,"Gillespie, Mr. John",web
+730,11020000,SP2700,2001-03-09,Sports,3.0,"Gillespie, Mr. John",web
+731,11020000,SP3000,2001-03-09,Sports,1.0,"Gillespie, Mr. John",web
+732,11020000,TY3600,2001-05-26,Toys,1.0,"Gillespie, Mr. John",web
+733,11145000,SP1100,2000-11-22,Sports,1.0,"Smith, Ms. Rosemary",web
+734,11145000,SP1400,2001-02-01,Sports,2.0,"Smith, Ms. Rosemary",web
+735,11145000,SP3300,2000-09-12,Sports,1.0,"Smith, Ms. Rosemary",web
+736,11145000,TY2400,2001-01-04,Toys,1.0,"Smith, Ms. Rosemary",web
+737,11260000,GD12)),2000-11-07,Gardening,3.0,"Jones, Mr. Nathan",web
+738,11260000,SP2300,2001-05-08,Sports,1.0,"Jones, Mr. Nathan",web
+739,11260000,TY1100,2000-09-15,Toys,1.0,"Jones, Mr. Nathan",web
+740,11260000,TY1700,2000-09-15,Toys,1.0,"Jones, Mr. Nathan",web
+741,11260000,TY2500,2000-09-15,Toys,1.0,"Jones, Mr. Nathan",web
+742,11275000,GD3200,2000-10-03,Gardening,2.0,"Wilkins, Mr. Bob",web
+743,11275000,SP3200,2000-09-25,Sports,1.0,"Wilkins, Mr. Bob",web
+744,11328000,GD2200,2000-08-17,Gardening,1.0,"Smith-Jones, Ms. Jan",web
+745,11328000,GD4100,2000-08-17,Gardening,2.0,"Smith-Jones, Ms. Jan",web
+746,11328000,GD4300,2000-08-17,Gardening,1.0,"Smith-Jones, Ms. Jan",web
+747,11328000,PT1400,2001-01-27,Pets,1.0,"Smith-Jones, Ms. Jan",web
+748,11328000,SP2200,2000-11-17,Sports,1.0,"Smith-Jones, Ms. Jan",web
+749,11328000,TY2300,2001-05-24,Toys,1.0,"Smith-Jones, Ms. Jan",web
+750,11400000,GD3100,2000-09-06,Gardening,3.0,"Houghton, Ms. Louise",web
+751,11400000,SP1200,2001-05-27,Sports,1.0,"Houghton, Ms. Louise",web
+752,11400000,SP1400,2001-05-27,Sports,1.0,"Houghton, Ms. Louise",web
+753,11400000,SP1500,2001-05-27,Sports,1.0,"Houghton, Ms. Louise",web
+754,11400000,SP2000,2001-05-27,Sports,1.0,"Houghton, Ms. Louise",web
+755,11400000,SP2500,2001-02-01,Sports,3.0,"Houghton, Ms. Louise",web
+756,11525000,GD4000,2000-09-08,Gardening,1.0,"Garner, Mr. Chris",web
+757,11569000,PT1300,2001-03-01,Pets,3.0,"James, Mr. Mike",web
+758,11569000,SP2000,2001-02-14,Sports,1.0,"James, Mr. Mike",web
+759,11569000,TY2700,2001-05-24,Toys,1.0,"James, Mr. Mike",web
+760,11614000,GD4300,2000-08-04,Gardening,1.0,"Cary, Dr. John D.",web
+761,11614000,PT2400,2001-02-18,Pets,3.0,"Cary, Dr. John D.",web
+762,11614000,SP1300,2001-05-04,Sports,4.0,"Cary, Dr. John D.",web
+763,11614000,TY1650,2000-10-21,Toys,1.0,"Cary, Dr. John D.",web
+764,11614000,TY2100,2000-10-21,Toys,1.0,"Cary, Dr. John D.",web
+765,11614000,TY4700,2000-10-21,Toys,1.0,"Cary, Dr. John D.",web
+766,11614000,TY5300,2000-10-21,Toys,1.0,"Cary, Dr. John D.",web
+767,11615000,PT1000,2001-06-16,Pets,1.0,"Dill, Mr. J. D.",web
+768,11615000,SP2300,2001-07-01,Sports,1.0,"Dill, Mr. J. D.",web
+769,11615000,SP2600,2000-09-29,Sports,3.0,"Dill, Mr. J. D.",web
+770,11615000,TY3700,2001-03-06,Toys,1.0,"Dill, Mr. J. D.",web
+771,11615000,TY4200,2000-11-18,Toys,1.0,"Dill, Mr. J. D.",web
+772,11615000,TY4300,2001-03-06,Toys,3.0,"Dill, Mr. J. D.",web
+773,11615000,TY4700,2001-03-06,Toys,2.0,"Dill, Mr. J. D.",web
+774,11650000,PT2200,2000-08-02,Pets,3.0,"Murphy, Ms. Wendy",web
+775,11650000,SP1000,2000-12-06,Sports,1.0,"Murphy, Ms. Wendy",web
+776,11650000,SP1500,2000-12-06,Sports,1.0,"Murphy, Ms. Wendy",web
+777,11650000,SP2300,2000-12-06,Sports,1.0,"Murphy, Ms. Wendy",web
+778,11650000,SP2400,2000-06-20,Sports,,"Murphy, Ms. Wendy",web
+779,11650000,SP2700,2000-12-06,Sports,4.0,"Murphy, Ms. Wendy",web
+780,11650000,SP3300,2001-02-13,Sports,1.0,"Murphy, Ms. Wendy",web
+781,11650000,SP3300,2001-07-06,Sports,1.0,"Murphy, Ms. Wendy",web
+782,11650000,TY1750,2001-04-24,Toys,1.0,"Murphy, Ms. Wendy",web
+783,11650000,TY5400,2000-09-20,Toys,4.0,"Murphy, Ms. Wendy",web
+784,11775000,GD1600,2001-02-18,Gardening,1.0,"Jones, Ms. D. Flowers",web
+785,11775000,GD2100,2001-02-22,Gardening,,"Jones, Ms. D. Flowers",web
+786,11775000,GD2300,2001-02-22,Gardening,1.0,"Jones, Ms. D. Flowers",web
+787,11775000,GD4000,2001-02-22,Gardening,1.0,"Jones, Ms. D. Flowers",web
+788,11775000,PT2200,2001-02-26,Pets,1.0,"Jones, Ms. D. Flowers",web
+789,11775000,TY1950,2001-03-21,Toys,1.0,"Jones, Ms. D. Flowers",web
+790,11775000,TY2400,2001-07-15,Toys,1.0,"Jones, Ms. D. Flowers",web
+791,11775000,TY4800,2001-03-21,Toys,3.0,"Jones, Ms. D. Flowers",web
+792,11807000,GD2400,2001-06-30,Gardening,1.0,"Jones, Mr. T. J.",web
+793,11807000,GD3000,2000-08-04,Gardening,1.0,"Jones, Mr. T. J.",web
+794,11807000,PT1000,2000-08-16,Pets,1.0,"Jones, Mr. T. J.",web
+795,11807000,SP1500,2001-06-06,Sports,3.0,"Jones, Mr. T. J.",web
+796,11807000,SP2400,2001-06-06,Sports,4.0,"Jones, Mr. T. J.",web
+797,11807000,SP2500,2001-01-13,Sports,3.0,"Jones, Mr. T. J.",web
+798,11807000,SP2600,2001-06-06,Sports,1.0,"Jones, Mr. T. J.",web
+799,11807000,SP2700,2001-06-06,Sports,1.0,"Jones, Mr. T. J.",web
+800,11900000,PT1400,2001-06-09,Pets,1.0,"Beltz, Ms. Charlene",web
+801,11900000,SP1200,2001-07-02,Sports,3.0,"Beltz, Ms. Charlene",web
+802,11900000,SP1300,2000-08-30,Sports,1.0,"Beltz, Ms. Charlene",web
+803,11900000,SP1300,2001-01-30,Sports,1.0,"Beltz, Ms. Charlene",web
+804,11900000,SP1500,2000-12-26,Sports,1.0,"Beltz, Ms. Charlene",web
+805,11900000,SP3000,2001-06-16,Sports,1.0,"Beltz, Ms. Charlene",web
+806,11900000,SP3400,2001-06-16,Sports,1.0,"Beltz, Ms. Charlene",web
+807,12025000,SP2000,2001-05-15,Sports,3.0,"Brown, Ms. Marie",web
+808,12028000,PT2100,2001-07-29,Pets,4.0,"Jones, Ms. Sue",web
+809,12028000,PT2200,2001-03-28,Pets,1.0,"Jones, Ms. Sue",web
+810,12028000,SP1400,2000-10-11,Sports,1.0,"Jones, Ms. Sue",web
+811,12028000,TY3800,2001-03-09,Toys,2.0,"Jones, Ms. Sue",web
+812,12150000,GD1001,2000-08-10,Gardening,1.0,"Lauder, Mr. Rocky",web
+813,12150000,GD13OO,2000-08-10,Gardening,3.0,"Lauder, Mr. Rocky",web
+814,12150000,GD2300,2000-08-10,Gardening,3.0,"Lauder, Mr. Rocky",web
+815,12150000,GD2300,2000-09-16,Gardening,1.0,"Lauder, Mr. Rocky",web
+816,12150000,GD3100,2000-08-10,Gardening,4.0,"Lauder, Mr. Rocky",web
+817,12150000,PT4600,2001-04-09,Pets,1.0,"Lauder, Mr. Rocky",web
+818,12275000,GD4100,2001-03-29,Gardening,1.0,"Schneider, Ms. Cynthia",web
+819,12275000,PT3400,2000-11-02,Pets,1.0,"Schneider, Ms. Cynthia",web
+820,12275000,SP2700,2001-02-21,Sports,4.0,"Schneider, Ms. Cynthia",web
+821,12323000,PT1200,2001-02-25,Pets,3.0,"Jones, Ms. Denise",web
+822,12323000,PT1OOO,2000-07-07,Pets,4.0,"Jones, Ms. Denise",web
+823,12323000,SP1100,2000-12-01,Sports,1.0,"Jones, Ms. Denise",web
+824,12323000,SP1300,2000-12-01,Sports,1.0,"Jones, Ms. Denise",web
+825,12323000,SP2500,2000-12-01,Sports,4.0,"Jones, Ms. Denise",web
+826,12323000,TY2500,2001-03-23,Toys,1.0,"Jones, Ms. Denise",web
+827,12400000,PT2200,2000-09-24,Pets,1.0,"Anderson, Ms. Violet",web
+828,12400000,SP2000,2001-04-02,Sports,1.0,"Anderson, Ms. Violet",web
+829,12400000,TY1950,2001-06-27,Toys,4.0,"Anderson, Ms. Violet",web
+830,12400000,sp2000,2000-09-05,Sports,3.0,"Anderson, Ms. Violet",web
+831,12470000,PT3200,2001-05-15,Pets,2.0,"Jenkins, Ms. P. S.",web
+832,12470000,SP2300,2001-04-18,Sports,4.0,"Jenkins, Ms. P. S.",web
+833,12470000,TY5200,2001-03-08,Toys,3.0,"Jenkins, Ms. P. S.",web
+834,12525000,GD4200,2001-07-14,Gardening,3.0,"McDonald, Ms. Kathy",web
+835,12525000,GD4300,2000-10-31,Gardening,3.0,"McDonald, Ms. Kathy",web
+836,12525000,SP2300,2000-11-18,Sports,1.0,"McDonald, Ms. Kathy",web
+837,12525000,SP3200,2001-05-10,Sports,1.0,"McDonald, Ms. Kathy",web
+838,12525000,TY3800,2001-03-31,Toys,1.0,"McDonald, Ms. Kathy",web
+839,12544000,GD2400,2001-07-10,Gardening,2.0,"Jones, Ms. Tracy",web
+840,12544000,SP1200,2000-11-12,Sports,1.0,"Jones, Ms. Tracy",web
+841,12544000,TY5100,2001-02-25,Toys,2.0,"Jones, Ms. Tracy",web
+842,12544000,TY5200,2001-02-25,Toys,4.0,"Jones, Ms. Tracy",web
+843,12544000,gd3100,2001-07-01,Gardening,1.0,"Jones, Ms. Tracy",web
+844,12650000,PT1300,2001-06-24,Pets,1.0,"Giargi, Ms. Michelle",web
+845,12650000,SP1200,2000-09-29,Sports,1.0,"Giargi, Ms. Michelle",web
+846,12650000,TY1600,2000-12-16,Toys,1.0,"Giargi, Ms. Michelle",web
+847,12650000,TY1950,2000-06-21,Toys,3.0,"Giargi, Ms. Michelle",web
+848,12757000,GD101O,2001-06-23,Gardening,1.0,"Dylan, Mr. Bob",web
+849,12757000,SP1100,2001-02-02,Sports,2.0,"Dylan, Mr. Bob",web
+850,12757000,SP3000,2001-02-02,Sports,1.0,"Dylan, Mr. Bob",web
+851,12757000,SP3200,2001-02-11,Sports,1.0,"Dylan, Mr. Bob",web
+852,12775000,GD1400,2001-07-05,Gardening,1.0,"McMurtry, Mr. James",web
+853,12775000,SP2000,2000-08-25,Sports,1.0,"McMurtry, Mr. James",web
+854,12775000,SP3300,2001-08-01,Sports,3.0,"McMurtry, Mr. James",web
+855,12900000,SP1100,2000-06-20,Sports,1.0,"Keith, Mr. B. K.",web
+856,12900000,SP2600,2000-10-25,Sports,1.0,"Keith, Mr. B. K.",web
+857,12900000,TY1300,2001-04-04,Toys,1.0,"Keith, Mr. B. K.",web
+858,13025000,GD1600,2000-10-26,Gardening,1.0,"Brown, Mr. Martin",web
+859,13025000,PT1000,2000-11-11,Pets,2.0,"Brown, Mr. Martin",web
+860,13025000,PT2300,2000-11-11,Pets,1.0,"Brown, Mr. Martin",web
+861,13056000,GD1300,2000-12-29,Gardening,3.0,"Jones, Mr. D. T.",web
+862,13056000,GD1500,2000-12-29,Gardening,2.0,"Jones, Mr. D. T.",web
+863,13056000,GD3100,2000-09-11,Gardening,4.0,"Jones, Mr. D. T.",web
+864,13056000,GD3300,2000-12-29,Gardening,1.0,"Jones, Mr. D. T.",web
+865,13056000,GD4200,2000-12-24,Gardening,1.0,"Jones, Mr. D. T.",web
+866,13056000,TY1850,2001-05-15,Toys,1.0,"Jones, Mr. D. T.",web
+867,13056000,TY4600,2000-11-24,Toys,1.0,"Jones, Mr. D. T.",web
+868,13154000,PT2100,2001-02-05,Pets,1.0,"Cale, Mr. John",web
+869,13154000,SP1600,2001-01-08,Sports,1.0,"Cale, Mr. John",web
+870,13154000,TY1400,2001-05-31,Toys,1.0,"Cale, Mr. John",web
+871,13154000,TY1800,2001-05-31,Toys,1.0,"Cale, Mr. John",web
+872,13154000,TY2300,2001-05-31,Toys,1.0,"Cale, Mr. John",web
+873,13154000,TY2600,2001-05-31,Toys,1.0,"Cale, Mr. John",web
+874,13183000,GD2000,2000-11-28,Gardening,1.0,"Jones, Mr. Brain",web
+875,13183000,GD2100,2001-07-22,Gardening,4.0,"Jones, Mr. Brain",web
+876,13183000,GD4100,2001-07-10,Gardening,4.0,"Jones, Mr. Brain",web
+877,13183000,PT4600,2001-05-20,Pets,1.0,"Jones, Mr. Brain",web
+878,13183000,SP1100,2001-04-02,Sports,1.0,"Jones, Mr. Brain",web
+879,13183000,SP1400,2001-04-02,Sports,1.0,"Jones, Mr. Brain",web
+880,13183000,SP3300,2001-04-02,Sports,4.0,"Jones, Mr. Brain",web
+881,13183000,SP3400,2001-04-17,Sports,3.0,"Jones, Mr. Brain",web
+882,13183000,TY3400,2001-03-03,Toys,1.0,"Jones, Mr. Brain",web
+883,13183000,TY4800,2001-06-06,Toys,2.0,"Jones, Mr. Brain",web
+884,13183000,gd3200,2000-07-12,Gardening,4.0,"Jones, Mr. Brain",web
+885,13279000,PT1400,2000-08-29,Pets,2.0,"Parker, Mr. Sam",web
+886,13279000,PT2400,2001-04-25,Pets,1.0,"Parker, Mr. Sam",web
+887,13279000,SP1200,2001-04-03,Sports,4.0,"Parker, Mr. Sam",web
+888,13279000,SP2200,2001-04-03,Sports,1.0,"Parker, Mr. Sam",web
+889,13279000,SP3000,2001-04-03,Sports,1.0,"Parker, Mr. Sam",web
+890,13279000,TY1500,2001-02-21,Toys,1.0,"Parker, Mr. Sam",web
+891,13279000,TY1800,2001-02-21,Toys,1.0,"Parker, Mr. Sam",web
+892,13279000,TY4800,2001-02-21,Toys,1.0,"Parker, Mr. Sam",web
+893,13405000,GD1300,2000-09-11,Gardening,3.0,"Britton, Ms. Tabitha",web
+894,13405000,GD2200,2000-09-11,Gardening,1.0,"Britton, Ms. Tabitha",web
+895,13405000,GD3400,2000-09-11,Gardening,2.0,"Britton, Ms. Tabitha",web
+896,13405000,GD4000,2000-09-11,Gardening,1.0,"Britton, Ms. Tabitha",web
+897,13405000,GD4200,2001-01-22,Gardening,1.0,"Britton, Ms. Tabitha",web
+898,13405000,PT1300,2001-03-28,Pets,1.0,"Britton, Ms. Tabitha",web
+899,13405000,PT1300,2001-07-06,Pets,1.0,"Britton, Ms. Tabitha",web
+900,13405000,PT1400,2001-05-24,Pets,3.0,"Britton, Ms. Tabitha",web
+901,13405000,SP1300,2001-02-28,Sports,1.0,"Britton, Ms. Tabitha",web
+902,13405000,TY1600,2000-09-25,Toys,1.0,"Britton, Ms. Tabitha",web
+903,13476000,GD3000,2000-12-09,Gardening,1.0,"Backus, Ms. Marge",web
+904,13476000,PT1200,2000-12-12,Pets,2.0,"Backus, Ms. Marge",web
+905,13476000,PT1200,2001-07-25,Pets,1.0,"Backus, Ms. Marge",web
+906,13476000,PT1400,2001-07-25,Pets,1.0,"Backus, Ms. Marge",web
+907,13476000,SP1400,2001-02-21,Sports,2.0,"Backus, Ms. Marge",web
+908,13476000,SP2000,2001-02-21,Sports,1.0,"Backus, Ms. Marge",web
+909,13476000,SP2600,2001-02-21,Sports,1.0,"Backus, Ms. Marge",web
+910,13476000,TY2700,2001-02-27,Toys,1.0,"Backus, Ms. Marge",web
+911,13532000,GD4100,2000-09-14,Gardening,1.0,"Best, Mr. C. L.",web
+912,13532000,SP2000,2001-01-11,Sports,1.0,"Best, Mr. C. L.",web
+913,13532000,SP2500,2000-07-06,Sports,1.0,"Best, Mr. C. L.",web
+914,13532000,SP3000,2001-01-11,Sports,1.0,"Best, Mr. C. L.",web
+915,13532000,SP3100,2001-01-11,Sports,3.0,"Best, Mr. C. L.",web
+916,13532000,TY1200,2001-02-27,Toys,1.0,"Best, Mr. C. L.",web
+917,13532000,TY1650,2001-02-27,Toys,3.0,"Best, Mr. C. L.",web
+918,13532000,TY16OO,2001-02-27,Toys,1.0,"Best, Mr. C. L.",web
+919,13664000,GD2400,2000-12-24,Gardening,1.0,"Chen, Ms. Helena",web
+920,13664000,SP2400,2001-06-20,Sports,1.0,"Chen, Ms. Helena",web
+921,13664000,SP3200,2000-08-13,Sports,1.0,"Chen, Ms. Helena",web
+922,13664000,TY1900,2001-08-01,Toys,1.0,"Chen, Ms. Helena",web
+923,13664000,TY3300,2001-01-16,Toys,1.0,"Chen, Ms. Helena",web
+924,13664000,TY4400,2000-11-09,Toys,4.0,"Chen, Ms. Helena",web
+925,13682000,GD1300,2000-12-09,Gardening,1.0,"Reed, Mr. Lou",web
+926,13682000,GD1500,2001-02-12,Gardening,4.0,"Reed, Mr. Lou",web
+927,13682000,SP1000,2001-07-19,Sports,1.0,"Reed, Mr. Lou",web
+928,13682000,SP3200,2001-03-18,Sports,4.0,"Reed, Mr. Lou",web
+929,13682000,TY1200,2000-11-09,Toys,3.0,"Reed, Mr. Lou",web
+930,13682000,TY1750,2001-04-11,Toys,1.0,"Reed, Mr. Lou",web
+931,13682000,TY2700,2000-11-09,Toys,1.0,"Reed, Mr. Lou",web
+932,13682000,TY3600,2000-11-09,Toys,1.0,"Reed, Mr. Lou",web
+933,13682000,TY4300,2000-11-09,Toys,1.0,"Reed, Mr. Lou",web
+934,13782000,GD11OO,2000-12-02,Gardening,4.0,"Jones, Ms. Dorothy",web
+935,13782000,SP1500,2001-03-14,Sports,1.0,"Jones, Ms. Dorothy",web
+936,13782000,SP2200,2000-08-21,Sports,1.0,"Jones, Ms. Dorothy",web
+937,13782000,SP2700,2000-09-30,Sports,1.0,"Jones, Ms. Dorothy",web
+938,13782000,SP3300,2000-08-21,Sports,1.0,"Jones, Ms. Dorothy",web
+939,13789000,PT1000,2001-02-06,Pets,1.0,"Roth, Mr. Tim",web
+940,13789000,PT2100,2001-02-06,Pets,1.0,"Roth, Mr. Tim",web
+941,13789000,PT2200,2000-12-10,Pets,1.0,"Roth, Mr. Tim",web
+942,13789000,SP2600,2000-12-27,Sports,1.0,"Roth, Mr. Tim",web
+943,13789000,TY4800,2001-04-18,Toys,4.0,"Roth, Mr. Tim",web
+52,170191,PT4300,2022-05-01,Pets,1.0,1289,catalog
+95,155256,PT2200,2026-02-01,Pets,3.0,1327,catalog
+96,159666,TY3800,2021-03-01,Toys,1.0,1328,catalog
+97,163044,PT3200,2008-04-01,Pets,2.0,1329,catalog
+117,153919,PT4300,2019-02-01,Pets,1.0,1347,catalog
+118,165820,SP1500,2026-04-01,Sports,1.0,1348,catalog
+119,168450,PT2400,2012-05-01,Pets,1.0,1349,catalog
+192,145415,PT2100,2004-01-01,Pets,1.0,1414,catalog
+193,146158,PT4500,2008-01-01,Pets,1.0,1415,catalog
+194,158712,SP2600,2016-03-01,Sports,1.0,1416,catalog
+195,159270,TY5300,2019-03-01,Tosy,1.0,1417,catalog
+196,163238,CC4300,2009-04-01,Collectibles,3.0,1418,catalog
+223,149271,TY3800,2025-01-01,Toys,1.0,1442,catalog
+224,152304,TY3700,2010-02-01,Toys,1.0,1443,catalog
+225,156806,SP2200,2006-03-01,Sports,1.0,1444,catalog
+226,161595,SW7221,1931-03-01,Software,4.0,1445,catalog
+247,147805,PT3100,2017-01-01,Pets,1.0,1464,catalog
+248,147805,PT4100,2017-01-01,Pets,1.0,1465,catalog
+249,147805,PT4600,2017-01-01,Pet,4.0,1466,catalog
+250,147805,PT4600,2017-01-01,Pets,1.0,1467,catalog
+260,152307,TY3400,2010-02-01,Toys,4.0,1476,catalog
+271,147434,PT1400,2015-01-01,Pets,4.0,1486,catalog
+272,153927,TY4200,2019-02-01,Toys,1.0,1487,catalog
+295,148359,PT2100,2020-01-01,Pets,1.0,1507,catalog
+317,158917,CC220,2017-03-01,Collectible,3.0,1527,catalog
+318,163533,SP1000,2011-04-01,Sports,1.0,1528,catalog
+329,166327,PT3200,2029-04-01,Pets,2.0,1538,catalog
+362,169362,SW4187,2017-05-01,Software,1.0,1568,catalog
+363,169362,SW5952,2017-05-01,Software,4.0,1569,catalog
+364,169362,SW6269,2017-05-01,Software,1.0,157,catalog
+365,169362,SW7935,2017-05-01,Software,1.0,1570,catalog
+394,148918,SP2600,2023-01-01,Sports,2.0,1597,catalog
+410,159478,SP2300,2020-03-01,Sports,1.0,1610,catalog
+440,146746,PT4500,2011-01-01,Pets,1.0,1638,catalog
+466,150217,PT3300,1930-01-01,Pets,2.0,1661,catalog
+467,150217,PT3500,1930-01-01,Pets,2.0,1662,catalog
+468,150217,PT4100,1930-01-01,Pets,1.0,1663,catalog
+469,150217,PT4400,1930-01-01,Pets,3.0,1664,catalog
+470,160439,TY5400,2025-03-01,Toys,3.0,1665,catalog
+489,145974,PT1200,2007-01-01,Pest,1.0,1682,catalog
+490,151400,SP2400,2005-02-01,Sports,3.0,1683,catalog
+491,157967,GD1100,2012-03-01,Gardening,4.0,1684,catalog
+492,171198,SP2200,2027-05-01,Sports,1.0,1685,catalog
+521,147630,PT1400,2016-01-01,Pets,1.0,1710,catalog
+522,147630,PT2200,2016-01-01,Pets,1.0,1711,catalog
+523,147630,PT4600,2016-01-01,Pets,1.0,1712,catalog
+524,148925,TY4400,2023-01-01,Toys,1.0,1713,catalog
+525,154534,SW7573,2022-02-01,Software,1.0,1714,catalog
+534,155108,GD1300,2025-02-01,GARDENING,1.0,1722,catalog
+568,165499,GD3300,2024-04-01,Gardening,1.0,1753,catalog
+569,166670,SP2500,2001-05-01,Sports,1.0,1754,catalog
+593,151404,CC3400,2005-02-01,Collectibles,1.0,1776,catalog
+594,154924,TY1950,2024-02-01,Toys,1.0,1777,catalog
+595,156066,TY16OO,2002-03-01,Toys,4.0,1778,catalog
+596,166982,GD1300,2003-05-01,Gardening,1.0,1779,catalog
+597,170433,GD4100,2023-05-01,Gardening,1.0,178,catalog
+610,158926,PT2100,2017-03-01,Pets,1.0,1791,catalog
+611,168314,GD2400,2011-05-01,Gardening,1.0,1792,catalog
+658,147828,GD1200,2017-01-01,Gardening,2.0,1834,catalog
+659,153756,TY1600,2018-02-01,Toys,3.0,1835,catalog
+660,153756,TY1650,2018-02-01,Toys,1.0,1836,catalog
+661,153756,TY1950,2018-02-01,Toys,3.0,1837,catalog
+662,153756,TY2300,2018-02-01,Toys,1.0,1838,catalog
+663,165674,GD4200,2025-04-01,Gardening,1.0,1839,catalog
+664,166984,GD3100,2003-05-01,Gardening,1.0,184,catalog
+673,162712,TY3500,2006-04-01,Toys,1.0,1848,catalog
+706,161216,SW2782,2029-03-01,Software,4.0,1878,catalog
+730,159499,PT1400,2020-03-01,Pets,2.0,19,catalog
+731,162903,TY3500,2007-04-01,Toys,4.0,190,catalog
+732,165341,SP2300,2023-04-01,Sports,1.0,1900,catalog
+733,166341,SP2600,2029-04-01,Sports,1.0,1901,catalog
+789,147124,SW2782,2013-01-01,Software,1.0,1952,catalog
+790,147455,SP3000,2015-01-01,Sports,2.0,1953,catalog
+791,149673,SP2500,2027-01-01,Sports,1.0,1954,catalog
+792,157786,CC2300,2011-03-01,Colectibles,1.0,1955,catalog
+793,157786,CC3100,2011-03-01,Collectibles,2.0,1956,catalog
+794,157786,CC4300,2011-03-01,Collectible,1.0,1957,catalog
+795,157786,CC4600,2011-03-01,Collectibles,1.0,1958,catalog
+814,166017,GD1500,2027-04-01,Gardening,1.0,1975,catalog
+815,166017,GD2300,2027-04-01,Gardening,4.0,1976,catalog
+863,150837,PT1300,2002-02-01,Pets,3.0,2018,catalog
+864,155292,TY4500,2026-02-01,Toys,1.0,2019,catalog
+878,149676,SP3300,2027-01-01,Sports,3.0,2031,catalog
+879,150423,PT2300,1931-01-01,Pets,1.0,2032,catalog
+880,166021,PT3300,2027-04-01,Pets,1.0,2033,catalog
+881,166021,PT4200,2027-04-01,Pets,1.0,2034,catalog
+904,157794,SP3300,2011-03-01,Sports,1.0,2055,catalog
+938,150046,GD2300,2029-01-01,Gardening,1.0,2086,catalog
+939,152127,TY21OO,2009-02-01,Toys,3.0,2087,catalog
+940,155125,TY4100,2025-02-01,Toys,1.0,2088,catalog
+941,164772,SP2200,2019-04-01,Sports,1.0,2089,catalog
+955,158579,SW2927,2015-03-01,Softwars,1.0,2100,catalog
+956,166197,SP3300,2028-04-01,Sports,1.0,2101,catalog
+965,170448,SP2400,2023-05-01,Sports,1.0,211,catalog
+983,156457,SP3300,2004-03-01,Sports,1.0,2126,catalog
+984,165512,GD1300,2024-04-01,Gardening,1.0,2127,catalog
+985,165512,GD2400,2024-04-01,Gardening,3.0,2128,catalog
+986,165512,GD3100,2024-04-01,Gardening,1.0,2129,catalog
+987,165512,GD4200,2024-04-01,Gardening,1.0,213,catalog
+998,156460,PT4300,2004-03-01,Pets,4.0,214,catalog
+1026,144919,TY2400,2001-01-01,Toys,1.0,2165,catalog
+1049,159712,TY1650,2021-03-01,Toys,1.0,2186,catalog
+1050,159712,TY1900,2021-03-01,Toys,1.0,2187,catalog
+1051,159712,TY2500,2021-03-01,Toys,4.0,2188,catalog
+1052,159712,TY3800,2021-03-01,Toys,2.0,2189,catalog
+1053,160841,PT4500,2027-03-01,Pets,1.0,219,catalog
+1054,169037,SP3300,2015-05-01,Sports,1.0,2190,catalog
+1078,151044,TY5200,2003-02-01,Toys,1.0,2211,catalog
+1079,161643,SP2400,1931-03-01,Sports,2.0,2212,catalog
+1080,163414,GD110O,2010-04-01,Gardening,1.0,2213,catalog
+1110,145808,TY1400,2006-01-01,Toys,1.0,2240,catalog
+1111,146398,TY3100,2009-01-01,Toys,1.0,2241,catalog
+1129,156275,TY4600,2003-03-01,Toys,1.0,2258,catalog
+1130,165075,PT1100,2021-04-01,Pets,1.0,2259,catalog
+1131,165075,PT2100,2021-04-01,Pets,2.0,226,catalog
+1132,165075,PT4300,2021-04-01,Pets,3.0,2260,catalog
+1155,166210,sw1991,2028-04-01,Software,1.0,2281,catalog
+1156,170880,sp2000,2025-05-01,Sporst,4.0,2282,catalog
+1209,146602,SW7935,2010-01-01,Software,1.0,233,catalog
+1210,157823,PT2000,2011-03-01,Pets,1.0,2330,catalog
+1211,157823,PT2100,2011-03-01,Pets,2.0,2331,catalog
+1212,157823,PT3100,2011-03-01,Pets,3.0,2332,catalog
+1213,157823,PT3300,2011-03-01,Pets,1.0,2333,catalog
+1214,165862,GD1300,2026-04-01,Gardening,2.0,2334,catalog
+1215,169210,SP3400,2016-05-01,Sports,1.0,2335,catalog
+1235,160286,SW4825,2024-03-01,Software,3.0,2353,catalog
+1263,147674,TY3200,2016-01-01,Toys,1.0,2379,catalog
+1303,145118,PT3300,2002-01-01,Pets,1.0,2414,catalog
+1304,146789,TY2500,2011-01-01,Toys,2.0,2415,catalog
+1340,146405,PT3200,2009-01-01,Pets,3.0,2448,catalog
+1341,155900,TY3800,2001-03-01,Toys,1.0,2449,catalog
+1342,164490,PT4200,2017-04-01,Pets,4.0,245,catalog
+1343,170264,GD1100,2022-05-01,Gardening,3.0,2450,catalog
+1373,144936,TY2600,2001-01-01,Toys,1.0,2478,catalog
+1374,144936,TY3200,2001-01-01,Toys,1.0,2479,catalog
+1375,144936,TY5200,2001-01-01,Toys,1.0,248,catalog
+1376,155153,SP1000,2025-02-01,Sports,1.0,2480,catalog
+1377,155153,SP2200,2025-02-01,Sports,1.0,2481,catalog
+1378,155153,SP2400,2025-02-01,Sports,1.0,2482,catalog
+1379,171966,PT1300,1931-05-01,Pets,4.0,2483,catalog
+1390,147495,TY2700,2015-01-01,Toys,1.0,2493,catalog
+1391,148417,TY3800,2020-01-01,Toys,1.0,2494,catalog
+1392,156864,SW7383,2006-03-01,Software,1.0,2495,catalog
+1429,162224,SP2400,2003-04-01,Sports,1.0,2528,catalog
+1430,170093,SP2200,2021-05-01,Sports,1.0,2529,catalog
+1452,148237,SW5338,2019-01-01,Software,3.0,2549,catalog
+1453,158426,PT1100,2014-03-01,Pets,1.0,255,catalog
+1473,149706,TY1700,2027-01-01,Toys,1.0,2568,catalog
+1474,162411,PT1000,2004-04-01,Pets,1.0,2569,catalog
+1475,162411,PT1100,2004-04-01,Pets,2.0,257,catalog
+1476,162411,PT2400,2004-04-01,Pets,3.0,2570,catalog
+1501,148425,TY4500,2020-01-01,Toys,2.0,2593,catalog
+1502,158219,TY1600,2013-03-01,Toys,1.0,2594,catalog
+1503,158219,TY1750,2013-03-01,Toys,4.0,2595,catalog
+1504,158219,TY3100,2013-03-01,Toys,4.0,2596,catalog
+1505,158219,TY3800,2013-03-01,Toys,2.0,2597,catalog
+1506,170691,PT4600,2024-05-01,Pets,1.0,2598,catalog
+1526,145830,TY2600,2006-01-01,Toys,1.0,2615,catalog
+1527,165234,GD2100,2022-04-01,Gardening,1.0,2616,catalog
+1528,165541,GD101O,2024-04-01,Gardening,1.0,2617,catalog
+1529,165541,GD1100,2024-04-01,Gardening,3.0,2618,catalog
+1530,165541,GD4000,2024-04-01,Gardening,1.0,2619,catalog
+1531,167698,TY2700,2007-05-01,Toys,1.0,262,catalog
+1553,145650,SW6180,2005-01-01,Software,1.0,264,catalog
+1554,156493,PT1300,2004-03-01,Pets,1.0,2640,catalog
+1555,164789,PT4500,2019-04-01,Pets,1.0,2641,catalog
+1579,146615,PT2300,2010-01-01,Pets,4.0,2663,catalog
+1580,146615,PT3500,2010-01-01,Pets,2.0,2664,catalog
+1581,146615,PT4600,2010-01-01,Pets,1.0,2665,catalog
+1582,148429,SP1100,2020-01-01,Sports,1.0,2666,catalog
+1583,148429,SP1400,2020-01-01,Sports,1.0,2667,catalog
+1584,148429,SP2200,2020-01-01,Sports,1.0,2668,catalog
+1585,148429,SP3300,2020-01-01,Sports,1.0,2669,catalog
+1586,150466,SW4825,1931-01-01,Software,1.0,267,catalog
+1605,158971,SW4831,2017-03-01,Software,1.0,2687,catalog
+1624,157840,SP1400,2011-03-01,Sports,1.0,2703,catalog
+1625,157840,SP1600,2011-03-01,Sports,1.0,2704,catalog
+1626,157840,SP3300,2011-03-01,Sports,1.0,2705,catalog
+1648,145658,SP3300,2005-01-01,Sports,1.0,2725,catalog
+1649,158973,PT2200,2017-03-01,Pets,1.0,2726,catalog
+1650,170903,SP2700,2025-05-01,Sports,1.0,2727,catalog
+1679,145133,SP1000,2002-01-01,Sports,1.0,2753,catalog
+1680,145133,SP1400,2002-01-01,Sports,1.0,2754,catalog
+1681,145133,SP2400,2002-01-01,Sports,1.0,2755,catalog
+1682,145133,SP3300,2002-01-01,Sports,1.0,2756,catalog
+1707,151460,SP1500,2005-02-01,Sports,1.0,2779,catalog
+1708,151460,SP2200,2005-02-01,Sports,2.0,278,catalog
+1709,151460,SP3000,2005-02-01,Sports,2.0,2780,catalog
+1710,151460,SP3100,2005-02-01,Sports,1.0,2781,catalog
+1711,152381,PT4400,2010-02-01,Pets,4.0,2782,catalog
+1724,153279,PT1000,2015-02-01,Pats,1.0,2794,catalog
+1725,157660,PT3500,2010-03-01,Pets,1.0,2795,catalog
+1726,164645,SP2700,2018-04-01,Sports,3.0,2796,catalog
+1727,169428,GD3300,2017-05-01,Gardening,1.0,2797,catalog
+1767,160124,TY1600,2023-03-01,Toys,1.0,2832,catalog
+1768,160124,TY17OO,2023-03-01,Toys,3.0,2833,catalog
+1769,160124,TY2200,2023-03-01,Toys,1.0,2834,catalog
+1770,160124,TY2400,2023-03-01,Toys,1.0,2835,catalog
+1771,161061,SW5338,2028-03-01,Software,1.0,2836,catalog
+1772,161272,TY1750,2029-03-01,Toys,1.0,2837,catalog
+1773,161272,TY3200,2029-03-01,Toys,1.0,2838,catalog
+1774,161272,TY3600,2029-03-01,Toys,1.0,2839,catalog
+1775,163732,PT2400,2012-04-01,Pets,2.0,284,catalog
+1803,147181,SW4575,2013-01-01,Software,1.0,2865,catalog
+1804,147181,SW7221,2013-01-01,Software,1.0,2866,catalog
+1805,147181,SW7823,2013-01-01,Software,1.0,2867,catalog
+1806,162250,TY3300,2003-04-01,Toy,1.0,2868,catalog
+1807,169073,PT1000,2015-05-01,Pets,1.0,2869,catalog
+1808,169073,PT1300,2015-05-01,Pets,1.0,287,catalog
+1809,169073,PT1300,2015-05-01,Pets,2.0,2870,catalog
+1810,169073,PT4300,2015-05-01,Pets,1.0,2871,catalog
+1831,155004,SP1500,2024-02-01,Sports,1.0,2890,catalog
+1832,155004,SP3000,2024-02-01,Sports,1.0,2891,catalog
+1833,155004,SP3100,2024-02-01,Sports,3.0,2892,catalog
+1834,155003,SP3300,2024-02-01,Sports,3.0,2893,catalog
+1850,154805,SP1200,2023-02-01,Sports,1.0,2907,catalog
+1851,158981,SP1500,2017-03-01,Sport,3.0,2908,catalog
+1852,158981,SP1600,2017-03-01,Sports,1.0,2909,catalog
+1853,158981,SP2600,2017-03-01,Sports,1.0,291,catalog
+1854,160509,PT4200,2025-03-01,Pets,1.0,2910,catalog
+1875,152391,PT2100,2010-02-01,Pets,1.0,293,catalog
+1876,159951,TY1650,2022-03-01,Toys,3.0,2930,catalog
+1877,163452,PT3200,2010-04-01,Pets,1.0,2931,catalog
+1878,165396,GD3300,2023-04-01,Gardening,1.0,2932,catalog
+1901,145855,TY4200,2006-01-01,Toys,1.0,2953,catalog
+1902,151808,PT2200,2007-02-01,Pets,4.0,2954,catalog
+1903,151808,PT3200,2007-02-01,Pets,1.0,2955,catalog
+1904,151808,PT4600,2007-02-01,Pets,1.0,2956,catalog
+1905,158453,GD1300,2014-03-01,Gardening,1.0,2957,catalog
+1906,170917,GD4100,2025-05-01,Gardening,1.0,2958,catalog
+1923,147518,SW5493,2015-01-01,Software,1.0,2973,catalog
+1924,165735,SP1300,2025-04-01,Sports,1.0,2974,catalog
+1925,165735,SP2200,2025-04-01,Sports,1.0,2975,catalog
+1926,165735,SP2300,2025-04-01,Sports,3.0,2976,catalog
+1927,165735,SP2700,2025-04-01,Sports,1.0,2977,catalog
+1950,148264,SP1200,2019-01-01,Sports,3.0,2998,catalog
+1951,148632,PT2000,2021-01-01,Pets,1.0,2999,catalog
+1952,148632,PT3100,2021-01-01,Pets,1.0,3,catalog
+1953,148632,PT3300,2021-01-01,Pets,1.0,30,catalog
+1977,150903,TY1750,2002-02-01,Toys,3.0,3020,catalog
+1978,155173,SP2500,2025-02-01,Sports,1.0,3021,catalog
+1979,167045,GD1300,2003-05-01,Gardening,1.0,3022,catalog
+1994,162446,TY2200,2004-04-01,Toys,3.0,3036,catalog
+1995,171628,PT2200,2029-05-01,Pets,1.0,3037,catalog
+2014,145145,SW6180,2002-01-01,Softwar,1.0,3054,catalog
+2015,146642,TY5100,2010-01-01,Toys,1.0,3055,catalog
+2016,151473,SP1600,2005-02-01,Sports,1.0,3056,catalog
+2038,155014,TY3400,2024-02-01,Toys,1.0,3076,catalog
+2039,158051,PT2000,2012-03-01,Pets,1.0,3077,catalog
+2040,160888,SP2200,2027-03-01,Sports,1.0,3078,catalog
+2041,162079,SP1100,2002-04-01,Sports,1.0,3079,catalog
+2042,164520,PT1100,2017-04-01,Pets,1.0,308,catalog
+2043,164520,PT1200,2017-04-01,Pets,1.0,3080,catalog
+2044,164520,PT2000,2017-04-01,Pets,1.0,3081,catalog
+2076,154816,SP3000,2023-02-01,Sport,4.0,311,catalog
+2077,168383,PT1000,2011-05-01,Pets,1.0,3110,catalog
+2078,168383,PT3100,2011-05-01,Pets,1.0,3111,catalog
+2079,168383,PT3500,2011-05-01,Pets,1.0,3112,catalog
+2100,166563,SP1300,1930-04-01,Sports,1.0,3131,catalog
+2101,170722,TY2500,2024-05-01,Toys,1.0,3132,catalog
+2126,160713,TY1200,2026-03-01,Toys,1.0,3155,catalog
+2159,158065,GD1600,2012-03-01,Gardening,1.0,3185,catalog
+2160,168392,CC3700,2011-05-01,Collectibles,1.0,3186,catalog
+2183,146451,SP3100,2009-01-01,Sports,1.0,3206,catalog
+2184,154228,SP1400,2020-02-01,Sports,1.0,3207,catalog
+2207,146274,PT1400,2008-01-01,Pets,4.0,3228,catalog
+2208,161086,TY16OO,2028-03-01,Toy,1.0,3229,catalog
+2209,161086,TY4200,2028-03-01,Toys,1.0,323,catalog
+2210,161086,TY4300,2028-03-01,Toys,4.0,3230,catalog
+2211,161086,TY4600,2028-03-01,Toys,1.0,3231,catalog
+2212,162792,TY4300,2006-04-01,Toys,1.0,3232,catalog
+2229,147723,GD10)!,2016-01-01,Gardening,1.0,3248,catalog
+2230,147723,GD1400,2016-01-01,Gardening,2.0,3249,catalog
+2231,147723,GD2300,2016-01-01,Gardening,1.0,325,catalog
+2232,147723,GD4200,2016-01-01,Gardening,3.0,3250,catalog
+2233,160328,TY2400,2024-03-01,Toys,4.0,3251,catalog
+2234,162092,PT2400,2002-04-01,Pets,1.0,3252,catalog
+2260,149740,TY4500,2027-01-01,Toys,1.0,33,catalog
+2261,165269,GD1300,2022-04-01,Gardening,1.0,330,catalog
+2292,155952,TY4300,2001-03-01,Toys,1.0,359,catalog
+2293,162976,SP3100,2007-04-01,Sports,1.0,36,catalog
+2294,171102,GD4100,2026-05-01,Gardening,1.0,360,catalog
+2311,156340,SW3909,2003-03-01,Software,3.0,376,catalog
+2312,157119,PT4500,2007-03-01,Pets,1.0,377,catalog
+2326,145341,PT1400,2003-01-01,Pets,1.0,39,catalog
+2327,154241,TY4600,2020-02-01,Toys,1.0,390,catalog
+2347,144986,SW1207,2001-01-01,Software,1.0,408,catalog
+2348,144986,SW1807,2001-01-01,Software,4.0,409,catalog
+2349,144986,SW4792,2001-01-01,Softwares,4.0,41,catalog
+2350,144986,SW9782,2001-01-01,Softwares,3.0,410,catalog
+2351,149567,SP1100,2026-01-01,Sports,1.0,411,catalog
+2352,149567,SP2000,2026-01-01,Sports,1.0,412,catalog
+2353,149567,SP3200,2026-01-01,Sports,1.0,413,catalog
+2367,151830,TY1950,2007-02-01,Toys,3.0,426,catalog
+2421,159604,PT2100,2020-03-01,Pets,1.0,475,catalog
+2422,161317,TY4500,2029-03-01,Toys,2.0,476,catalog
+2423,161515,SW4187,1930-03-01,Software,1.0,477,catalog
+2424,164671,SW1828,2018-04-01,Softwars,1.0,478,catalog
+2445,160155,TY3100,2023-03-01,Toys,3.0,497,catalog
+2446,160155,TY4400,2023-03-01,Toys,1.0,498,catalog
+2447,160155,TY5400,2023-03-01,Toys,1.0,499,catalog
+2474,153854,TY2300,2018-02-01,Toys,1.0,522,catalog
+2499,156347,TY1300,2003-03-01,Toys,1.0,545,catalog
+2522,149222,PT1400,2024-01-01,Pets,1.0,566,catalog
+2523,149748,SP1600,2027-01-01,Sports,1.0,567,catalog
+2539,171844,PT2400,1930-05-01,Pets,1.0,581,catalog
+2579,149749,SW1612,2027-01-01,Softwars,3.0,617,catalog
+2580,149749,SW3617,2027-01-01,Software,1.0,618,catalog
+2581,149749,SW4773,2027-01-01,Software,2.0,619,catalog
+2582,150130,TY5200,2029-01-01,Toys,1.0,62,catalog
+2583,152027,PT1200,2008-02-01,Pets,4.0,620,catalog
+2584,171303,SP2400,2027-05-01,Sports,4.0,621,catalog
+2605,153142,PT2200,2014-02-01,Pets,1.0,640,catalog
+2606,165282,SW2782,2022-04-01,Software,1.0,641,catalog
+2607,165281,TY1700,2022-04-01,Toys,1.0,642,catalog
+2608,167907,SP2300,2008-05-01,Sports,1.0,643,catalog
+2630,150132,SP2400,2029-01-01,Sports,2.0,663,catalog
+2631,158847,PT4100,2016-03-01,Pets,2.0,664,catalog
+2632,170757,SP1000,2024-05-01,Sports,3.0,665,catalog
+2657,154053,PT3200,2019-02-01,Pets,1.0,688,catalog
+2686,159202,PT3300,2018-03-01,Pets,1.0,713,catalog
+2687,165929,GD3100,2026-04-01,Gardening,1.0,714,catalog
+2688,166587,PT4500,1930-04-01,Pets,1.0,715,catalog
+2689,168576,GD3000,2012-05-01,Gardening,1.0,716,catalog
+2690,168576,GD3200,2012-05-01,Gardening,1.0,717,catalog
+2691,168576,GD4200,2012-05-01,Gardening,1.0,718,catalog
+2692,170562,SP3200,2023-05-01,Sports,1.0,719,catalog
+2715,157887,TY1650,2011-03-01,Toys,1.0,74,catalog
+2716,162112,SW9521,2002-04-01,Software,4.0,740,catalog
+2730,159616,GD3200,2020-03-01,Gardening,3.0,753,catalog
+2754,158087,PT4400,2012-03-01,Pets,1.0,775,catalog
+2755,161926,TY1200,2001-04-01,Toys,1.0,776,catalog
+2756,164243,PT1200,2015-04-01,Pets,1.0,777,catalog
+2775,156549,PT3300,2004-03-01,Pets,1.0,794,catalog
+2776,161536,TY2200,1930-03-01,Toys,1.0,795,catalog
+2791,152040,SP2600,2008-02-01,Sports,4.0,8074,catalog
+2792,162631,PT3300,2005-04-01,Pets,1.0,808,catalog
+2823,149600,TY2100,2026-01-01,Toys,4.0,836,catalog
+2824,149600,TY2600,2026-01-01,Toys,1.0,837,catalog
+2825,149600,TY4300,2026-01-01,Toys,3.0,838,catalog
+2826,149600,TY4700,2026-01-01,Toys,3.0,839,catalog
+2827,152425,SP1300,2010-02-01,Sports,1.0,84,catalog
+2828,164978,GD1001,2020-04-01,Gardening,1.0,840,catalog
+2829,164978,GD1100,2020-04-01,Gardening,4.0,841,catalog
+2830,164978,GD3000,2020-04-01,Gardening,3.0,842,catalog
+2831,164978,GD4300,2020-04-01,Gardening,1.0,843,catalog
+2856,156178,TY3300,2002-03-01,Toys,4.0,866,catalog
+2857,157714,PT4500,2010-03-01,Pets,1.0,867,catalog
+2880,159027,TY3600,2017-03-01,Toys,1.0,888,catalog
+2881,171132,PT2100,2026-05-01,Pets,1.0,889,catalog
+2923,155595,SP2300,2027-02-01,Sports,1.0,925,catalog
+2936,154864,SP1400,2023-02-01,Spots,3.0,937,catalog
+2963,150149,PT4100,2029-01-01,Pets,1.0,961,catalog
+2964,155225,PT3200,2025-02-01,Pets,2.0,962,catalog
+2965,155225,PT3400,2025-02-01,Pets,4.0,963,catalog
+2966,158669,TY2300,2015-03-01,Toys,1.0,964,catalog
+2989,151693,SW4792,2006-02-01,Software,4.0,985,catalog
+2990,159215,SP1200,2018-03-01,Sports,1.0,986,catalog
+2991,159215,SP1400,2018-03-01,Sports,1.0,987,catalog
+2992,159215,SP1500,2018-03-01,Sports,1.0,988,catalog
+2993,159215,SP2000,2018-03-01,Sports,1.0,989,catalog
+3056,170191,PT4300,2022-05-01,Pets,1.0,262000,catalog
+3099,155256,PT2200,2026-02-01,Pets,3.0,456000,catalog
+3100,159666,TY3800,2021-03-01,Toys,1.0,456000,catalog
+3101,163044,PT3200,2008-04-01,Pets,2.0,456000,catalog
+3121,153919,PT4300,2019-02-01,Pets,1.0,512000,catalog
+3122,165820,SP1500,2026-04-01,Sports,1.0,512000,catalog
+3123,168450,PT2400,2012-05-01,Pets,1.0,512000,catalog
+3196,145415,PT2100,2004-01-01,Pets,1.0,887000,catalog
+3197,146158,PT4500,2008-01-01,Pets,1.0,887000,catalog
+3198,158712,SP2600,2016-03-01,Sports,1.0,887000,catalog
+3199,159270,TY5300,2019-03-01,Tosy,1.0,887000,catalog
+3200,163238,CC4300,2009-04-01,Collectibles,3.0,887000,catalog
+3227,149271,TY3800,2025-01-01,Toys,1.0,914000,catalog
+3228,152304,TY3700,2010-02-01,Toys,1.0,914000,catalog
+3229,156806,SP2200,2006-03-01,Sports,1.0,914000,catalog
+3230,161595,SW7221,1931-03-01,Software,4.0,914000,catalog
+3251,147805,PT3100,2017-01-01,Pets,1.0,1012000,catalog
+3252,147805,PT4100,2017-01-01,Pets,1.0,1012000,catalog
+3253,147805,PT4600,2017-01-01,Pet,4.0,1012000,catalog
+3254,147805,PT4600,2017-01-01,Pets,1.0,1012000,catalog
+3264,152307,TY3400,2010-02-01,Toys,4.0,1137000,catalog
+3275,147434,PT1400,2015-01-01,Pets,4.0,1222000,catalog
+3276,153927,TY4200,2019-02-01,Toys,1.0,1222000,catalog
+3299,148359,PT2100,2020-01-01,Pets,1.0,1250000,catalog
+3321,158917,CC220,2017-03-01,Collectible,3.0,1262000,catalog
+3322,163533,SP1000,2011-04-01,Sports,1.0,1262000,catalog
+3333,166327,PT3200,2029-04-01,Pets,2.0,1355000,catalog
+3366,169362,SW4187,2017-05-01,Software,1.0,1387000,catalog
+3367,169362,SW5952,2017-05-01,Software,4.0,1387000,catalog
+3368,169362,SW6269,2017-05-01,Software,1.0,1387000,catalog
+3369,169362,SW7935,2017-05-01,Software,1.0,1387000,catalog
+3398,148918,SP2600,2023-01-01,Sports,2.0,1512000,catalog
+3414,159478,SP2300,2020-03-01,Sports,1.0,1637000,catalog
+3415,167813,SW4792,2008-05-01,Software,2.0,1637000,catalog
+3444,146746,PT4500,2011-01-01,Pets,1.0,1642000,catalog
+3470,150217,PT3300,1930-01-01,Pets,2.0,1762000,catalog
+3471,150217,PT3500,1930-01-01,Pets,2.0,1762000,catalog
+3472,150217,PT4100,1930-01-01,Pets,1.0,1762000,catalog
+3473,150217,PT4400,1930-01-01,Pets,3.0,1762000,catalog
+3474,160439,TY5400,2025-03-01,Toys,3.0,1762000,catalog
+3493,145974,PT1200,2007-01-01,Pest,1.0,1887000,catalog
+3494,151400,SP2400,2005-02-01,Sports,3.0,1887000,catalog
+3495,157967,GD1100,2012-03-01,Gardening,4.0,1887000,catalog
+3496,171198,SP2200,2027-05-01,Sports,1.0,1887000,catalog
+3525,147630,PT1400,2016-01-01,Pets,1.0,1912000,catalog
+3526,147630,PT2200,2016-01-01,Pets,1.0,1912000,catalog
+3527,147630,PT4600,2016-01-01,Pets,1.0,1912000,catalog
+3528,148925,TY4400,2023-01-01,Toys,1.0,1912000,catalog
+3529,154534,SW7573,2022-02-01,Software,1.0,1912000,catalog
+3538,155108,GD1300,2025-02-01,GARDENING,1.0,2012000,catalog
+3572,165499,GD3300,2024-04-01,Gardening,1.0,2137000,catalog
+3573,166670,SP2500,2001-05-01,Sports,1.0,2137000,catalog
+3597,151404,CC3400,2005-02-01,Collectibles,1.0,2173000,catalog
+3598,154924,TY1950,2024-02-01,Toys,1.0,2173000,catalog
+3599,156066,TY16OO,2002-03-01,Toys,4.0,2173000,catalog
+3600,166982,GD1300,2003-05-01,Gardening,1.0,2173000,catalog
+3601,170433,GD4100,2023-05-01,Gardening,1.0,2173000,catalog
+3614,158926,PT2100,2017-03-01,Pets,1.0,2263000,catalog
+3615,168314,GD2400,2011-05-01,Gardening,1.0,2263000,catalog
+3662,147828,GD1200,2017-01-01,Gardening,2.0,2349000,catalog
+3663,153756,TY1600,2018-02-01,Toys,3.0,2349000,catalog
+3664,153756,TY1650,2018-02-01,Toys,1.0,2349000,catalog
+3665,153756,TY1950,2018-02-01,Toys,3.0,2349000,catalog
+3666,153756,TY2300,2018-02-01,Toys,1.0,2349000,catalog
+3667,165674,GD4200,2025-04-01,Gardening,1.0,2349000,catalog
+3668,166984,GD3100,2003-05-01,Gardening,1.0,2349000,catalog
+3677,162712,TY3500,2006-04-01,Toys,1.0,2388000,catalog
+3710,161216,SW2782,2029-03-01,Software,4.0,2513000,catalog
+3734,159499,PT1400,2020-03-01,Pets,2.0,2638000,catalog
+3735,162903,TY3500,2007-04-01,Toys,4.0,2638000,catalog
+3736,165341,SP2300,2023-04-01,Sports,1.0,2638000,catalog
+3737,166341,SP2600,2029-04-01,Sports,1.0,2638000,catalog
+3793,147124,SW2782,2013-01-01,Software,1.0,2888000,catalog
+3794,147455,SP3000,2015-01-01,Sports,2.0,2888000,catalog
+3795,149673,SP2500,2027-01-01,Sports,1.0,2888000,catalog
+3796,157786,CC2300,2011-03-01,Colectibles,1.0,2888000,catalog
+3797,157786,CC3100,2011-03-01,Collectibles,2.0,2888000,catalog
+3798,157786,CC4300,2011-03-01,Collectible,1.0,2888000,catalog
+3799,157786,CC4600,2011-03-01,Collectibles,1.0,2888000,catalog
+3818,166017,GD1500,2027-04-01,Gardening,1.0,3013000,catalog
+3819,166017,GD2300,2027-04-01,Gardening,4.0,3013000,catalog
+3867,150837,PT1300,2002-02-01,Pets,3.0,3184000,catalog
+3868,155292,TY4500,2026-02-01,Toys,1.0,3184000,catalog
+3882,149676,SP3300,2027-01-01,Sports,3.0,3263000,catalog
+3883,150423,PT2300,1931-01-01,Pets,1.0,3263000,catalog
+3884,166021,PT3300,2027-04-01,Pets,1.0,3263000,catalog
+3885,166021,PT4200,2027-04-01,Pets,1.0,3263000,catalog
+3908,157794,SP3300,2011-03-01,Sports,1.0,3273000,catalog
+3942,150046,GD2300,2029-01-01,Gardening,1.0,3388000,catalog
+3943,152127,TY21OO,2009-02-01,Toys,3.0,3388000,catalog
+3944,155125,TY4100,2025-02-01,Toys,1.0,3388000,catalog
+3945,164772,SP2200,2019-04-01,Sports,1.0,3388000,catalog
+3959,158579,SW2927,2015-03-01,Softwars,1.0,3513000,catalog
+3960,166197,SP3300,2028-04-01,Sports,1.0,3513000,catalog
+3969,170448,SP2400,2023-05-01,Sports,1.0,3638000,catalog
+3987,156457,SP3300,2004-03-01,Sports,1.0,3763000,catalog
+3988,165512,GD1300,2024-04-01,Gardening,1.0,3763000,catalog
+3989,165512,GD2400,2024-04-01,Gardening,3.0,3763000,catalog
+3990,165512,GD3100,2024-04-01,Gardening,1.0,3763000,catalog
+3991,165512,GD4200,2024-04-01,Gardening,1.0,3763000,catalog
+4002,156460,PT4300,2004-03-01,Pets,4.0,3888000,catalog
+4030,144919,TY2400,2001-01-01,Toys,1.0,4013000,catalog
+4053,159712,TY1650,2021-03-01,Toys,1.0,4138000,catalog
+4054,159712,TY1900,2021-03-01,Toys,1.0,4138000,catalog
+4055,159712,TY2500,2021-03-01,Toys,4.0,4138000,catalog
+4056,159712,TY3800,2021-03-01,Toys,2.0,4138000,catalog
+4057,160841,PT4500,2027-03-01,Pets,1.0,4138000,catalog
+4058,169037,SP3300,2015-05-01,Sports,1.0,4138000,catalog
+4082,151044,TY5200,2003-02-01,Toys,1.0,4263000,catalog
+4083,161643,SP2400,1931-03-01,Sports,2.0,4263000,catalog
+4084,163414,GD110O,2010-04-01,Gardening,1.0,4263000,catalog
+4114,145808,TY1400,2006-01-01,Toys,1.0,4401000,catalog
+4115,146398,TY3100,2009-01-01,Toys,1.0,4401000,catalog
+4133,156275,TY4600,2003-03-01,Toys,1.0,4513000,catalog
+4134,165075,PT1100,2021-04-01,Pets,1.0,4513000,catalog
+4135,165075,PT2100,2021-04-01,Pets,2.0,4513000,catalog
+4136,165075,PT4300,2021-04-01,Pets,3.0,4513000,catalog
+4159,166210,sw1991,2028-04-01,Software,1.0,4617000,catalog
+4160,170880,sp2000,2025-05-01,Sporst,4.0,4617000,catalog
+4213,146602,SW7935,2010-01-01,Software,1.0,4763000,catalog
+4214,157823,PT2000,2011-03-01,Pets,1.0,4763000,catalog
+4215,157823,PT2100,2011-03-01,Pets,2.0,4763000,catalog
+4216,157823,PT3100,2011-03-01,Pets,3.0,4763000,catalog
+4217,157823,PT3300,2011-03-01,Pets,1.0,4763000,catalog
+4218,165862,GD1300,2026-04-01,Gardening,2.0,4763000,catalog
+4219,169210,SP3400,2016-05-01,Sports,1.0,4763000,catalog
+4239,160286,SW4825,2024-03-01,Software,3.0,4891000,catalog
+4267,147674,TY3200,2016-01-01,Toys,1.0,4941000,catalog
+4307,145118,PT3300,2002-01-01,Pets,1.0,5141000,catalog
+4308,146789,TY2500,2011-01-01,Toys,2.0,5141000,catalog
+4344,146405,PT3200,2009-01-01,Pets,3.0,5266000,catalog
+4345,155900,TY3800,2001-03-01,Toys,1.0,5266000,catalog
+4346,164490,PT4200,2017-04-01,Pets,4.0,5266000,catalog
+4347,170264,GD1100,2022-05-01,Gardening,3.0,5266000,catalog
+4377,144936,TY2600,2001-01-01,Toys,1.0,5391000,catalog
+4378,144936,TY3200,2001-01-01,Toys,1.0,5391000,catalog
+4379,144936,TY5200,2001-01-01,Toys,1.0,5391000,catalog
+4380,155153,SP1000,2025-02-01,Sports,1.0,5391000,catalog
+4381,155153,SP2200,2025-02-01,Sports,1.0,5391000,catalog
+4382,155153,SP2400,2025-02-01,Sports,1.0,5391000,catalog
+4383,171966,PT1300,1931-05-01,Pets,4.0,5391000,catalog
+4394,147495,TY2700,2015-01-01,Toys,1.0,5516000,catalog
+4395,148417,TY3800,2020-01-01,Toys,1.0,5516000,catalog
+4396,156864,SW7383,2006-03-01,Software,1.0,5516000,catalog
+4433,162224,SP2400,2003-04-01,Sports,1.0,5634000,catalog
+4434,170093,SP2200,2021-05-01,Sports,1.0,5634000,catalog
+4456,148237,SW5338,2019-01-01,Software,3.0,5641000,catalog
+4457,158426,PT1100,2014-03-01,Pets,1.0,5641000,catalog
+4477,149706,TY1700,2027-01-01,Toys,1.0,5766000,catalog
+4478,162411,PT1000,2004-04-01,Pets,1.0,5766000,catalog
+4479,162411,PT1100,2004-04-01,Pets,2.0,5766000,catalog
+4480,162411,PT2400,2004-04-01,Pets,3.0,5766000,catalog
+4505,148425,TY4500,2020-01-01,Toys,2.0,5891000,catalog
+4506,158219,TY1600,2013-03-01,Toys,1.0,5891000,catalog
+4507,158219,TY1750,2013-03-01,Toys,4.0,5891000,catalog
+4508,158219,TY3100,2013-03-01,Toys,4.0,5891000,catalog
+4509,158219,TY3800,2013-03-01,Toys,2.0,5891000,catalog
+4510,170691,PT4600,2024-05-01,Pets,1.0,5891000,catalog
+4530,145830,TY2600,2006-01-01,Toys,1.0,6016000,catalog
+4531,165234,GD2100,2022-04-01,Gardening,1.0,6016000,catalog
+4532,165541,GD101O,2024-04-01,Gardening,1.0,6016000,catalog
+4533,165541,GD1100,2024-04-01,Gardening,3.0,6016000,catalog
+4534,165541,GD4000,2024-04-01,Gardening,1.0,6016000,catalog
+4535,167698,TY2700,2007-05-01,Toys,1.0,6016000,catalog
+4557,145650,SW6180,2005-01-01,Software,1.0,6141000,catalog
+4558,156493,PT1300,2004-03-01,Pets,1.0,6141000,catalog
+4559,164789,PT4500,2019-04-01,Pets,1.0,6141000,catalog
+4583,146615,PT2300,2010-01-01,Pets,4.0,6266000,catalog
+4584,146615,PT3500,2010-01-01,Pets,2.0,6266000,catalog
+4585,146615,PT4600,2010-01-01,Pets,1.0,6266000,catalog
+4586,148429,SP1100,2020-01-01,Sports,1.0,6266000,catalog
+4587,148429,SP1400,2020-01-01,Sports,1.0,6266000,catalog
+4588,148429,SP2200,2020-01-01,Sports,1.0,6266000,catalog
+4589,148429,SP3300,2020-01-01,Sports,1.0,6266000,catalog
+4590,150466,SW4825,1931-01-01,Software,1.0,6266000,catalog
+4609,158971,SW4831,2017-03-01,Software,1.0,6391000,catalog
+4628,157840,SP1400,2011-03-01,Sports,1.0,6516000,catalog
+4629,157840,SP1600,2011-03-01,Sports,1.0,6516000,catalog
+4630,157840,SP3300,2011-03-01,Sports,1.0,6516000,catalog
+4652,145658,SP3300,2005-01-01,Sports,1.0,6641000,catalog
+4653,158973,PT2200,2017-03-01,Pets,1.0,6641000,catalog
+4654,170903,SP2700,2025-05-01,Sports,1.0,6641000,catalog
+4683,145133,SP1000,2002-01-01,Sports,1.0,6766000,catalog
+4684,145133,SP1400,2002-01-01,Sports,1.0,6766000,catalog
+4685,145133,SP2400,2002-01-01,Sports,1.0,6766000,catalog
+4686,145133,SP3300,2002-01-01,Sports,1.0,6766000,catalog
+4711,151460,SP1500,2005-02-01,Sports,1.0,6870000,catalog
+4712,151460,SP2200,2005-02-01,Sports,2.0,6870000,catalog
+4713,151460,SP3000,2005-02-01,Sports,2.0,6870000,catalog
+4714,151460,SP3100,2005-02-01,Sports,1.0,6870000,catalog
+4715,152381,PT4400,2010-02-01,Pets,4.0,6870000,catalog
+4728,153279,PT1000,2015-02-01,Pats,1.0,6892000,catalog
+4729,157660,PT3500,2010-03-01,Pets,1.0,6892000,catalog
+4730,164645,SP2700,2018-04-01,Sports,3.0,6892000,catalog
+4731,169428,GD3300,2017-05-01,Gardening,1.0,6892000,catalog
+4771,160124,TY1600,2023-03-01,Toys,1.0,6944000,catalog
+4772,160124,TY17OO,2023-03-01,Toys,3.0,6944000,catalog
+4773,160124,TY2200,2023-03-01,Toys,1.0,6944000,catalog
+4774,160124,TY2400,2023-03-01,Toys,1.0,6944000,catalog
+4775,161061,SW5338,2028-03-01,Software,1.0,6944000,catalog
+4776,161272,TY1750,2029-03-01,Toys,1.0,6944000,catalog
+4777,161272,TY3200,2029-03-01,Toys,1.0,6944000,catalog
+4778,161272,TY3600,2029-03-01,Toys,1.0,6944000,catalog
+4779,163732,PT2400,2012-04-01,Pets,2.0,6944000,catalog
+4807,147181,SW4575,2013-01-01,Software,1.0,7017000,catalog
+4808,147181,SW7221,2013-01-01,Software,1.0,7017000,catalog
+4809,147181,SW7823,2013-01-01,Software,1.0,7017000,catalog
+4810,162250,TY3300,2003-04-01,Toy,1.0,7017000,catalog
+4811,169073,PT1000,2015-05-01,Pets,1.0,7017000,catalog
+4812,169073,PT1300,2015-05-01,Pets,1.0,7017000,catalog
+4813,169073,PT1300,2015-05-01,Pets,2.0,7017000,catalog
+4814,169073,PT4300,2015-05-01,Pets,1.0,7017000,catalog
+4835,155004,SP1500,2024-02-01,Sports,1.0,7142000,catalog
+4836,155004,SP3000,2024-02-01,Sports,1.0,7142000,catalog
+4837,155004,SP3100,2024-02-01,Sports,3.0,7142000,catalog
+4838,155003,SP3300,2024-02-01,Sports,3.0,7142000,catalog
+4854,154805,SP1200,2023-02-01,Sports,1.0,7267000,catalog
+4855,158981,SP1500,2017-03-01,Sport,3.0,7267000,catalog
+4856,158981,SP1600,2017-03-01,Sports,1.0,7267000,catalog
+4857,158981,SP2600,2017-03-01,Sports,1.0,7267000,catalog
+4858,160509,PT4200,2025-03-01,Pets,1.0,7267000,catalog
+4879,152391,PT2100,2010-02-01,Pets,1.0,7392000,catalog
+4880,159951,TY1650,2022-03-01,Toys,3.0,7392000,catalog
+4881,163452,PT3200,2010-04-01,Pets,1.0,7392000,catalog
+4882,165396,GD3300,2023-04-01,Gardening,1.0,7392000,catalog
+4905,145855,TY4200,2006-01-01,Toys,1.0,7470000,catalog
+4906,151808,PT2200,2007-02-01,Pets,4.0,7470000,catalog
+4907,151808,PT3200,2007-02-01,Pets,1.0,7470000,catalog
+4908,151808,PT4600,2007-02-01,Pets,1.0,7470000,catalog
+4909,158453,GD1300,2014-03-01,Gardening,1.0,7470000,catalog
+4910,170917,GD4100,2025-05-01,Gardening,1.0,7470000,catalog
+4927,147518,SW5493,2015-01-01,Software,1.0,7480000,catalog
+4928,165735,SP1300,2025-04-01,Sports,1.0,7480000,catalog
+4929,165735,SP2200,2025-04-01,Sports,1.0,7480000,catalog
+4930,165735,SP2300,2025-04-01,Sports,3.0,7480000,catalog
+4931,165735,SP2700,2025-04-01,Sports,1.0,7480000,catalog
+4954,148264,SP1200,2019-01-01,Sports,3.0,7517000,catalog
+4955,148632,PT2000,2021-01-01,Pets,1.0,7517000,catalog
+4956,148632,PT3100,2021-01-01,Pets,1.0,7517000,catalog
+4957,148632,PT3300,2021-01-01,Pets,1.0,7517000,catalog
+4981,150903,TY1750,2002-02-01,Toys,3.0,7642000,catalog
+4982,155173,SP2500,2025-02-01,Sports,1.0,7642000,catalog
+4983,167045,GD1300,2003-05-01,Gardening,1.0,7642000,catalog
+4998,162446,TY2200,2004-04-01,Toys,3.0,7666000,catalog
+4999,171628,PT2200,2029-05-01,Pets,1.0,7666000,catalog
+5018,145145,SW6180,2002-01-01,Softwar,1.0,7738000,catalog
+5019,146642,TY5100,2010-01-01,Toys,1.0,7738000,catalog
+5020,151473,SP1600,2005-02-01,Sports,1.0,7738000,catalog
+5042,155014,TY3400,2024-02-01,Toys,1.0,7767000,catalog
+5043,158051,PT2000,2012-03-01,Pets,1.0,7767000,catalog
+5044,160888,SP2200,2027-03-01,Sports,1.0,7767000,catalog
+5045,162079,SP1100,2002-04-01,Sports,1.0,7767000,catalog
+5046,164520,PT1100,2017-04-01,Pets,1.0,7767000,catalog
+5047,164520,PT1200,2017-04-01,Pets,1.0,7767000,catalog
+5048,164520,PT2000,2017-04-01,Pets,1.0,7767000,catalog
+5080,154816,SP3000,2023-02-01,Sport,4.0,8020000,catalog
+5081,168383,PT1000,2011-05-01,Pets,1.0,8020000,catalog
+5082,168383,PT3100,2011-05-01,Pets,1.0,8020000,catalog
+5083,168383,PT3500,2011-05-01,Pets,1.0,8020000,catalog
+5104,166563,SP1300,1930-04-01,Sports,1.0,8145000,catalog
+5105,170722,TY2500,2024-05-01,Toys,1.0,8145000,catalog
+5130,160713,TY1200,2026-03-01,Toys,1.0,8270000,catalog
+5163,158065,GD1600,2012-03-01,Gardening,1.0,8473000,catalog
+5164,168392,CC3700,2011-05-01,Collectibles,1.0,8473000,catalog
+5187,146451,SP3100,2009-01-01,Sports,1.0,8520000,catalog
+5188,154228,SP1400,2020-02-01,Sports,1.0,8520000,catalog
+5211,146274,PT1400,2008-01-01,Pets,4.0,8645000,catalog
+5212,161086,TY16OO,2028-03-01,Toy,1.0,8645000,catalog
+5213,161086,TY4200,2028-03-01,Toys,1.0,8645000,catalog
+5214,161086,TY4300,2028-03-01,Toys,4.0,8645000,catalog
+5215,161086,TY4600,2028-03-01,Toys,1.0,8645000,catalog
+5216,162792,TY4300,2006-04-01,Toys,1.0,8645000,catalog
+5233,147723,GD10)!,2016-01-01,Gardening,1.0,8770000,catalog
+5234,147723,GD1400,2016-01-01,Gardening,2.0,8770000,catalog
+5235,147723,GD2300,2016-01-01,Gardening,1.0,8770000,catalog
+5236,147723,GD4200,2016-01-01,Gardening,3.0,8770000,catalog
+5237,160328,TY2400,2024-03-01,Toys,4.0,8770000,catalog
+5238,162092,PT2400,2002-04-01,Pets,1.0,8770000,catalog
+5264,149740,TY4500,2027-01-01,Toys,1.0,8895000,catalog
+5265,165269,GD1300,2022-04-01,Gardening,1.0,8895000,catalog
+5296,155952,TY4300,2001-03-01,Toys,1.0,8913000,catalog
+5297,162976,SP3100,2007-04-01,Sports,1.0,8913000,catalog
+5298,171102,GD4100,2026-05-01,Gardening,1.0,8913000,catalog
+5315,156340,SW3909,2003-03-01,Software,3.0,9020000,catalog
+5316,157119,PT4500,2007-03-01,Pets,1.0,9020000,catalog
+5330,145341,PT1400,2003-01-01,Pets,1.0,9145000,catalog
+5331,154241,TY4600,2020-02-01,Toys,1.0,9145000,catalog
+5351,144986,SW1207,2001-01-01,Software,1.0,9204000,catalog
+5352,144986,SW1807,2001-01-01,Software,4.0,9204000,catalog
+5353,144986,SW4792,2001-01-01,Softwares,4.0,9204000,catalog
+5354,144986,SW9782,2001-01-01,Softwares,3.0,9204000,catalog
+5355,149567,SP1100,2026-01-01,Sports,1.0,9204000,catalog
+5356,149567,SP2000,2026-01-01,Sports,1.0,9204000,catalog
+5357,149567,SP3200,2026-01-01,Sports,1.0,9204000,catalog
+5371,151830,TY1950,2007-02-01,Toys,3.0,9270000,catalog
+5425,159604,PT2100,2020-03-01,Pets,1.0,9520000,catalog
+5426,161317,TY4500,2029-03-01,Toys,2.0,9520000,catalog
+5427,161515,SW4187,1930-03-01,Software,1.0,9520000,catalog
+5428,164671,SW1828,2018-04-01,Softwars,1.0,9520000,catalog
+5449,160155,TY3100,2023-03-01,Toys,3.0,9548000,catalog
+5450,160155,TY4400,2023-03-01,Toys,1.0,9548000,catalog
+5451,160155,TY5400,2023-03-01,Toys,1.0,9548000,catalog
+5478,153854,TY2300,2018-02-01,Toys,1.0,9645000,catalog
+5503,156347,TY1300,2003-03-01,Toys,1.0,9687000,catalog
+5526,149222,PT1400,2024-01-01,Pets,1.0,9744000,catalog
+5527,149748,SP1600,2027-01-01,Sports,1.0,9744000,catalog
+5543,171844,PT2400,1930-05-01,Pets,1.0,9745000,catalog
+5583,149749,SW1612,2027-01-01,Softwars,3.0,9770000,catalog
+5584,149749,SW3617,2027-01-01,Software,1.0,9770000,catalog
+5585,149749,SW4773,2027-01-01,Software,2.0,9770000,catalog
+5586,150130,TY5200,2029-01-01,Toys,1.0,9770000,catalog
+5587,152027,PT1200,2008-02-01,Pets,4.0,9770000,catalog
+5588,171303,SP2400,2027-05-01,Sports,4.0,9770000,catalog
+5609,153142,PT2200,2014-02-01,Pets,1.0,9895000,catalog
+5610,165282,SW2782,2022-04-01,Software,1.0,9895000,catalog
+5611,165281,TY1700,2022-04-01,Toys,1.0,9895000,catalog
+5612,167907,SP2300,2008-05-01,Sports,1.0,9895000,catalog
+5634,150132,SP2400,2029-01-01,Sports,2.0,10020000,catalog
+5635,158847,PT4100,2016-03-01,Pets,2.0,10020000,catalog
+5636,170757,SP1000,2024-05-01,Sports,3.0,10020000,catalog
+5661,154053,PT3200,2019-02-01,Pets,1.0,10145000,catalog
+5690,159202,PT3300,2018-03-01,Pets,1.0,10201000,catalog
+5691,165929,GD3100,2026-04-01,Gardening,1.0,10201000,catalog
+5692,166587,PT4500,1930-04-01,Pets,1.0,10201000,catalog
+5693,168576,GD3000,2012-05-01,Gardening,1.0,10201000,catalog
+5694,168576,GD3200,2012-05-01,Gardening,1.0,10201000,catalog
+5695,168576,GD4200,2012-05-01,Gardening,1.0,10201000,catalog
+5696,170562,SP3200,2023-05-01,Sports,1.0,10201000,catalog
+5719,157887,TY1650,2011-03-01,Toys,1.0,10270000,catalog
+5720,162112,SW9521,2002-04-01,Software,4.0,10270000,catalog
+5734,159616,GD3200,2020-03-01,Gardening,3.0,10296000,catalog
+5758,158087,PT4400,2012-03-01,Pets,1.0,10395000,catalog
+5759,161926,TY1200,2001-04-01,Toys,1.0,10395000,catalog
+5760,164243,PT1200,2015-04-01,Pets,1.0,10395000,catalog
+5779,156549,PT3300,2004-03-01,Pets,1.0,10520000,catalog
+5780,161536,TY2200,1930-03-01,Toys,1.0,10520000,catalog
+5795,152040,SP2600,2008-02-01,Sports,4.0,10645000,catalog
+5796,162631,PT3300,2005-04-01,Pets,1.0,10645000,catalog
+5827,149600,TY2100,2026-01-01,Toys,4.0,10770000,catalog
+5828,149600,TY2600,2026-01-01,Toys,1.0,10770000,catalog
+5829,149600,TY4300,2026-01-01,Toys,3.0,10770000,catalog
+5830,149600,TY4700,2026-01-01,Toys,3.0,10770000,catalog
+5831,152425,SP1300,2010-02-01,Sports,1.0,10770000,catalog
+5832,164978,GD1001,2020-04-01,Gardening,1.0,10770000,catalog
+5833,164978,GD1100,2020-04-01,Gardening,4.0,10770000,catalog
+5834,164978,GD3000,2020-04-01,Gardening,3.0,10770000,catalog
+5835,164978,GD4300,2020-04-01,Gardening,1.0,10770000,catalog
+5860,156178,TY3300,2002-03-01,Toys,4.0,10895000,catalog
+5861,157714,PT4500,2010-03-01,Pets,1.0,10895000,catalog
+5884,159027,TY3600,2017-03-01,Toys,1.0,11020000,catalog
+5885,171132,PT2100,2026-05-01,Pets,1.0,11020000,catalog
+5927,155595,SP2300,2027-02-01,Sports,1.0,11260000,catalog
+5940,154864,SP1400,2023-02-01,Spots,3.0,11275000,catalog
+5967,150149,PT4100,2029-01-01,Pets,1.0,11328000,catalog
+5968,155225,PT3200,2025-02-01,Pets,2.0,11328000,catalog
+5969,155225,PT3400,2025-02-01,Pets,4.0,11328000,catalog
+5970,158669,TY2300,2015-03-01,Toys,1.0,11328000,catalog
+5993,151693,SW4792,2006-02-01,Software,4.0,11400000,catalog
+5994,159215,SP1200,2018-03-01,Sports,1.0,11400000,catalog
+5995,159215,SP1400,2018-03-01,Sports,1.0,11400000,catalog
+5996,159215,SP1500,2018-03-01,Sports,1.0,11400000,catalog
+5997,159215,SP2000,2018-03-01,Sports,1.0,11400000,catalog
+6024,158673,TY2700,2015-03-01,Toys,1.0,11569000,catalog
+6047,154869,SP1300,2023-02-01,Sports,4.0,11614000,catalog
+6048,163805,SW4792,2012-04-01,Software,1.0,11614000,catalog
+6071,163003,PT1000,2007-04-01,Pets,1.0,11615000,catalog
+6072,165302,SP2300,2022-04-01,Sports,1.0,11615000,catalog
+6100,152981,TY1750,2013-02-01,Toys,1.0,11650000,catalog
+6101,166124,SP3300,2027-04-01,Sports,1.0,11650000,catalog
+6131,146692,TY1800,2010-01-01,Tosy,4.0,11775000,catalog
+6132,146692,TY1950,2010-01-01,Toys,1.0,11775000,catalog
+6133,146692,TY4800,2010-01-01,Toys,3.0,11775000,catalog
+6134,154288,SW7013,2020-02-01,Software,4.0,11775000,catalog
+6135,154288,SW7573,2020-02-01,Software,1.0,11775000,catalog
+6136,167604,TY2400,2006-05-01,Toys,1.0,11775000,catalog
+6160,161129,SP1500,2028-03-01,Sports,3.0,11807000,catalog
+6161,161129,SP2400,2028-03-01,Sports,4.0,11807000,catalog
+6162,161129,SP2600,2028-03-01,Sports,1.0,11807000,catalog
+6163,161129,SP2700,2028-03-01,Sports,1.0,11807000,catalog
+6164,165152,GD2400,2021-04-01,Gardening,1.0,11807000,catalog
+6186,161755,PT1400,1931-03-01,Pets,1.0,11900000,catalog
+6187,163006,SP3000,2007-04-01,Sports,2.0,11900000,catalog
+6188,163006,SP3000,2007-04-01,Sports,1.0,11900000,catalog
+6189,163006,SP3400,2007-04-01,Sports,1.0,11900000,catalog
+6190,163006,SP3400,2007-04-01,Sports,3.0,11900000,catalog
+6191,165452,SP1200,2023-04-01,Sports,3.0,11900000,catalog
+6208,156965,SP2000,2006-03-01,Sports,3.0,12025000,catalog
+6209,171871,PT3300,1930-05-01,Pets,4.0,12025000,catalog
+6220,147964,PT2200,2017-01-01,Pets,1.0,12028000,catalog
+6221,161136,PT4300,2028-03-01,Pets,1.0,12028000,catalog
+6222,169996,PT2100,2020-05-01,Pets,4.0,12028000,catalog
+6241,150163,PT4600,2029-01-01,Pets,1.0,12150000,catalog
+6242,167444,PT4300,2005-05-01,Pets,1.0,12150000,catalog
+6261,148129,GD4100,2018-01-01,Gardening,1.0,12275000,catalog
+6297,147061,TY2500,2012-01-01,Toys,1.0,12323000,catalog
+6315,148876,SP2000,2022-01-01,Sports,1.0,12400000,catalog
+6316,164712,TY1950,2018-04-01,Toys,4.0,12400000,catalog
+6338,148509,SW7383,2020-01-01,Software,1.0,12470000,catalog
+6339,151865,SP2300,2007-02-01,Sports,4.0,12470000,catalog
+6340,156976,PT3200,2006-03-01,Pets,2.0,12470000,catalog
+6357,148511,TY3800,2020-01-01,Toys,1.0,12525000,catalog
+6358,156017,SP3200,2001-03-01,Sports,1.0,12525000,catalog
+6359,167452,GD4200,2005-05-01,Gardening,3.0,12525000,catalog
+6387,165309,gd3100,2022-04-01,Gardening,1.0,12544000,catalog
+6388,166778,GD2400,2001-05-01,Gardening,2.0,12544000,catalog
+6407,164266,PT1300,2015-04-01,Pets,1.0,12650000,catalog
+6422,164134,GD101O,2014-04-01,Gardening,1.0,12757000,catalog
+6423,170796,SW8376,2024-05-01,Software,4.0,12757000,catalog
+6440,164853,PT4500,2019-04-01,Pets,2.0,12775000,catalog
+6441,165961,GD1400,2026-04-01,Gardening,1.0,12775000,catalog
+6442,170597,SP3300,2023-05-01,Sports,3.0,12775000,catalog
+6458,149252,TY1300,2024-01-01,Toys,1.0,12900000,catalog
+6476,145927,PT3300,2006-01-01,Pets,1.0,13025000,catalog
+6477,147399,PT4200,2014-01-01,Pets,1.0,13025000,catalog
+6499,156981,TY1850,2006-03-01,Toys,1.0,13056000,catalog
+6510,160024,TY1400,2022-03-01,Toys,1.0,13154000,catalog
+6511,160024,TY1800,2022-03-01,Toys,1.0,13154000,catalog
+6512,160024,TY2300,2022-03-01,Toys,1.0,13154000,catalog
+6513,160024,TY2600,2022-03-01,Toys,1.0,13154000,catalog
+6533,148884,SP1100,2022-01-01,Sports,1.0,13183000,catalog
+6534,148884,SP1400,2022-01-01,Sports,1.0,13183000,catalog
+6535,148884,SP3300,2022-01-01,Sports,4.0,13183000,catalog
+6536,151709,SP3400,2006-02-01,Sports,3.0,13183000,catalog
+6537,157926,PT4600,2011-03-01,Pets,1.0,13183000,catalog
+6538,161159,TY4800,2028-03-01,Toys,2.0,13183000,catalog
+6539,166787,GD4100,2001-05-01,Gardening,4.0,13183000,catalog
+6540,168791,GD2100,2013-05-01,Gardening,4.0,13183000,catalog
+6564,146889,SW3802,2011-01-01,Software,3.0,13279000,catalog
+6565,149093,SP1200,2023-01-01,Sports,4.0,13279000,catalog
+6566,149093,SP2200,2023-01-01,Sports,1.0,13279000,catalog
+6567,149093,SP3000,2023-01-01,Sports,1.0,13279000,catalog
+6568,153182,PT2400,2014-02-01,Pets,1.0,13279000,catalog
+6607,147983,PT1300,2017-01-01,Pets,1.0,13405000,catalog
+6608,158694,PT1400,2015-03-01,Pets,3.0,13405000,catalog
+6609,166141,PT1300,2027-04-01,Pets,1.0,13405000,catalog
+6610,166141,PT2100,2027-04-01,Pest,4.0,13405000,catalog
+6611,166141,PT4400,2027-04-01,Pets,1.0,13405000,catalog
+6612,166141,PT4500,2027-04-01,Pets,1.0,13405000,catalog
+6634,169331,PT1200,2016-05-01,Pets,1.0,13476000,catalog
+6635,169331,PT1400,2016-05-01,Pets,1.0,13476000,catalog
+6636,169331,PT3200,2016-05-01,Pets,1.0,13476000,catalog
+6665,150786,SW3625,2001-02-01,Software,1.0,13532000,catalog
+6692,163664,SP2400,2011-04-01,Sports,1.0,13664000,catalog
+6693,170608,TY1900,2023-05-01,Toys,1.0,13664000,catalog
+6717,146142,SP3200,2007-01-01,Sports,4.0,13682000,catalog
+6718,149994,SW3895,2028-01-01,Software,1.0,13682000,catalog
+6719,149994,SW4323,2028-01-01,Software,3.0,13682000,catalog
+6720,149994,SW5952,2028-01-01,Software,1.0,13682000,catalog
+6721,150600,TY1750,1931-01-01,Toys,1.0,13682000,catalog
+6722,168280,SP1000,2010-05-01,Sports,1.0,13682000,catalog
+6744,145403,SP1500,2003-01-01,Sports,1.0,13782000,catalog
+6745,151712,PT4400,2006-02-01,Pets,1.0,13782000,catalog
+6766,151895,TY4800,2007-02-01,Toys,4.0,13789000,catalog
+6767,160208,SW8001,2023-03-01,Software,1.0,13789000,catalog
