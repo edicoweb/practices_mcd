@@ -1,0 +1,55 @@
+[2026-01-31T00:21:03.448+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-31T00:21:03.484+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_dw_dag.extract manual__2026-01-31T00:21:02.180076+00:00 [queued]>
+[2026-01-31T00:21:03.490+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_dw_dag.extract manual__2026-01-31T00:21:02.180076+00:00 [queued]>
+[2026-01-31T00:21:03.491+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-31T00:21:03.506+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): extract> on 2026-01-31 00:21:02.180076+00:00
+[2026-01-31T00:21:03.513+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl_dw_dag', 'extract', 'manual__2026-01-31T00:21:02.180076+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/etl_dw_dag.py', '--cfg-path', '/tmp/tmpjy_9mzad']
+[2026-01-31T00:21:03.515+0000] {standard_task_runner.py:91} INFO - Job 2: Subtask extract
+[2026-01-31T00:21:03.515+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=206) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-31T00:21:03.516+0000] {standard_task_runner.py:64} INFO - Started process 207 to run task
+[2026-01-31T00:21:03.568+0000] {task_command.py:426} INFO - Running <TaskInstance: etl_dw_dag.extract manual__2026-01-31T00:21:02.180076+00:00 [running]> on host 9ca9331c3758
+[2026-01-31T00:21:03.638+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_dw_dag' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2026-01-31T00:21:02.180076+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-31T00:21:02.180076+00:00'
+[2026-01-31T00:21:03.639+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-31T00:21:03.663+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-31T00:21:03.664+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/src/extract.py']
+[2026-01-31T00:21:03.675+0000] {subprocess.py:86} INFO - Output:
+[2026-01-31T00:21:05.004+0000] {subprocess.py:93} INFO - Leyendo archivos desde: /opt/***/data
+[2026-01-31T00:21:05.005+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:21:05.005+0000] {subprocess.py:93} INFO - === CATALOG ===
+[2026-01-31T00:21:05.006+0000] {subprocess.py:93} INFO - shape: (6767, 7)
+[2026-01-31T00:21:05.006+0000] {subprocess.py:93} INFO - cols: ['ID', 'INV', 'DATE', 'CATALOG', 'PCODE', 'QTY', 'custnum']
+[2026-01-31T00:21:05.006+0000] {subprocess.py:93} INFO -    ID       INV              DATE    CATALOG   PCODE   QTY  custnum
+[2026-01-31T00:21:05.006+0000] {subprocess.py:93} INFO - 0   1  107707.0   3/97/7 00:00:00     Sports  SP1000  1.00   1242.0
+[2026-01-31T00:21:05.007+0000] {subprocess.py:93} INFO - 1   2  110633.0  3/97/25 00:00:00  Gardening  GD2200  1.00   1243.0
+[2026-01-31T00:21:05.007+0000] {subprocess.py:93} INFO - 2   3  111155.0  3/97/28 00:00:00       Pets  PT1300  3.00   1244.0
+[2026-01-31T00:21:05.007+0000] {subprocess.py:93} INFO - 3   4  126867.0  6/97/22 00:00:00       Toys  TY4100  1.00   1245.0
+[2026-01-31T00:21:05.007+0000] {subprocess.py:93} INFO - 4   5  135872.0   8/97/8 00:00:00       Toys  TY1200  4.00   1246.0
+[2026-01-31T00:21:05.008+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:21:05.008+0000] {subprocess.py:93} INFO - === WEB ===
+[2026-01-31T00:21:05.008+0000] {subprocess.py:93} INFO - shape: (943, 7)
+[2026-01-31T00:21:05.008+0000] {subprocess.py:93} INFO - cols: ['ID', 'INV', 'PCODE', 'DATE', 'CATALOG', 'QTY', 'custnum']
+[2026-01-31T00:21:05.009+0000] {subprocess.py:93} INFO -    ID        INV   PCODE                 DATE    CATALOG  QTY          custnum
+[2026-01-31T00:21:05.009+0000] {subprocess.py:93} INFO - 0   1  2513000.0  GD3200  17/12/2000 00:00:00  Gardening  3.0  Rifkin, Mr. Bob
+[2026-01-31T00:21:05.009+0000] {subprocess.py:93} INFO - 1   2  2513000.0  PT1400    6/1/2001 00:00:00       Pets  1.0  Rifkin, Mr. Bob
+[2026-01-31T00:21:05.010+0000] {subprocess.py:93} INFO - 2   3  2513000.0  PT2000    6/1/2001 00:00:00        Pet  1.0  Rifkin, Mr. Bob
+[2026-01-31T00:21:05.010+0000] {subprocess.py:93} INFO - 3   4  2513000.0  PT2100    6/1/2001 00:00:00       Pets  1.0  Rifkin, Mr. Bob
+[2026-01-31T00:21:05.010+0000] {subprocess.py:93} INFO - 4   5  2513000.0  PT2OOO   27/7/2000 00:00:00       Pets  4.0  Rifkin, Mr. Bob
+[2026-01-31T00:21:05.010+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:21:05.011+0000] {subprocess.py:93} INFO - === PRODUCTS ===
+[2026-01-31T00:21:05.011+0000] {subprocess.py:93} INFO - shape: (192, 7)
+[2026-01-31T00:21:05.011+0000] {subprocess.py:93} INFO - cols: ['ID', 'TYPE', 'DESCRIP', 'PRICE', 'COST', 'PCODE', 'supplier']
+[2026-01-31T00:21:05.011+0000] {subprocess.py:93} INFO -    ID       TYPE  ...   PCODE                supplier
+[2026-01-31T00:21:05.011+0000] {subprocess.py:93} INFO - 0   1   Database  ...  SW1005  Software America, Inc.
+[2026-01-31T00:21:05.012+0000] {subprocess.py:93} INFO - 1   2   Database  ...  SW1207        Software America
+[2026-01-31T00:21:05.012+0000] {subprocess.py:93} INFO - 2   3   Database  ...  SW3049        Software America
+[2026-01-31T00:21:05.012+0000] {subprocess.py:93} INFO - 3   4  Financial  ...  SW2842        Software America
+[2026-01-31T00:21:05.012+0000] {subprocess.py:93} INFO - 4   5  Financial  ...  SW4187        Software America
+[2026-01-31T00:21:05.013+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:21:05.013+0000] {subprocess.py:93} INFO - [5 rows x 7 columns]
+[2026-01-31T00:21:05.013+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:21:05.066+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-31T00:21:05.067+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-31T00:21:05.090+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_dw_dag, task_id=extract, run_id=manual__2026-01-31T00:21:02.180076+00:00, execution_date=20260131T002102, start_date=20260131T002103, end_date=20260131T002105
+[2026-01-31T00:21:05.135+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-31T00:21:05.157+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-31T00:21:05.162+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

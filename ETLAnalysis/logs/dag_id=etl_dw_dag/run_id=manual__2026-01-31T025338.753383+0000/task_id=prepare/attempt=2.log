@@ -1,0 +1,132 @@
+[2026-01-31T04:41:38.318+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-31T04:41:38.354+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_dw_dag.prepare manual__2026-01-31T02:53:38.753383+00:00 [queued]>
+[2026-01-31T04:41:38.361+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_dw_dag.prepare manual__2026-01-31T02:53:38.753383+00:00 [queued]>
+[2026-01-31T04:41:38.362+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2026-01-31T04:41:38.377+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): prepare> on 2026-01-31 02:53:38.753383+00:00
+[2026-01-31T04:41:38.386+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1882) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-31T04:41:38.385+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl_dw_dag', 'prepare', 'manual__2026-01-31T02:53:38.753383+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/etl_dw_dag.py', '--cfg-path', '/tmp/tmpnv21yxyh']
+[2026-01-31T04:41:38.387+0000] {standard_task_runner.py:64} INFO - Started process 1883 to run task
+[2026-01-31T04:41:38.387+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask prepare
+[2026-01-31T04:41:38.441+0000] {task_command.py:426} INFO - Running <TaskInstance: etl_dw_dag.prepare manual__2026-01-31T02:53:38.753383+00:00 [running]> on host 938e60b504de
+[2026-01-31T04:41:38.537+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_dw_dag' AIRFLOW_CTX_TASK_ID='prepare' AIRFLOW_CTX_EXECUTION_DATE='2026-01-31T02:53:38.753383+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-31T02:53:38.753383+00:00'
+[2026-01-31T04:41:38.538+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-31T04:41:38.550+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-31T04:41:38.551+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/src/prepare.py']
+[2026-01-31T04:41:38.565+0000] {subprocess.py:86} INFO - Output:
+[2026-01-31T04:41:39.453+0000] {subprocess.py:93} INFO - Leyendo archivos desde: /opt/***/data
+[2026-01-31T04:41:39.455+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.455+0000] {subprocess.py:93} INFO - === CATALOG ===
+[2026-01-31T04:41:39.456+0000] {subprocess.py:93} INFO - shape: (6767, 7)
+[2026-01-31T04:41:39.456+0000] {subprocess.py:93} INFO - cols: ['ID', 'INV', 'DATE', 'CATALOG', 'PCODE', 'QTY', 'custnum']
+[2026-01-31T04:41:39.457+0000] {subprocess.py:93} INFO -    ID       INV              DATE    CATALOG   PCODE   QTY  custnum
+[2026-01-31T04:41:39.457+0000] {subprocess.py:93} INFO - 0   1  107707.0   3/97/7 00:00:00     Sports  SP1000  1.00   1242.0
+[2026-01-31T04:41:39.457+0000] {subprocess.py:93} INFO - 1   2  110633.0  3/97/25 00:00:00  Gardening  GD2200  1.00   1243.0
+[2026-01-31T04:41:39.457+0000] {subprocess.py:93} INFO - 2   3  111155.0  3/97/28 00:00:00       Pets  PT1300  3.00   1244.0
+[2026-01-31T04:41:39.458+0000] {subprocess.py:93} INFO - 3   4  126867.0  6/97/22 00:00:00       Toys  TY4100  1.00   1245.0
+[2026-01-31T04:41:39.458+0000] {subprocess.py:93} INFO - 4   5  135872.0   8/97/8 00:00:00       Toys  TY1200  4.00   1246.0
+[2026-01-31T04:41:39.458+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.458+0000] {subprocess.py:93} INFO - === WEB ===
+[2026-01-31T04:41:39.459+0000] {subprocess.py:93} INFO - shape: (943, 7)
+[2026-01-31T04:41:39.459+0000] {subprocess.py:93} INFO - cols: ['ID', 'INV', 'PCODE', 'DATE', 'CATALOG', 'QTY', 'custnum']
+[2026-01-31T04:41:39.459+0000] {subprocess.py:93} INFO -    ID        INV   PCODE                 DATE    CATALOG  QTY          custnum
+[2026-01-31T04:41:39.459+0000] {subprocess.py:93} INFO - 0   1  2513000.0  GD3200  17/12/2000 00:00:00  Gardening  3.0  Rifkin, Mr. Bob
+[2026-01-31T04:41:39.460+0000] {subprocess.py:93} INFO - 1   2  2513000.0  PT1400    6/1/2001 00:00:00       Pets  1.0  Rifkin, Mr. Bob
+[2026-01-31T04:41:39.460+0000] {subprocess.py:93} INFO - 2   3  2513000.0  PT2000    6/1/2001 00:00:00        Pet  1.0  Rifkin, Mr. Bob
+[2026-01-31T04:41:39.460+0000] {subprocess.py:93} INFO - 3   4  2513000.0  PT2100    6/1/2001 00:00:00       Pets  1.0  Rifkin, Mr. Bob
+[2026-01-31T04:41:39.460+0000] {subprocess.py:93} INFO - 4   5  2513000.0  PT2OOO   27/7/2000 00:00:00       Pets  4.0  Rifkin, Mr. Bob
+[2026-01-31T04:41:39.461+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.461+0000] {subprocess.py:93} INFO - === PRODUCTS ===
+[2026-01-31T04:41:39.461+0000] {subprocess.py:93} INFO - shape: (192, 7)
+[2026-01-31T04:41:39.462+0000] {subprocess.py:93} INFO - cols: ['ID', 'TYPE', 'DESCRIP', 'PRICE', 'COST', 'PCODE', 'supplier']
+[2026-01-31T04:41:39.462+0000] {subprocess.py:93} INFO -    ID       TYPE  ...   PCODE                supplier
+[2026-01-31T04:41:39.462+0000] {subprocess.py:93} INFO - 0   1   Database  ...  SW1005  Software America, Inc.
+[2026-01-31T04:41:39.462+0000] {subprocess.py:93} INFO - 1   2   Database  ...  SW1207        Software America
+[2026-01-31T04:41:39.463+0000] {subprocess.py:93} INFO - 2   3   Database  ...  SW3049        Software America
+[2026-01-31T04:41:39.463+0000] {subprocess.py:93} INFO - 3   4  Financial  ...  SW2842        Software America
+[2026-01-31T04:41:39.463+0000] {subprocess.py:93} INFO - 4   5  Financial  ...  SW4187        Software America
+[2026-01-31T04:41:39.463+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.464+0000] {subprocess.py:93} INFO - [5 rows x 7 columns]
+[2026-01-31T04:41:39.464+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.465+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.465+0000] {subprocess.py:93} INFO - === TRANSFORM REPORT ===
+[2026-01-31T04:41:39.465+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.466+0000] {subprocess.py:93} INFO - CATALOG únicos (Catalog_Orders):
+[2026-01-31T04:41:39.466+0000] {subprocess.py:93} INFO - CATALOG
+[2026-01-31T04:41:39.466+0000] {subprocess.py:93} INFO - Sports          1952
+[2026-01-31T04:41:39.467+0000] {subprocess.py:93} INFO - Pets            1704
+[2026-01-31T04:41:39.467+0000] {subprocess.py:93} INFO - Toys            1393
+[2026-01-31T04:41:39.467+0000] {subprocess.py:93} INFO - Gardening        958
+[2026-01-31T04:41:39.467+0000] {subprocess.py:93} INFO - Software         577
+[2026-01-31T04:41:39.468+0000] {subprocess.py:93} INFO - Collectibles     181
+[2026-01-31T04:41:39.468+0000] {subprocess.py:93} INFO - Nan                2
+[2026-01-31T04:41:39.468+0000] {subprocess.py:93} INFO - Name: count, dtype: int64
+[2026-01-31T04:41:39.468+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.469+0000] {subprocess.py:93} INFO - CATALOG únicos (Web_Orders):
+[2026-01-31T04:41:39.469+0000] {subprocess.py:93} INFO - CATALOG
+[2026-01-31T04:41:39.469+0000] {subprocess.py:93} INFO - Sports       340
+[2026-01-31T04:41:39.469+0000] {subprocess.py:93} INFO - Toys         237
+[2026-01-31T04:41:39.470+0000] {subprocess.py:93} INFO - Gardening    193
+[2026-01-31T04:41:39.470+0000] {subprocess.py:93} INFO - Pets         173
+[2026-01-31T04:41:39.470+0000] {subprocess.py:93} INFO - Name: count, dtype: int64
+[2026-01-31T04:41:39.470+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.471+0000] {subprocess.py:93} INFO - Nulos después de limpieza:
+[2026-01-31T04:41:39.471+0000] {subprocess.py:93} INFO - Catalog QTY nulos: 7
+[2026-01-31T04:41:39.471+0000] {subprocess.py:93} INFO - Web QTY nulos: 3
+[2026-01-31T04:41:39.471+0000] {subprocess.py:93} INFO - Catalog DATE nulos: 0
+[2026-01-31T04:41:39.472+0000] {subprocess.py:93} INFO - Web DATE nulos: 0
+[2026-01-31T04:41:39.472+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.472+0000] {subprocess.py:93} INFO - === INTEGRATION REPORT ===
+[2026-01-31T04:41:39.472+0000] {subprocess.py:93} INFO - dim_product: (192, 7)
+[2026-01-31T04:41:39.473+0000] {subprocess.py:93} INFO - dim_category: (7, 2)
+[2026-01-31T04:41:39.473+0000] {subprocess.py:93} INFO - dim_channel: (2, 2)
+[2026-01-31T04:41:39.473+0000] {subprocess.py:93} INFO - dim_customer: (3330, 4)
+[2026-01-31T04:41:39.473+0000] {subprocess.py:93} INFO - dim_date: (1350, 5)
+[2026-01-31T04:41:39.474+0000] {subprocess.py:93} INFO - fact_sales: (7710, 11)
+[2026-01-31T04:41:39.474+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.474+0000] {subprocess.py:93} INFO - Fact_sales nulos (por columna):
+[2026-01-31T04:41:39.475+0000] {subprocess.py:93} INFO - fact_id           0
+[2026-01-31T04:41:39.475+0000] {subprocess.py:93} INFO - date_key          0
+[2026-01-31T04:41:39.475+0000] {subprocess.py:93} INFO - product_key      51
+[2026-01-31T04:41:39.475+0000] {subprocess.py:93} INFO - customer_key      0
+[2026-01-31T04:41:39.476+0000] {subprocess.py:93} INFO - category_key      0
+[2026-01-31T04:41:39.476+0000] {subprocess.py:93} INFO - channel_key       0
+[2026-01-31T04:41:39.476+0000] {subprocess.py:93} INFO - inv               0
+[2026-01-31T04:41:39.476+0000] {subprocess.py:93} INFO - qty              10
+[2026-01-31T04:41:39.477+0000] {subprocess.py:93} INFO - sales_amount     61
+[2026-01-31T04:41:39.477+0000] {subprocess.py:93} INFO - cost_amount      61
+[2026-01-31T04:41:39.477+0000] {subprocess.py:93} INFO - margin_amount    61
+[2026-01-31T04:41:39.477+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-01-31T04:41:39.478+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.478+0000] {subprocess.py:93} INFO - Primeras filas de fact_sales:
+[2026-01-31T04:41:39.478+0000] {subprocess.py:93} INFO -    fact_id  date_key  product_key  ...  sales_amount  cost_amount  margin_amount
+[2026-01-31T04:41:39.478+0000] {subprocess.py:93} INFO - 0        1  19970307         84.0  ...         26.00        13.00           13.0
+[2026-01-31T04:41:39.479+0000] {subprocess.py:93} INFO - 1        2  19970325         76.0  ...         14.00         6.00            8.0
+[2026-01-31T04:41:39.479+0000] {subprocess.py:93} INFO - 2        3  19970328        107.0  ...         24.00         9.00           15.0
+[2026-01-31T04:41:39.479+0000] {subprocess.py:93} INFO - 3        4  19970622        180.0  ...         26.99        21.69            5.3
+[2026-01-31T04:41:39.479+0000] {subprocess.py:93} INFO - 4        5  19970808        154.0  ...        110.36        73.36           37.0
+[2026-01-31T04:41:39.479+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.480+0000] {subprocess.py:93} INFO - [5 rows x 11 columns]
+[2026-01-31T04:41:39.480+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.480+0000] {subprocess.py:93} INFO - === PREPARE REPORT ===
+[2026-01-31T04:41:39.480+0000] {subprocess.py:93} INFO - Filas eliminadas por qty inválido: 10
+[2026-01-31T04:41:39.481+0000] {subprocess.py:93} INFO - fact_sales: (7700, 11)
+[2026-01-31T04:41:39.481+0000] {subprocess.py:93} INFO - 
+[2026-01-31T04:41:39.481+0000] {subprocess.py:93} INFO - Nulos finales en fact_sales:
+[2026-01-31T04:41:39.482+0000] {subprocess.py:93} INFO - fact_id          0
+[2026-01-31T04:41:39.482+0000] {subprocess.py:93} INFO - date_key         0
+[2026-01-31T04:41:39.482+0000] {subprocess.py:93} INFO - product_key      0
+[2026-01-31T04:41:39.482+0000] {subprocess.py:93} INFO - customer_key     0
+[2026-01-31T04:41:39.483+0000] {subprocess.py:93} INFO - category_key     0
+[2026-01-31T04:41:39.483+0000] {subprocess.py:93} INFO - channel_key      0
+[2026-01-31T04:41:39.484+0000] {subprocess.py:93} INFO - inv              0
+[2026-01-31T04:41:39.484+0000] {subprocess.py:93} INFO - qty              0
+[2026-01-31T04:41:39.484+0000] {subprocess.py:93} INFO - sales_amount     0
+[2026-01-31T04:41:39.485+0000] {subprocess.py:93} INFO - cost_amount      0
+[2026-01-31T04:41:39.485+0000] {subprocess.py:93} INFO - margin_amount    0
+[2026-01-31T04:41:39.485+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-01-31T04:41:39.524+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-31T04:41:39.526+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-31T04:41:39.557+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_dw_dag, task_id=prepare, run_id=manual__2026-01-31T02:53:38.753383+00:00, execution_date=20260131T025338, start_date=20260131T044138, end_date=20260131T044139
+[2026-01-31T04:41:39.606+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-01-31T04:41:39.627+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-31T04:41:39.631+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,141 @@
+services:
+  # =========================
+  # DB DE AIRFLOW (metadata)
+  # =========================
+  airflow-db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - airflow-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: always
+
+  # =========================
+  # DB DEL DATA WAREHOUSE (TU PROYECTO)
+  # =========================
+  dw-postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "666"
+      POSTGRES_DB: analisis_etl_dw
+    ports:
+      - "5433:5432"   # desde Windows usarás 5433
+    volumes:
+      - dw-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d analisis_etl_dw"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: always
+
+  # =========================
+  # AIRFLOW INIT (crea DB + usuario admin)
+  # =========================
+  airflow-init:
+    image: apache/airflow:2.9.3
+    depends_on:
+      airflow-db:
+        condition: service_healthy
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      _PIP_ADDITIONAL_REQUIREMENTS: "pandas polars sqlalchemy psycopg2-binary"
+      PYTHONPATH: "/opt/airflow"
+
+      # Variables ETL (para usar dentro de Airflow)
+      DW_HOST: dw-postgres
+      DW_PORT: "5432"
+      DW_DB: analisis_etl_dw
+      DW_USER: postgres
+      DW_PASSWORD: "666"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./logs:/opt/airflow/logs
+    entrypoint: /bin/bash
+    command: -c "airflow db migrate && airflow users create --username airflow --password airflow --firstname Admin --lastname User --role Admin --email admin@example.com || true"
+    restart: "no"
+
+  # =========================
+  # AIRFLOW WEBSERVER
+  # =========================
+  airflow-webserver:
+    image: apache/airflow:2.9.3
+    depends_on:
+      airflow-db:
+        condition: service_healthy
+      dw-postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      _PIP_ADDITIONAL_REQUIREMENTS: "pandas polars sqlalchemy psycopg2-binary"
+      PYTHONPATH: "/opt/airflow"
+
+      DW_HOST: dw-postgres
+      DW_PORT: "5432"
+      DW_DB: analisis_etl_dw
+      DW_USER: postgres
+      DW_PASSWORD: "666"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./logs:/opt/airflow/logs
+    ports:
+      - "8081:8080"
+    command: ["airflow", "webserver"]
+    restart: always
+
+  # =========================
+  # AIRFLOW SCHEDULER
+  # =========================
+  airflow-scheduler:
+    image: apache/airflow:2.9.3
+    depends_on:
+      airflow-db:
+        condition: service_healthy
+      dw-postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+      airflow-webserver:
+        condition: service_started
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      _PIP_ADDITIONAL_REQUIREMENTS: "pandas polars sqlalchemy psycopg2-binary"
+      PYTHONPATH: "/opt/airflow"
+
+      DW_HOST: dw-postgres
+      DW_PORT: "5432"
+      DW_DB: analisis_etl_dw
+      DW_USER: postgres
+      DW_PASSWORD: "666"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./logs:/opt/airflow/logs
+    command: ["airflow", "scheduler"]
+    restart: always
+
+volumes:
+  airflow-db-volume:
+  dw-db-volume:
+

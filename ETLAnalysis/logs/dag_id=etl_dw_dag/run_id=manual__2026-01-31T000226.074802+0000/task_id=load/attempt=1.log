@@ -1,0 +1,274 @@
+[2026-01-31T00:02:34.605+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-31T00:02:34.632+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_dw_dag.load manual__2026-01-31T00:02:26.074802+00:00 [queued]>
+[2026-01-31T00:02:34.638+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_dw_dag.load manual__2026-01-31T00:02:26.074802+00:00 [queued]>
+[2026-01-31T00:02:34.639+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-01-31T00:02:34.658+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): load> on 2026-01-31 00:02:26.074802+00:00
+[2026-01-31T00:02:34.666+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl_dw_dag', 'load', 'manual__2026-01-31T00:02:26.074802+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/etl_dw_dag.py', '--cfg-path', '/tmp/tmp8_f93zu0']
+[2026-01-31T00:02:34.667+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=324) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-31T00:02:34.668+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask load
+[2026-01-31T00:02:34.668+0000] {standard_task_runner.py:64} INFO - Started process 325 to run task
+[2026-01-31T00:02:34.716+0000] {task_command.py:426} INFO - Running <TaskInstance: etl_dw_dag.load manual__2026-01-31T00:02:26.074802+00:00 [running]> on host b50b171807d3
+[2026-01-31T00:02:34.797+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_dw_dag' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-01-31T00:02:26.074802+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-31T00:02:26.074802+00:00'
+[2026-01-31T00:02:34.798+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-31T00:02:34.808+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-31T00:02:34.809+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/src/load.py']
+[2026-01-31T00:02:34.819+0000] {subprocess.py:86} INFO - Output:
+[2026-01-31T00:02:35.819+0000] {subprocess.py:93} INFO - Leyendo archivos desde: /opt/***/data
+[2026-01-31T00:02:35.819+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.819+0000] {subprocess.py:93} INFO - === CATALOG ===
+[2026-01-31T00:02:35.820+0000] {subprocess.py:93} INFO - shape: (6767, 7)
+[2026-01-31T00:02:35.820+0000] {subprocess.py:93} INFO - cols: ['ID', 'INV', 'DATE', 'CATALOG', 'PCODE', 'QTY', 'custnum']
+[2026-01-31T00:02:35.820+0000] {subprocess.py:93} INFO -    ID       INV              DATE    CATALOG   PCODE   QTY  custnum
+[2026-01-31T00:02:35.821+0000] {subprocess.py:93} INFO - 0   1  107707.0   3/97/7 00:00:00     Sports  SP1000  1.00   1242.0
+[2026-01-31T00:02:35.821+0000] {subprocess.py:93} INFO - 1   2  110633.0  3/97/25 00:00:00  Gardening  GD2200  1.00   1243.0
+[2026-01-31T00:02:35.821+0000] {subprocess.py:93} INFO - 2   3  111155.0  3/97/28 00:00:00       Pets  PT1300  3.00   1244.0
+[2026-01-31T00:02:35.822+0000] {subprocess.py:93} INFO - 3   4  126867.0  6/97/22 00:00:00       Toys  TY4100  1.00   1245.0
+[2026-01-31T00:02:35.822+0000] {subprocess.py:93} INFO - 4   5  135872.0   8/97/8 00:00:00       Toys  TY1200  4.00   1246.0
+[2026-01-31T00:02:35.822+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.822+0000] {subprocess.py:93} INFO - === WEB ===
+[2026-01-31T00:02:35.823+0000] {subprocess.py:93} INFO - shape: (943, 7)
+[2026-01-31T00:02:35.823+0000] {subprocess.py:93} INFO - cols: ['ID', 'INV', 'PCODE', 'DATE', 'CATALOG', 'QTY', 'custnum']
+[2026-01-31T00:02:35.823+0000] {subprocess.py:93} INFO -    ID        INV   PCODE                 DATE    CATALOG  QTY          custnum
+[2026-01-31T00:02:35.824+0000] {subprocess.py:93} INFO - 0   1  2513000.0  GD3200  17/12/2000 00:00:00  Gardening  3.0  Rifkin, Mr. Bob
+[2026-01-31T00:02:35.824+0000] {subprocess.py:93} INFO - 1   2  2513000.0  PT1400    6/1/2001 00:00:00       Pets  1.0  Rifkin, Mr. Bob
+[2026-01-31T00:02:35.824+0000] {subprocess.py:93} INFO - 2   3  2513000.0  PT2000    6/1/2001 00:00:00        Pet  1.0  Rifkin, Mr. Bob
+[2026-01-31T00:02:35.824+0000] {subprocess.py:93} INFO - 3   4  2513000.0  PT2100    6/1/2001 00:00:00       Pets  1.0  Rifkin, Mr. Bob
+[2026-01-31T00:02:35.825+0000] {subprocess.py:93} INFO - 4   5  2513000.0  PT2OOO   27/7/2000 00:00:00       Pets  4.0  Rifkin, Mr. Bob
+[2026-01-31T00:02:35.825+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.825+0000] {subprocess.py:93} INFO - === PRODUCTS ===
+[2026-01-31T00:02:35.825+0000] {subprocess.py:93} INFO - shape: (192, 7)
+[2026-01-31T00:02:35.826+0000] {subprocess.py:93} INFO - cols: ['ID', 'TYPE', 'DESCRIP', 'PRICE', 'COST', 'PCODE', 'supplier']
+[2026-01-31T00:02:35.826+0000] {subprocess.py:93} INFO -    ID       TYPE  ...   PCODE                supplier
+[2026-01-31T00:02:35.826+0000] {subprocess.py:93} INFO - 0   1   Database  ...  SW1005  Software America, Inc.
+[2026-01-31T00:02:35.826+0000] {subprocess.py:93} INFO - 1   2   Database  ...  SW1207        Software America
+[2026-01-31T00:02:35.827+0000] {subprocess.py:93} INFO - 2   3   Database  ...  SW3049        Software America
+[2026-01-31T00:02:35.827+0000] {subprocess.py:93} INFO - 3   4  Financial  ...  SW2842        Software America
+[2026-01-31T00:02:35.827+0000] {subprocess.py:93} INFO - 4   5  Financial  ...  SW4187        Software America
+[2026-01-31T00:02:35.827+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.828+0000] {subprocess.py:93} INFO - [5 rows x 7 columns]
+[2026-01-31T00:02:35.828+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.828+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.828+0000] {subprocess.py:93} INFO - === TRANSFORM REPORT ===
+[2026-01-31T00:02:35.829+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.829+0000] {subprocess.py:93} INFO - CATALOG únicos (Catalog_Orders):
+[2026-01-31T00:02:35.829+0000] {subprocess.py:93} INFO - CATALOG
+[2026-01-31T00:02:35.829+0000] {subprocess.py:93} INFO - Sports          1952
+[2026-01-31T00:02:35.830+0000] {subprocess.py:93} INFO - Pets            1704
+[2026-01-31T00:02:35.830+0000] {subprocess.py:93} INFO - Toys            1393
+[2026-01-31T00:02:35.830+0000] {subprocess.py:93} INFO - Gardening        958
+[2026-01-31T00:02:35.830+0000] {subprocess.py:93} INFO - Software         577
+[2026-01-31T00:02:35.831+0000] {subprocess.py:93} INFO - Collectibles     181
+[2026-01-31T00:02:35.831+0000] {subprocess.py:93} INFO - Nan                2
+[2026-01-31T00:02:35.831+0000] {subprocess.py:93} INFO - Name: count, dtype: int64
+[2026-01-31T00:02:35.831+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.832+0000] {subprocess.py:93} INFO - CATALOG únicos (Web_Orders):
+[2026-01-31T00:02:35.832+0000] {subprocess.py:93} INFO - CATALOG
+[2026-01-31T00:02:35.833+0000] {subprocess.py:93} INFO - Sports       340
+[2026-01-31T00:02:35.833+0000] {subprocess.py:93} INFO - Toys         237
+[2026-01-31T00:02:35.833+0000] {subprocess.py:93} INFO - Gardening    193
+[2026-01-31T00:02:35.833+0000] {subprocess.py:93} INFO - Pets         173
+[2026-01-31T00:02:35.834+0000] {subprocess.py:93} INFO - Name: count, dtype: int64
+[2026-01-31T00:02:35.834+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.834+0000] {subprocess.py:93} INFO - Nulos después de limpieza:
+[2026-01-31T00:02:35.834+0000] {subprocess.py:93} INFO - Catalog QTY nulos: 7
+[2026-01-31T00:02:35.835+0000] {subprocess.py:93} INFO - Web QTY nulos: 3
+[2026-01-31T00:02:35.835+0000] {subprocess.py:93} INFO - Catalog DATE nulos: 0
+[2026-01-31T00:02:35.835+0000] {subprocess.py:93} INFO - Web DATE nulos: 0
+[2026-01-31T00:02:35.835+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.836+0000] {subprocess.py:93} INFO - === INTEGRATION REPORT ===
+[2026-01-31T00:02:35.836+0000] {subprocess.py:93} INFO - dim_product: (192, 7)
+[2026-01-31T00:02:35.836+0000] {subprocess.py:93} INFO - dim_category: (7, 2)
+[2026-01-31T00:02:35.836+0000] {subprocess.py:93} INFO - dim_channel: (2, 2)
+[2026-01-31T00:02:35.837+0000] {subprocess.py:93} INFO - dim_customer: (3330, 4)
+[2026-01-31T00:02:35.837+0000] {subprocess.py:93} INFO - dim_date: (1350, 5)
+[2026-01-31T00:02:35.837+0000] {subprocess.py:93} INFO - fact_sales: (7710, 11)
+[2026-01-31T00:02:35.837+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.838+0000] {subprocess.py:93} INFO - Fact_sales nulos (por columna):
+[2026-01-31T00:02:35.838+0000] {subprocess.py:93} INFO - fact_id           0
+[2026-01-31T00:02:35.838+0000] {subprocess.py:93} INFO - date_key          0
+[2026-01-31T00:02:35.838+0000] {subprocess.py:93} INFO - product_key      51
+[2026-01-31T00:02:35.839+0000] {subprocess.py:93} INFO - customer_key      0
+[2026-01-31T00:02:35.839+0000] {subprocess.py:93} INFO - category_key      0
+[2026-01-31T00:02:35.839+0000] {subprocess.py:93} INFO - channel_key       0
+[2026-01-31T00:02:35.839+0000] {subprocess.py:93} INFO - inv               0
+[2026-01-31T00:02:35.840+0000] {subprocess.py:93} INFO - qty              10
+[2026-01-31T00:02:35.840+0000] {subprocess.py:93} INFO - sales_amount     61
+[2026-01-31T00:02:35.840+0000] {subprocess.py:93} INFO - cost_amount      61
+[2026-01-31T00:02:35.840+0000] {subprocess.py:93} INFO - margin_amount    61
+[2026-01-31T00:02:35.841+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-01-31T00:02:35.841+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.841+0000] {subprocess.py:93} INFO - Primeras filas de fact_sales:
+[2026-01-31T00:02:35.841+0000] {subprocess.py:93} INFO -    fact_id  date_key  product_key  ...  sales_amount  cost_amount  margin_amount
+[2026-01-31T00:02:35.842+0000] {subprocess.py:93} INFO - 0        1  19970307         84.0  ...         26.00        13.00           13.0
+[2026-01-31T00:02:35.842+0000] {subprocess.py:93} INFO - 1        2  19970325         76.0  ...         14.00         6.00            8.0
+[2026-01-31T00:02:35.842+0000] {subprocess.py:93} INFO - 2        3  19970328        107.0  ...         24.00         9.00           15.0
+[2026-01-31T00:02:35.842+0000] {subprocess.py:93} INFO - 3        4  19970622        180.0  ...         26.99        21.69            5.3
+[2026-01-31T00:02:35.842+0000] {subprocess.py:93} INFO - 4        5  19970808        154.0  ...        110.36        73.36           37.0
+[2026-01-31T00:02:35.843+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.843+0000] {subprocess.py:93} INFO - [5 rows x 11 columns]
+[2026-01-31T00:02:35.843+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.843+0000] {subprocess.py:93} INFO - === PREPARE REPORT ===
+[2026-01-31T00:02:35.844+0000] {subprocess.py:93} INFO - Filas eliminadas por qty inválido: 10
+[2026-01-31T00:02:35.844+0000] {subprocess.py:93} INFO - fact_sales: (7700, 11)
+[2026-01-31T00:02:35.844+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.845+0000] {subprocess.py:93} INFO - Nulos finales en fact_sales:
+[2026-01-31T00:02:35.845+0000] {subprocess.py:93} INFO - fact_id          0
+[2026-01-31T00:02:35.845+0000] {subprocess.py:93} INFO - date_key         0
+[2026-01-31T00:02:35.845+0000] {subprocess.py:93} INFO - product_key      0
+[2026-01-31T00:02:35.846+0000] {subprocess.py:93} INFO - customer_key     0
+[2026-01-31T00:02:35.846+0000] {subprocess.py:93} INFO - category_key     0
+[2026-01-31T00:02:35.846+0000] {subprocess.py:93} INFO - channel_key      0
+[2026-01-31T00:02:35.846+0000] {subprocess.py:93} INFO - inv              0
+[2026-01-31T00:02:35.847+0000] {subprocess.py:93} INFO - qty              0
+[2026-01-31T00:02:35.847+0000] {subprocess.py:93} INFO - sales_amount     0
+[2026-01-31T00:02:35.847+0000] {subprocess.py:93} INFO - cost_amount      0
+[2026-01-31T00:02:35.847+0000] {subprocess.py:93} INFO - margin_amount    0
+[2026-01-31T00:02:35.848+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-01-31T00:02:35.848+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-01-31T00:02:35.848+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+[2026-01-31T00:02:35.848+0000] {subprocess.py:93} INFO -     return fn()
+[2026-01-31T00:02:35.849+0000] {subprocess.py:93} INFO -            ^^^^
+[2026-01-31T00:02:35.849+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+[2026-01-31T00:02:35.849+0000] {subprocess.py:93} INFO -     return _ConnectionFairy._checkout(self)
+[2026-01-31T00:02:35.849+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.850+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+[2026-01-31T00:02:35.850+0000] {subprocess.py:93} INFO -     fairy = _ConnectionRecord.checkout(pool)
+[2026-01-31T00:02:35.850+0000] {subprocess.py:93} INFO -             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.850+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+[2026-01-31T00:02:35.851+0000] {subprocess.py:93} INFO -     rec = pool._do_get()
+[2026-01-31T00:02:35.851+0000] {subprocess.py:93} INFO -           ^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.851+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+[2026-01-31T00:02:35.851+0000] {subprocess.py:93} INFO -     with util.safe_reraise():
+[2026-01-31T00:02:35.852+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[2026-01-31T00:02:35.852+0000] {subprocess.py:93} INFO -     compat.raise_(
+[2026-01-31T00:02:35.852+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+[2026-01-31T00:02:35.853+0000] {subprocess.py:93} INFO -     raise exception
+[2026-01-31T00:02:35.853+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+[2026-01-31T00:02:35.853+0000] {subprocess.py:93} INFO -     return self._create_connection()
+[2026-01-31T00:02:35.853+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.854+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+[2026-01-31T00:02:35.854+0000] {subprocess.py:93} INFO -     return _ConnectionRecord(self)
+[2026-01-31T00:02:35.854+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.854+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+[2026-01-31T00:02:35.854+0000] {subprocess.py:93} INFO -     self.__connect()
+[2026-01-31T00:02:35.855+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+[2026-01-31T00:02:35.855+0000] {subprocess.py:93} INFO -     with util.safe_reraise():
+[2026-01-31T00:02:35.855+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[2026-01-31T00:02:35.855+0000] {subprocess.py:93} INFO -     compat.raise_(
+[2026-01-31T00:02:35.856+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+[2026-01-31T00:02:35.856+0000] {subprocess.py:93} INFO -     raise exception
+[2026-01-31T00:02:35.857+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+[2026-01-31T00:02:35.857+0000] {subprocess.py:93} INFO -     self.dbapi_connection = connection = pool._invoke_creator(self)
+[2026-01-31T00:02:35.858+0000] {subprocess.py:93} INFO -                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.858+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+[2026-01-31T00:02:35.858+0000] {subprocess.py:93} INFO -     return dialect.connect(*cargs, **cparams)
+[2026-01-31T00:02:35.859+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.859+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+[2026-01-31T00:02:35.859+0000] {subprocess.py:93} INFO -     return self.dbapi.connect(*cargs, **cparams)
+[2026-01-31T00:02:35.859+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.859+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+[2026-01-31T00:02:35.860+0000] {subprocess.py:93} INFO -     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+[2026-01-31T00:02:35.860+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.860+0000] {subprocess.py:93} INFO - psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+[2026-01-31T00:02:35.860+0000] {subprocess.py:93} INFO - 	Is the server running on that host and accepting TCP/IP connections?
+[2026-01-31T00:02:35.861+0000] {subprocess.py:93} INFO - connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+[2026-01-31T00:02:35.861+0000] {subprocess.py:93} INFO - 	Is the server running on that host and accepting TCP/IP connections?
+[2026-01-31T00:02:35.861+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.861+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.862+0000] {subprocess.py:93} INFO - The above exception was the direct cause of the following exception:
+[2026-01-31T00:02:35.862+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.862+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-01-31T00:02:35.862+0000] {subprocess.py:93} INFO -   File "/opt/***/src/load.py", line 66, in <module>
+[2026-01-31T00:02:35.863+0000] {subprocess.py:93} INFO -     load()
+[2026-01-31T00:02:35.863+0000] {subprocess.py:93} INFO -   File "/opt/***/src/load.py", line 29, in load
+[2026-01-31T00:02:35.863+0000] {subprocess.py:93} INFO -     with engine.begin() as conn:
+[2026-01-31T00:02:35.863+0000] {subprocess.py:93} INFO -          ^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.863+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3153, in begin
+[2026-01-31T00:02:35.864+0000] {subprocess.py:93} INFO -     conn = self.connect(close_with_result=close_with_result)
+[2026-01-31T00:02:35.864+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.864+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+[2026-01-31T00:02:35.864+0000] {subprocess.py:93} INFO -     return self._connection_cls(self, close_with_result=close_with_result)
+[2026-01-31T00:02:35.865+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.865+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+[2026-01-31T00:02:35.865+0000] {subprocess.py:93} INFO -     else engine.raw_connection()
+[2026-01-31T00:02:35.865+0000] {subprocess.py:93} INFO -          ^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.866+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+[2026-01-31T00:02:35.866+0000] {subprocess.py:93} INFO -     return self._wrap_pool_connect(self.pool.connect, _connection)
+[2026-01-31T00:02:35.866+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.866+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+[2026-01-31T00:02:35.867+0000] {subprocess.py:93} INFO -     Connection._handle_dbapi_exception_noconnection(
+[2026-01-31T00:02:35.867+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+[2026-01-31T00:02:35.867+0000] {subprocess.py:93} INFO -     util.raise_(
+[2026-01-31T00:02:35.867+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+[2026-01-31T00:02:35.868+0000] {subprocess.py:93} INFO -     raise exception
+[2026-01-31T00:02:35.868+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+[2026-01-31T00:02:35.868+0000] {subprocess.py:93} INFO -     return fn()
+[2026-01-31T00:02:35.868+0000] {subprocess.py:93} INFO -            ^^^^
+[2026-01-31T00:02:35.869+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+[2026-01-31T00:02:35.869+0000] {subprocess.py:93} INFO -     return _ConnectionFairy._checkout(self)
+[2026-01-31T00:02:35.869+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.869+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+[2026-01-31T00:02:35.870+0000] {subprocess.py:93} INFO -     fairy = _ConnectionRecord.checkout(pool)
+[2026-01-31T00:02:35.870+0000] {subprocess.py:93} INFO -             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.870+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+[2026-01-31T00:02:35.870+0000] {subprocess.py:93} INFO -     rec = pool._do_get()
+[2026-01-31T00:02:35.871+0000] {subprocess.py:93} INFO -           ^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.871+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+[2026-01-31T00:02:35.871+0000] {subprocess.py:93} INFO -     with util.safe_reraise():
+[2026-01-31T00:02:35.871+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[2026-01-31T00:02:35.872+0000] {subprocess.py:93} INFO -     compat.raise_(
+[2026-01-31T00:02:35.872+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+[2026-01-31T00:02:35.872+0000] {subprocess.py:93} INFO -     raise exception
+[2026-01-31T00:02:35.872+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+[2026-01-31T00:02:35.873+0000] {subprocess.py:93} INFO -     return self._create_connection()
+[2026-01-31T00:02:35.873+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.873+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+[2026-01-31T00:02:35.873+0000] {subprocess.py:93} INFO -     return _ConnectionRecord(self)
+[2026-01-31T00:02:35.874+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.874+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+[2026-01-31T00:02:35.874+0000] {subprocess.py:93} INFO -     self.__connect()
+[2026-01-31T00:02:35.874+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+[2026-01-31T00:02:35.875+0000] {subprocess.py:93} INFO -     with util.safe_reraise():
+[2026-01-31T00:02:35.875+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[2026-01-31T00:02:35.875+0000] {subprocess.py:93} INFO -     compat.raise_(
+[2026-01-31T00:02:35.875+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+[2026-01-31T00:02:35.876+0000] {subprocess.py:93} INFO -     raise exception
+[2026-01-31T00:02:35.876+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+[2026-01-31T00:02:35.876+0000] {subprocess.py:93} INFO -     self.dbapi_connection = connection = pool._invoke_creator(self)
+[2026-01-31T00:02:35.876+0000] {subprocess.py:93} INFO -                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.877+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+[2026-01-31T00:02:35.877+0000] {subprocess.py:93} INFO -     return dialect.connect(*cargs, **cparams)
+[2026-01-31T00:02:35.877+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.877+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+[2026-01-31T00:02:35.878+0000] {subprocess.py:93} INFO -     return self.dbapi.connect(*cargs, **cparams)
+[2026-01-31T00:02:35.878+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.878+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+[2026-01-31T00:02:35.878+0000] {subprocess.py:93} INFO -     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+[2026-01-31T00:02:35.879+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-31T00:02:35.879+0000] {subprocess.py:93} INFO - sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+[2026-01-31T00:02:35.879+0000] {subprocess.py:93} INFO - 	Is the server running on that host and accepting TCP/IP connections?
+[2026-01-31T00:02:35.879+0000] {subprocess.py:93} INFO - connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+[2026-01-31T00:02:35.880+0000] {subprocess.py:93} INFO - 	Is the server running on that host and accepting TCP/IP connections?
+[2026-01-31T00:02:35.880+0000] {subprocess.py:93} INFO - 
+[2026-01-31T00:02:35.880+0000] {subprocess.py:93} INFO - (Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2026-01-31T00:02:35.917+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-01-31T00:02:35.918+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-31T00:02:35.927+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-01-31T00:02:35.930+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=etl_dw_dag, task_id=load, run_id=manual__2026-01-31T00:02:26.074802+00:00, execution_date=20260131T000226, start_date=20260131T000234, end_date=20260131T000235
+[2026-01-31T00:02:35.941+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 6 for task load (Bash command failed. The command returned a non-zero exit code 1.; 325)
+[2026-01-31T00:02:35.966+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-01-31T00:02:35.981+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-31T00:02:35.985+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
